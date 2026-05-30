@@ -23,31 +23,28 @@ This student housing apartment in Thessaloniki near Aristotle University is a co
 
 ## About
 
-### Apartment in Thessaloniki near Ano Poli
+<h3>Apartment in Thessaloniki near Ano Poli</h3>
+<p>The apartment is available as an entire private home and is set up for practical everyday living. It is a move-in-ready option for students, Erasmus students, digital nomads and remote workers looking for a private base in Thessaloniki.</p>
+<ul>
+  <li><strong>Accommodation:</strong> 35m² one-bedroom apartment with a comfortable private living setup.</li>
+  <li><strong>Fully equipped:</strong> Wi-Fi, air conditioning and the essentials needed for a comfortable stay are available.</li>
+  <li><strong>For one student:</strong> A practical option for 1 student looking for private student housing in Thessaloniki.</li>
+</ul>
+<h3>Location near Ano Poli & Tsinari</h3>
+<p>Living here means staying in the historical centre of Thessaloniki, close to Ano Poli, Tsinari and the main commercial centre.</p>
+<ul>
+  <li><strong>University access:</strong> Aristotle University is approximately 1.2 km away, making daily student life easier.</li>
+  <li><strong>City College:</strong> City College is within walking distance, especially convenient for students in the city centre.</li>
+  <li><strong>Historic spots:</strong> Around 5 minutes from Agios Dimitrios Church, 10 minutes from Aristotelous Square and 14 minutes from Rotunda and the Arch of Galerius.</li>
+  <li><strong>Daily needs:</strong> Supermarket, bakery, marketplace, tavern, cafe, restaurant and bus station are around 50 meters away.</li>
+  <li><strong>City access:</strong> The commercial centre is about 5-10 minutes away on foot, so daily bus use is not necessary.</li>
+</ul>
+<h3>Ideal for Erasmus Students & Digital Nomads</h3>
+<p>This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Aristotle University students, City College students and Erasmus students. It is also suitable for digital nomads and remote workers.</p>
+<h3>Bills & Services</h3>
+<p>Maintenance, water bill and Wi-Fi are included. Electricity is paid separately. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.</p>
 
-The apartment is available as an entire private home and is set up for practical everyday living. It is a move-in-ready option for students, Erasmus students, digital nomads and remote workers looking for a private base in Thessaloniki.
 
-- **Accommodation:** 35m² one-bedroom apartment with a comfortable private living setup.
-- **Fully equipped:** Wi-Fi, air conditioning and the essentials needed for a comfortable stay are available.
-- **For one student:** A practical option for 1 student looking for private student housing in Thessaloniki.
-
-### Location near Ano Poli & Tsinari
-
-Living here means staying in the historical centre of Thessaloniki, close to Ano Poli, Tsinari and the main commercial centre.
-
-- **University access:** Aristotle University is approximately 1.2 km away, making daily student life easier.
-- **City College:** City College is within walking distance, especially convenient for students in the city centre.
-- **Historic spots:** Around 5 minutes from Agios Dimitrios Church, 10 minutes from Aristotelous Square and 14 minutes from Rotunda and the Arch of Galerius.
-- **Daily needs:** Supermarket, bakery, marketplace, tavern, cafe, restaurant and bus station are around 50 meters away.
-- **City access:** The commercial centre is about 5-10 minutes away on foot, so daily bus use is not necessary.
-
-### Ideal for Erasmus Students & Digital Nomads
-
-This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Aristotle University students, City College students and Erasmus students. It is also suitable for digital nomads and remote workers.
-
-### Bills & Services
-
-Maintenance, water bill and Wi-Fi are included. Electricity is paid separately. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.
 
 ---
 

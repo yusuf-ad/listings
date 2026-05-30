@@ -24,28 +24,25 @@ This studio in Thessaloniki is located near Mpotsari and K. Karamanli, on the 1s
 
 ## About
 
-### Comfortable Studio in Thessaloniki
+<h3>Comfortable Studio in Thessaloniki</h3>
+<p>The studio is fully furnished and designed for easy everyday living. Its layout makes it suitable for studying, working remotely, and relaxing after a busy day in the city.</p>
+<ul>
+  <li><strong>Bright living space:</strong> Large glass doors bring in natural light and open onto a private balcony.</li>
+  <li><strong>For one person:</strong> Available exclusively for one tenant, making it ideal for students, interns, and young professionals.</li>
+  <li><strong>Move-in ready:</strong> A practical option for anyone looking for a simple private home in Thessaloniki.</li>
+</ul>
+<h3>Location near Mpotsari & K. Karamanli</h3>
+<p>The building is in a pleasant residential area with daily essentials just a short walk away.</p>
+<ul>
+  <li><strong>Everything nearby:</strong> Supermarkets, local markets, bakeries, taverns, cafes, and everyday facilities are within approximately 50 meters.</li>
+  <li><strong>Easy transport:</strong> A bus stop is around 50 meters from the building, with routes to the city centre, Aristotle University, and City College.</li>
+</ul>
+<h3>Ideal for Erasmus Students & Digital Nomads</h3>
+<p>This private studio is a good fit for Erasmus students coming to Thessaloniki, interns at Cedefop, digital nomads, and remote workers who need a simple, functional, and well-located home. Its location also makes it convenient for anyone looking for student housing in Thessaloniki with easy access to the university area and the city centre.</p>
+<h3>Bills & Services</h3>
+<p>Most bills are included, such as building maintenance, water, heating, and Wi-Fi. Electricity is paid separately. Cleaning service is also available every two weeks for 20.00 Euros per visit. We would be happy to welcome you to Thessaloniki and host you in this comfortable studio. For more information, you can get in touch through the contact details provided.</p>
 
-The studio is fully furnished and designed for easy everyday living. Its layout makes it suitable for studying, working remotely, and relaxing after a busy day in the city.
 
-- **Bright living space:** Large glass doors bring in natural light and open onto a private balcony.
-- **For one person:** Available exclusively for one tenant, making it ideal for students, interns, and young professionals.
-- **Move-in ready:** A practical option for anyone looking for a simple private home in Thessaloniki.
-
-### Location near Mpotsari & K. Karamanli
-
-The building is in a pleasant residential area with daily essentials just a short walk away.
-
-- **Everything nearby:** Supermarkets, local markets, bakeries, taverns, cafes, and everyday facilities are within approximately 50 meters.
-- **Easy transport:** A bus stop is around 50 meters from the building, with routes to the city centre, Aristotle University, and City College.
-
-### Ideal for Erasmus Students & Digital Nomads
-
-This private studio is a good fit for Erasmus students coming to Thessaloniki, interns at Cedefop, digital nomads, and remote workers who need a simple, functional, and well-located home. Its location also makes it convenient for anyone looking for student housing in Thessaloniki with easy access to the university area and the city centre.
-
-### Bills & Services
-
-Most bills are included, such as building maintenance, water, heating, and Wi-Fi. Electricity is paid separately. Cleaning service is also available every two weeks for 20.00 Euros per visit. We would be happy to welcome you to Thessaloniki and host you in this comfortable studio. For more information, you can get in touch through the contact details provided.
 
 ---
 

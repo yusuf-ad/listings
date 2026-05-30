@@ -23,32 +23,29 @@ This student housing terrace studio in Thessaloniki on Aristotelous Square is a 
 
 ## About
 
-### Terrace Studio in Thessaloniki on Aristotelous Square
+<h3>Terrace Studio in Thessaloniki on Aristotelous Square</h3>
+<p>The studio is fully furnished and designed for stylish everyday living, making it a move-in-ready option for one person in central Thessaloniki.</p>
+<ul>
+  <li><strong>Private terrace:</strong> Grande terrace with upper city view, ideal for fresh air and relaxing after a busy day.</li>
+  <li><strong>Private setup:</strong> 25m² private studio with a double bed, wardrobe and laptop desk.</li>
+  <li><strong>Fully furnished:</strong> Refrigerator, TV, private bathroom, Wi-Fi and quality furniture are available.</li>
+  <li><strong>Building access:</strong> Lift access is available in the building.</li>
+  <li><strong>Comfort:</strong> Air conditioning/inverter and heating support easy everyday living.</li>
+</ul>
+<h3>Location on Aristotelous Square</h3>
+<p>Living here means staying right in Thessaloniki's commercial centre, with the city's most famous square and daily essentials around you.</p>
+<ul>
+  <li><strong>Central landmark:</strong> Located right on Aristotelous Square.</li>
+  <li><strong>University access:</strong> Easy access to Aristotle University and City College by walking or public transport.</li>
+  <li><strong>Daily needs:</strong> Market, groceries, bakeries, restaurants, shops and bus stations are around 50 meters away.</li>
+  <li><strong>City life:</strong> Close to Thessaloniki waterfront, cafes, nightlife and the main shopping streets.</li>
+</ul>
+<h3>Ideal for Erasmus Students & Digital Nomads</h3>
+<p>This studio is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students, Aristotle University students and City College students. It is also suitable for digital nomads and remote workers.</p>
+<h3>Bills & Services</h3>
+<p>Maintenance, water, heating and Wi-Fi are included. Electricity is paid separately, and cleaning service is available every two weeks with a separate cost per visit. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.</p>
 
-The studio is fully furnished and designed for stylish everyday living, making it a move-in-ready option for one person in central Thessaloniki.
 
-- **Private terrace:** Grande terrace with upper city view, ideal for fresh air and relaxing after a busy day.
-- **Private setup:** 25m² private studio with a double bed, wardrobe and laptop desk.
-- **Fully furnished:** Refrigerator, TV, private bathroom, Wi-Fi and quality furniture are available.
-- **Building access:** Lift access is available in the building.
-- **Comfort:** Air conditioning/inverter and heating support easy everyday living.
-
-### Location on Aristotelous Square
-
-Living here means staying right in Thessaloniki's commercial centre, with the city's most famous square and daily essentials around you.
-
-- **Central landmark:** Located right on Aristotelous Square.
-- **University access:** Easy access to Aristotle University and City College by walking or public transport.
-- **Daily needs:** Market, groceries, bakeries, restaurants, shops and bus stations are around 50 meters away.
-- **City life:** Close to Thessaloniki waterfront, cafes, nightlife and the main shopping streets.
-
-### Ideal for Erasmus Students & Digital Nomads
-
-This studio is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students, Aristotle University students and City College students. It is also suitable for digital nomads and remote workers.
-
-### Bills & Services
-
-Maintenance, water, heating and Wi-Fi are included. Electricity is paid separately, and cleaning service is available every two weeks with a separate cost per visit. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.
 
 ---
 

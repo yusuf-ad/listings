@@ -24,28 +24,25 @@ This studio in Thessaloniki near Mpotsari is located at Artemidos 53, close to M
 
 ## About
 
-### Bright Studio in Thessaloniki
+<h3>Bright Studio in Thessaloniki</h3>
+<p>The studio is fully equipped and set up for practical everyday living, making it a simple and comfortable option for a medium-term stay in Thessaloniki.</p>
+<ul>
+  <li><strong>Fully equipped:</strong> Electric appliances, washing machine, bed linen and kitchen utensils are provided.</li>
+  <li><strong>For one person:</strong> The studio is available exclusively for one tenant.</li>
+  <li><strong>Newly constructed building:</strong> A practical private studio on the 1st floor in a pleasant neighbourhood.</li>
+</ul>
+<h3>Location near Mpotsari & K. Karamanli</h3>
+<p>The neighbourhood has the main daily facilities close by, making everyday life easy and convenient.</p>
+<ul>
+  <li><strong>Everything nearby:</strong> Supermarket, marketplace, bakery, tavern, cafe and bus station are around 50 meters away.</li>
+  <li><strong>Easy transport:</strong> The area is close to a bus station, around 50 meters away, with routes to the city centre and University Campus.</li>
+</ul>
+<h3>Ideal for Erasmus Students & Remote Workers</h3>
+<p>This studio is ideal for Erasmus Students coming to Thessaloniki for the Spring semester. It can also suit interns connected with Cedefop in the south of the city, digital nomads and remote workers.</p>
+<h3>Bills & Services</h3>
+<p>Maintenance, water, heating and Wi-Fi are included. Electricity is paid separately, and cleaning service is available every two weeks with a separate cost per visit. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.</p>
 
-The studio is fully equipped and set up for practical everyday living, making it a simple and comfortable option for a medium-term stay in Thessaloniki.
 
-- **Fully equipped:** Electric appliances, washing machine, bed linen and kitchen utensils are provided.
-- **For one person:** The studio is available exclusively for one tenant.
-- **Newly constructed building:** A practical private studio on the 1st floor in a pleasant neighbourhood.
-
-### Location near Mpotsari & K. Karamanli
-
-The neighbourhood has the main daily facilities close by, making everyday life easy and convenient.
-
-- **Everything nearby:** Supermarket, marketplace, bakery, tavern, cafe and bus station are around 50 meters away.
-- **Easy transport:** The area is close to a bus station, around 50 meters away, with routes to the city centre and University Campus.
-
-### Ideal for Erasmus Students & Remote Workers
-
-This studio is ideal for Erasmus Students coming to Thessaloniki for the Spring semester. It can also suit interns connected with Cedefop in the south of the city, digital nomads and remote workers.
-
-### Bills & Services
-
-Maintenance, water, heating and Wi-Fi are included. Electricity is paid separately, and cleaning service is available every two weeks with a separate cost per visit. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.
 
 ---
 

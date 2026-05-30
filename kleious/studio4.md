@@ -23,30 +23,27 @@ This student housing apartment in Thessaloniki near City College is located in t
 
 ## About
 
-### Apartment in Thessaloniki near City College
+<h3>Apartment in Thessaloniki near City College</h3>
+<p>The apartment is fully furnished and designed for students, Erasmus participants, digital nomads and remote workers looking for a move-in-ready stay.</p>
+<ul>
+  <li><strong>Student-friendly setup:</strong> Suitable for 1 student, especially City College and Aristotle University students.</li>
+  <li><strong>Fully equipped:</strong> 40m² of furnished living space with a practical study area.</li>
+  <li><strong>Daily convenience:</strong> Supermarkets, cafes and essential shops are around 50 meters away.</li>
+</ul>
+<h3>Location near Ano Poli & Tsinari</h3>
+<p>Living in this apartment means staying close to City College, Aristotle University and some of Thessaloniki's most recognizable landmarks.</p>
+<ul>
+  <li><strong>City College:</strong> Fast and easy access for daily classes at City College, University of York Europe Campus.</li>
+  <li><strong>Aristotle University:</strong> Around 1.2 km away, approximately 15 minutes on foot.</li>
+  <li><strong>Historic spots:</strong> Around 5 minutes from Agios Dimitrios Church, 10 minutes from Aristotelous Square and 14 minutes from Rotunda and the Arch of Galerius.</li>
+  <li><strong>City access:</strong> The Old City, Ano Poli and central Thessaloniki are easy to reach from the apartment.</li>
+</ul>
+<h3>Ideal for Erasmus Students & Digital Nomads</h3>
+<p>This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially City College students, Aristotle University students and Erasmus students. It is also suitable for digital nomads and remote workers.</p>
+<h3>Bills & Services</h3>
+<p>Building maintenance, water bill and high-speed Wi-Fi are included. Electricity is paid separately based on consumption. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.</p>
 
-The apartment is fully furnished and designed for students, Erasmus participants, digital nomads and remote workers looking for a move-in-ready stay.
 
-- **Student-friendly setup:** Suitable for 1 student, especially City College and Aristotle University students.
-- **Fully equipped:** 40m² of furnished living space with a practical study area.
-- **Daily convenience:** Supermarkets, cafes and essential shops are around 50 meters away.
-
-### Location near Ano Poli & Tsinari
-
-Living in this apartment means staying close to City College, Aristotle University and some of Thessaloniki's most recognizable landmarks.
-
-- **City College:** Fast and easy access for daily classes at City College, University of York Europe Campus.
-- **Aristotle University:** Around 1.2 km away, approximately 15 minutes on foot.
-- **Historic spots:** Around 5 minutes from Agios Dimitrios Church, 10 minutes from Aristotelous Square and 14 minutes from Rotunda and the Arch of Galerius.
-- **City access:** The Old City, Ano Poli and central Thessaloniki are easy to reach from the apartment.
-
-### Ideal for Erasmus Students & Digital Nomads
-
-This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially City College students, Aristotle University students and Erasmus students. It is also suitable for digital nomads and remote workers.
-
-### Bills & Services
-
-Building maintenance, water bill and high-speed Wi-Fi are included. Electricity is paid separately based on consumption. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.
 
 ---
 

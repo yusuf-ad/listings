@@ -23,30 +23,27 @@ This apartment in Thessaloniki near Ano Poli is located in the Kleious building,
 
 ## About
 
-### Apartment in Thessaloniki near Ano Poli
+<h3>Apartment in Thessaloniki near Ano Poli</h3>
+<p>The apartment is compact, furnished and designed for practical everyday living. It is a good fit for students and young professionals who want a quiet but well-connected private base in Thessaloniki.</p>
+<ul>
+  <li><strong>Fully equipped:</strong> A move-in-ready apartment with the essentials needed for a comfortable stay.</li>
+  <li><strong>For students:</strong> Suitable for 1 student or Erasmus students coming for the Winter or Spring semester.</li>
+  <li><strong>Remote-work friendly:</strong> Also suitable for digital nomads and remote workers.</li>
+</ul>
+<h3>Location near Ano Poli & Tsinari</h3>
+<p>Living in this apartment means staying close to some of Thessaloniki's most recognizable landmarks, with daily facilities and local spots nearby.</p>
+<ul>
+  <li><strong>Everything nearby:</strong> Essential shops, supermarkets, bakeries, cafes and other daily facilities are around 50 meters away.</li>
+  <li><strong>Historic spots:</strong> Around 5 minutes on foot to Church of Agios Dimitrios, 10 minutes to Aristotelous Square and 14 minutes to Rotunda and the Arch of Galerius.</li>
+  <li><strong>University access:</strong> Aristotle University is about 1.2 km away, around 15 minutes on foot.</li>
+  <li><strong>Tsinari area:</strong> Traditional taverns and the Old City atmosphere are close to the apartment.</li>
+</ul>
+<h3>Ideal for Erasmus Students & Digital Nomads</h3>
+<p>This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students coming for the Winter or Spring semester. It is also suitable for digital nomads and remote workers.</p>
+<h3>Bills & Services</h3>
+<p>Building maintenance, water bill and high-speed Wi-Fi are included. Electricity is paid separately based on consumption. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.</p>
 
-The apartment is compact, furnished and designed for practical everyday living. It is a good fit for students and young professionals who want a quiet but well-connected private base in Thessaloniki.
 
-- **Fully equipped:** A move-in-ready apartment with the essentials needed for a comfortable stay.
-- **For students:** Suitable for 1 student or Erasmus students coming for the Winter or Spring semester.
-- **Remote-work friendly:** Also suitable for digital nomads and remote workers.
-
-### Location near Ano Poli & Tsinari
-
-Living in this apartment means staying close to some of Thessaloniki's most recognizable landmarks, with daily facilities and local spots nearby.
-
-- **Everything nearby:** Essential shops, supermarkets, bakeries, cafes and other daily facilities are around 50 meters away.
-- **Historic spots:** Around 5 minutes on foot to Church of Agios Dimitrios, 10 minutes to Aristotelous Square and 14 minutes to Rotunda and the Arch of Galerius.
-- **University access:** Aristotle University is about 1.2 km away, around 15 minutes on foot.
-- **Tsinari area:** Traditional taverns and the Old City atmosphere are close to the apartment.
-
-### Ideal for Erasmus Students & Digital Nomads
-
-This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students coming for the Winter or Spring semester. It is also suitable for digital nomads and remote workers.
-
-### Bills & Services
-
-Building maintenance, water bill and high-speed Wi-Fi are included. Electricity is paid separately based on consumption. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.
 
 ---
 
