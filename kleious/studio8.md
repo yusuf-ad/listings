@@ -1,0 +1,128 @@
+# Kleious Terrace Stay near Ano Poli
+
+**ID:** 4713
+**Type:** Entire Home / Single Apartment
+**Featured:** No
+
+---
+
+## Location
+
+**Address:** Klious, Thessaloniki, Greece
+**Street:** Klious
+**City:** Thessaloniki
+**Country:** Greece
+
+---
+
+## Summary
+
+This student housing terrace apartment in Thessaloniki near Aristotle University is a rare choice for anyone looking for a furnished home with outdoor space in the city centre. Located on Kleious Street near Ano Poli and Tsinari, this 30m² one-bedroom apartment offers a grande terrace, upper city view and easy access to daily student life.
+
+---
+
+## About
+
+### Terrace Apartment in Thessaloniki
+
+The apartment is available as an entire private home and is fully equipped for everyday living, making it a strong option for students, Erasmus students, digital nomads and remote workers who want a central base with private outdoor space.
+
+- **Private terrace:** Grande terrace with upper city view, ideal for fresh air and relaxing after a busy day.
+- **Private setup:** 30m² one-bedroom apartment with a private bathroom, wardrobe and desk.
+- **Fully equipped:** Wi-Fi, air conditioning, central heating, TV and washing machine are available.
+
+### Location near Ano Poli & Tsinari
+
+Living here means staying in the historical centre of Thessaloniki, close to Ano Poli, Tsinari and the main commercial centre.
+
+- **University access:** Aristotle University is approximately 1.2 km away, making daily student life easier.
+- **City College:** City College is within walking distance and convenient for students in the city centre.
+- **Historic spots:** Around 5 minutes from Agios Dimitrios Church, 10 minutes from Aristotelous Square, 14 minutes from Rotunda and the Arch of Galerius, and 1.8 km from the White Tower.
+- **Daily needs:** Supermarket, bakery, marketplace, cafe, tavern, restaurant and bus station are around 50 meters away.
+- **City access:** The commercial centre is about 5-10 minutes away on foot, so daily bus use is not necessary.
+
+### Ideal for Erasmus Students & Digital Nomads
+
+This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Aristotle University students, City College students and Erasmus students. It is also suitable for digital nomads and remote workers.
+
+### Bills & Services
+
+Maintenance, water bill and Wi-Fi are included. Electricity is paid separately. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.
+
+---
+
+## Details
+
+| Detail | Value |
+|--------|-------|
+| Guests | 1 |
+| Bedrooms | 1 |
+| Beds | 1 |
+| Bathrooms | 1 |
+| Rooms | 2 |
+| Size | 30 m² |
+| Previous Tenants | 5 |
+
+---
+
+## Amenities
+
+- Air Conditioning
+- Closet
+- Dedicated Workspace
+- Electrical Heating
+- Grocery Proximity
+- Living room furniture
+- Oven
+- Private Kitchenware
+- TV
+- University Proximity
+- Washing Machine
+- Wheelchair accessible
+- WiFi
+
+---
+
+## Pricing
+
+| | |
+|--|--|
+| **Price per month** | €680.00 |
+| **Security deposit** | €680.00 |
+| **Additional guests** | Not allowed |
+| **Minimum stay** | — |
+
+---
+
+## House Rules
+
+| Rule | |
+|------|--|
+| Smoking | ❌ Not allowed |
+| Pets | ❌ Not allowed |
+| Parties | ❌ Not allowed |
+| Children | ❌ Not allowed |
+
+> Playing musical instruments: not allowed. Tenant type: students and working professionals. Age and gender: no preference.
+
+---
+
+## Host
+
+| | |
+|--|--|
+| **Name** | Ana |
+| **Country** | Greece |
+| **Status** | Verified |
+| **Reviews** | 0 |
+
+---
+
+## SEO
+
+| | |
+|--|--|
+| **Focus Keyword** | terrace apartment Thessaloniki Ano Poli student housing |
+| **SEO Title** | Terrace Apartment near Ano Poli Thessaloniki with City View |
+| **Permalink** | terrace-apartment-thessaloniki-ano-poli-city-view |
+| **SEO Description** | 30m² terrace apartment in Thessaloniki near Ano Poli with city view. Student housing for Erasmus students, digital nomads and Aristotle University students. |

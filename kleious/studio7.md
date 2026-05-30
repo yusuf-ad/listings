@@ -1,0 +1,126 @@
+# Bright City Apartment near Ano Poli
+
+**ID:** 4724
+**Type:** Entire Home / Single Apartment
+**Featured:** No
+
+---
+
+## Location
+
+**Address:** Klious, Thessaloniki, Greece
+**Street:** Klious
+**City:** Thessaloniki
+**Country:** Greece
+
+---
+
+## Summary
+
+This student housing apartment in Thessaloniki near Aristotle University is a bright and practical choice for anyone looking for a furnished home in the city centre. Located on Kleious Street near Ano Poli and Tsinari, this 40m² one-bedroom apartment offers comfort, privacy and easy access to everyday student life.
+
+---
+
+## About
+
+### Apartment in Thessaloniki near Aristotle University
+
+The apartment is available as an entire private home and is set up for simple everyday living, making it a move-in-ready base for students, Erasmus students, digital nomads and remote workers.
+
+- **Private setup:** One-bedroom apartment with a practical living arrangement.
+- **Fully furnished:** Private kitchen, 1 bathroom, Wi-Fi, TV and washing machine are available.
+- **Comfort:** Air conditioning, central heating and furnished interiors support an easy move-in.
+
+### Location near Ano Poli & Tsinari
+
+Living here means staying in the historical centre of Thessaloniki, close to Ano Poli, Tsinari and the main commercial centre.
+
+- **University access:** Aristotle University is within walking distance, making daily student life easier.
+- **City College:** Easily reachable from the city centre by walking or public transport.
+- **Historic spots:** Around 5 minutes from Agios Dimitrios Church, 10 minutes from Aristotelous Square and 14 minutes from Rotunda and the Arch of Galerius.
+- **Daily needs:** Supermarkets, bakeries, marketplace, cafes, taverns, restaurants and bus stops are around 50 meters away.
+
+### Ideal for Erasmus Students & Digital Nomads
+
+This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Aristotle University students, City College students and Erasmus students. It is also suitable for digital nomads and remote workers.
+
+### Bills & Services
+
+Utilities are listed as included; please confirm the exact bill breakdown before publishing. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.
+
+---
+
+## Details
+
+| Detail | Value |
+|--------|-------|
+| Guests | 1 |
+| Bedrooms | 1 |
+| Beds | 1 |
+| Bathrooms | 1 |
+| Rooms | 2 |
+| Size | 40 m² |
+| Previous Tenants | 4 |
+
+---
+
+## Amenities
+
+- Air Conditioning
+- Closet
+- Dedicated Workspace
+- Electrical Heating
+- Grocery Proximity
+- Living room furniture
+- Oven
+- Private Kitchenware
+- TV
+- University Proximity
+- Washing Machine
+- WiFi
+
+---
+
+## Pricing
+
+| | |
+|--|--|
+| **Price per month** | €650.00 |
+| **Security deposit** | €650.00 |
+| **Additional guests** | Not allowed |
+| **Minimum stay** | — |
+
+---
+
+## House Rules
+
+| Rule | |
+|------|--|
+| Smoking | ❌ Not allowed |
+| Pets | ❌ Not allowed |
+| Parties | ❌ Not allowed |
+| Children | ❌ Not allowed |
+
+> Playing musical instruments: negotiable. Not suitable for couples. Tenant type: students and working professionals. Age and gender: no preference.
+
+---
+
+## Host
+
+| | |
+|--|--|
+| **Name** | Ana |
+| **Country** | Greece |
+| **Status** | Verified |
+| **Reviews** | 0 |
+
+---
+
+## SEO
+
+| | |
+|--|--|
+| **Focus Keyword** | bright apartment Thessaloniki Ano Poli Erasmus students |
+| **SEO Title** | Bright City Apartment Thessaloniki Ano Poli \| Erasmus |
+| **Permalink** | bright-apartment-thessaloniki-ano-poli-erasmus |
+| **SEO Description** | Bright apartment in Thessaloniki near Ano Poli and Aristotle University. Student housing for Erasmus students, digital nomads and City College students. |
