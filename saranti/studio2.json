@@ -1,0 +1,91 @@
+{
+  "id": 6952,
+  "title": "Cozy Private Studio | Student Housing near Aristotle University Thessaloniki",
+  "featured": false,
+  "type": "Entire Home / Studio",
+  "location": {
+    "address": "Alexandrou Papanastasiou & Michel Mitsaki, Thessaloniki 544 53, Greece",
+    "street": "Alexandrou Papanastasiou & Michel Mitsaki",
+    "city": "Thessaloniki",
+    "zipcode": "54453",
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "Affordable student housing in Thessaloniki — a fully equipped private studio on the 2nd floor of a newly constructed building at Mitsaki & Papanastasiou. An ideal choice for Erasmus students, digital nomads, and those attending Aristotle University or City College Thessaloniki. Available exclusively for 1 person.",
+    "sections": [
+      {
+        "title": "Private Studio — Comfortable Student Housing in Thessaloniki",
+        "content": "This well-equipped studio is designed for efficient and comfortable everyday living in Thessaloniki. Located in a newly constructed building, it offers a clean, modern space that works perfectly as student housing or a base for digital nomads working remotely from Greece.",
+        "highlights": [
+          "Fully equipped: Electric appliances, washing machine, bed linen and kitchen utensils are provided.",
+          "Newly constructed building: Modern private space on the 2nd floor in a pleasant residential neighbourhood.",
+          "Dedicated workspace: Suitable for students and digital nomads who need a focused work area.",
+          "For one student: The studio is available exclusively for one person."
+        ]
+      },
+      {
+        "title": "Great Location — Walking Distance to Aristotle University & City College",
+        "content": "Situated in the Saranti neighbourhood, this studio is ideally placed for students at Aristotle University of Thessaloniki and City College. All daily essentials are within metres, and public transport connections make getting to campus or the city centre straightforward.",
+        "highlights": [
+          "Everything nearby: Supermarket, marketplace, bakery, tavern, cafe and bus station are around 50 meters away.",
+          "Easy transport: Direct bus routes to Aristotle University Campus, City College, and Thessaloniki city centre.",
+          "Practical neighbourhood: A quiet, residential area with everything a student needs close by."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Digital Nomads in Thessaloniki",
+        "content": "This studio is an ideal choice for Erasmus students coming to Thessaloniki for the Winter or Spring semester. It is well-suited for exchange students at Aristotle University and City College, as well as digital nomads seeking comfortable, affordable accommodation in Greece. Students or interns connected with Cedefop or IHU University will also find the location very convenient.",
+        "highlights": [
+          "Erasmus & exchange students: Perfect semester-length student housing in a convenient Thessaloniki location.",
+          "Digital nomads: Reliable Wi-Fi and a dedicated workspace for productive remote work days.",
+          "Flexible minimum stay: 4-month minimum — aligns perfectly with Erasmus semester schedules."
+        ]
+      },
+      {
+        "title": "Bills & Services",
+        "content": "Maintenance, water, heating and Wi-Fi are included in the monthly rent. Electricity is paid separately based on usage. A cleaning service is available every two weeks at a separate cost per visit. We would be delighted to welcome you to Thessaloniki and make your student housing experience memorable. For more information, please reach out through the contact host button.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 0,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 1,
+    "size_sqm": 20,
+    "previous_tenants": null
+  },
+  "amenities": [
+    "Air Conditioning",
+    "Closet",
+    "Dedicated Workspace",
+    "Electrical Heating",
+    "Grocery Proximity",
+    "Oven",
+    "Private Kitchenware",
+    "University Proximity",
+    "Washing Machine",
+    "WiFi"
+  ],
+  "pricing": {
+    "price_per_month": 480.00,
+    "security_deposit": 480.00,
+    "allow_additional_guests": false,
+    "minimum_stay_months": 4
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": "Available for 1 person only. Smoking, pets, parties and children are not allowed. Electricity is paid separately."
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}

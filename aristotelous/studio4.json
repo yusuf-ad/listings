@@ -1,0 +1,86 @@
+{
+  "id": 4398,
+  "title": "Modern & Central Private Room in Aristotelous Square",
+  "featured": true,
+  "type": "Private Room / Single Apartment",
+  "location": {
+    "address": "Aristotelous Square, Thessaloniki, Greece",
+    "street": "Aristotelous Square",
+    "city": "Thessaloniki",
+    "zipcode": null,
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "This private room in Thessaloniki on Aristotelous Square is a practical choice for anyone who wants to live right in the heart of the city. This modern, fully furnished 12m² private room offers an unbeatable central location with easy access to universities and everyday city life.",
+    "sections": [
+      {
+        "title": "Private Room in Thessaloniki on Aristotelous Square",
+        "content": "The room is available for 1 guest and is designed for a simple, comfortable stay in central Thessaloniki.",
+        "highlights": [
+          "Private room: 12m² modern and well-lit room with 1 single bed.",
+          "Bathroom access: Access to 1 full bathroom.",
+          "For one person: Suitable for 1 student or professional looking for convenience and city life."
+        ]
+      },
+      {
+        "title": "Location on Aristotelous Square",
+        "content": "Living here means stepping out directly into Thessaloniki’s most famous landmark, with the waterfront and central city life close by.",
+        "highlights": [
+          "Central landmark: Aristotelous Square is right at your doorstep.",
+          "Waterfront access: Thessaloniki Waterfront is just a few steps away for walks by the sea.",
+          "University access: Easy access to major university campuses by walking or a short bus ride."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Digital Nomads",
+        "content": "This room is ideal for students looking for central Student Housing in Thessaloniki, especially Erasmus students who want to stay close to city life. It is also suitable for digital nomads and remote workers looking for a simple private room in the city centre.",
+        "highlights": []
+      },
+      {
+        "title": "House Rules",
+        "content": "Guests are expected to keep shared areas clean and tidy, respect quiet hours after 22:00 and avoid unauthorized overnight guests. Smoking, pets, parties and children are not allowed. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 1,
+    "size_sqm": 12,
+    "previous_tenants": 7
+  },
+  "amenities": [
+    "Air Conditioning",
+    "Closet",
+    "Dedicated Workspace",
+    "Electrical Heating",
+    "Grocery Proximity",
+    "TV",
+    "University Proximity",
+    "Washing Machine",
+    "WiFi"
+  ],
+  "pricing": {
+    "price_per_month": 650.00,
+    "security_deposit": 650.00,
+    "allow_additional_guests": false,
+    "minimum_stay_months": null,
+    "maximum_stay_months": 12
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": "Keep the shared areas clean and tidy. Respect quiet hours after 22:00. No unauthorized guests staying overnight."
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}

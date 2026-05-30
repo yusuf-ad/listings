@@ -1,0 +1,91 @@
+{
+  "id": 4675,
+  "title": "Bright Studio on Aristotelous Square",
+  "featured": false,
+  "type": "Entire Home / Studio",
+  "location": {
+    "address": "Aristotelous Square, Thessaloniki, Greece",
+    "street": "Aristotelous Square",
+    "city": "Thessaloniki",
+    "zipcode": null,
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "This student housing studio in Thessaloniki on Aristotelous Square is a bright and practical choice for anyone who wants to live in the absolute heart of the city. Located on the 5th floor of an eclectic architecture building, this 25m² furnished studio offers comfort, privacy and unbeatable city centre access.",
+    "sections": [
+      {
+        "title": "Studio in Thessaloniki on Aristotelous Square",
+        "content": "The studio is fully furnished and designed for easy everyday living, making it a move-in-ready option for one person in central Thessaloniki.",
+        "highlights": [
+          "Private setup: 25m² private studio with a double bed, wardrobe and laptop desk.",
+          "Fully furnished: Refrigerator, TV, private bathroom, Wi-Fi and practical furniture are available.",
+          "Building access: Lift access is available in the building.",
+          "Comfort: Air conditioning/inverter and central heating support everyday living."
+        ]
+      },
+      {
+        "title": "Location on Aristotelous Square",
+        "content": "Living here means staying directly on Thessaloniki’s landmark square, with the commercial centre, daily essentials and city life around you.",
+        "highlights": [
+          "Central landmark: Located right on Aristotelous Square.",
+          "University access: Easy access to Aristotle University and City College by walking or public transport.",
+          "Daily needs: Market, groceries, bakeries, restaurants, shops and bus stations are around 50 meters away.",
+          "City life: Close to Thessaloniki waterfront, cafes, nightlife and the main shopping streets."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Digital Nomads",
+        "content": "This studio is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students, Aristotle University students and City College students. It is also suitable for digital nomads and remote workers.",
+        "highlights": []
+      },
+      {
+        "title": "Bills & Services",
+        "content": "Maintenance, water, heating and Wi-Fi are included. Electricity is paid separately, and cleaning service is available every two weeks with a separate cost per visit. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 0,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 1,
+    "size_sqm": 25,
+    "previous_tenants": 4
+  },
+  "amenities": [
+    "Air Conditioning",
+    "Closet",
+    "Dedicated Workspace",
+    "Electrical Heating",
+    "Grocery Proximity",
+    "Living room furniture",
+    "Oven",
+    "Private Kitchenware",
+    "TV",
+    "University Proximity",
+    "Washing Machine",
+    "Wheelchair accessible",
+    "WiFi"
+  ],
+  "pricing": {
+    "price_per_month": 630.0,
+    "security_deposit": 630.0,
+    "allow_additional_guests": false,
+    "minimum_stay_months": null
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": "No smoking. Tenant type: students and working professionals. Not suitable for couples or double occupancy. Playing musical instruments not allowed. Age and gender: no preference."
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}

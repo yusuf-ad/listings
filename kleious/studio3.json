@@ -1,0 +1,82 @@
+{
+  "id": 4738,
+  "title": "Kleious One-Bedroom Apartment near Ano Poli",
+  "featured": false,
+  "type": "Entire Home / Studio",
+  "location": {
+    "address": "Klious, Thessaloniki, Greece",
+    "street": "Klious",
+    "city": "Thessaloniki",
+    "zipcode": null,
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "This apartment in Thessaloniki near Ano Poli is located in the Kleious building, at the beginning of Ano Poli, the traditional district of Thessaloniki. It is a fully equipped private apartment with everything needed for a comfortable stay, available as Erasmus accommodation for 1 student.",
+    "sections": [
+      {
+        "title": "Apartment in Thessaloniki near Ano Poli",
+        "content": "The apartment is fully equipped and designed for practical everyday living. It is suitable for 1-2 students who want a private place close to university life, the historical center and the commercial centre of Thessaloniki.",
+        "highlights": [
+          "Fully equipped: The apartment has everything needed for a comfortable stay.",
+          "Ideal for students: A practical option for Erasmus students coming to Thessaloniki for the Winter or Spring semester.",
+          "Flexible stay: Also available for digital nomads and remote workers."
+        ]
+      },
+      {
+        "title": "Location near Ano Poli & Tsinari",
+        "content": "The building is in the historical center of Thessaloniki, close to the commercial centre and the traditional Ano Poli – Tsinari area.",
+        "highlights": [
+          "Everything nearby: Supermarket, bakery, marketplace, bus station, restaurant, tavern and cafe are around 50 meters away.",
+          "Walkable area: The commercial centre is around a 5-10 minute walk away, so daily bus use is not usually necessary.",
+          "University access: Aristotle University and City College, University of York Europe Campus are within walking distance.",
+          "Nearby landmarks: Around 5 minutes on foot to Church of Agios Dimitrios, 10 minutes to Aristotelous Square and 14 minutes to Rotunda and Arch of Galerius.",
+          "Tsinari atmosphere: The traditional Tsinari area is around 150 meters away, known for narrow streets, paved alleys and local taverns."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Digital Nomads",
+        "content": "This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students coming for the Winter or Spring semester. It is also suitable for digital nomads and remote workers. The location is convenient for students connected with Aristotle University and City College, University of York Europe Campus.",
+        "highlights": []
+      },
+      {
+        "title": "Bills & Services",
+        "content": "Maintenance, water and Wi-Fi are included. Electricity is paid separately. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 2,
+    "size_sqm": 40,
+    "previous_tenants": 1
+  },
+  "amenities": [
+    "Dedicated Workspace",
+    "High-Speed Wi-Fi (Verified)",
+    "Oven",
+    "Washing Machine"
+  ],
+  "pricing": {
+    "price_per_month": 650.00,
+    "security_deposit": 650.00,
+    "allow_additional_guests": false,
+    "minimum_stay_months": null
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": "Playing musical instruments: negotiable. Not suitable for couples. Tenant type: students and working professionals. Age and gender: no preference."
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}

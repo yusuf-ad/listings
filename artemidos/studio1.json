@@ -1,0 +1,85 @@
+{
+  "id": 4655,
+  "title": "Bright Studio in Thessaloniki near Mpotsari for 1 Person",
+  "featured": true,
+  "type": "Entire Home / Studio",
+  "location": {
+    "address": "Markou Mpotsari & Leoforos Konstantinou Karamanli, Thessaloniki 546 44, Greece",
+    "street": "Markou Mpotsari & Leoforos Konstantinou Karamanli",
+    "city": "Thessaloniki",
+    "zipcode": "546 44",
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "This studio in Thessaloniki is located near Mpotsari and K. Karamanli, on the 1st floor of a newly constructed building at Artemidos 53. It is a bright and practical private space for one person, suitable for students, interns, and remote professionals.",
+    "sections": [
+      {
+        "title": "Comfortable Studio in Thessaloniki",
+        "content": "The studio is fully furnished and designed for easy everyday living. Its layout makes it suitable for studying, working remotely, and relaxing after a busy day in the city.",
+        "highlights": [
+          "Bright living space: Large glass doors bring in natural light and open onto a private balcony.",
+          "For one person: Available exclusively for one tenant, making it ideal for students, interns, and young professionals.",
+          "Move-in ready: A practical option for anyone looking for a simple private home in Thessaloniki."
+        ]
+      },
+      {
+        "title": "Location near Mpotsari & K. Karamanli",
+        "content": "The building is in a pleasant residential area with daily essentials just a short walk away.",
+        "highlights": [
+          "Everything nearby: Supermarkets, local markets, bakeries, taverns, cafes, and everyday facilities are within approximately 50 meters.",
+          "Easy transport: A bus stop is around 50 meters from the building, with routes to the city centre, Aristotle University, and City College."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Digital Nomads",
+        "content": "This private studio is a good fit for Erasmus students coming to Thessaloniki, interns at Cedefop, digital nomads, and remote workers who need a simple, functional, and well-located home. Its location also makes it convenient for anyone looking for student housing in Thessaloniki with easy access to the university area and the city centre.",
+        "highlights": []
+      },
+      {
+        "title": "Bills & Services",
+        "content": "Most bills are included, such as building maintenance, water, heating, and Wi-Fi. Electricity is paid separately. Cleaning service is also available every two weeks for 20.00 Euros per visit. We would be happy to welcome you to Thessaloniki and host you in this comfortable studio. For more information, you can get in touch through the contact details provided.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 1,
+    "size_sqm": 25,
+    "previous_tenants": 2
+  },
+  "amenities": [
+    "Air Conditioning",
+    "Closet",
+    "Dedicated Workspace",
+    "Electrical Heating",
+    "Grocery Proximity",
+    "Private Kitchenware",
+    "TV",
+    "University Proximity",
+    "Washing Machine",
+    "WiFi"
+  ],
+  "pricing": {
+    "price_per_month": 480.00,
+    "security_deposit": 480.00,
+    "allow_additional_guests": false,
+    "minimum_stay_months": 4
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": "Smoking permitted outside only, not inside the apartment. Tenant type: students and working professionals. Not suitable for couples. Playing musical instruments not allowed. Age and gender: no preference."
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}

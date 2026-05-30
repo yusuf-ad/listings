@@ -1,0 +1,86 @@
+{
+  "id": 4430,
+  "title": "Bright Studio in Thessaloniki near Mpotsari",
+  "featured": false,
+  "type": "Entire Home / Studio",
+  "location": {
+    "address": "Artemidos 53, Thessaloniki, 54644, Greece",
+    "street": "Artemidos 53",
+    "city": "Thessaloniki",
+    "zipcode": "54644",
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "This studio in Thessaloniki near Mpotsari is located at Artemidos 53, close to Mpotsari & K. Karamanli, 54644, Thessaloniki. It is found on the 1st floor of a newly constructed building in a really nice neighbourhood and is available exclusively for 1 person.",
+    "sections": [
+      {
+        "title": "Bright Studio in Thessaloniki",
+        "content": "The studio is fully equipped and set up for practical everyday living, making it a simple and comfortable option for a medium-term stay in Thessaloniki.",
+        "highlights": [
+          "Fully equipped: Electric appliances, washing machine, bed linen and kitchen utensils are provided.",
+          "For one person: The studio is available exclusively for one tenant.",
+          "Newly constructed building: A practical private studio on the 1st floor in a pleasant neighbourhood."
+        ]
+      },
+      {
+        "title": "Location near Mpotsari & K. Karamanli",
+        "content": "The neighbourhood has the main daily facilities close by, making everyday life easy and convenient.",
+        "highlights": [
+          "Everything nearby: Supermarket, marketplace, bakery, tavern, cafe and bus station are around 50 meters away.",
+          "Easy transport: The area is close to a bus station, around 50 meters away, with routes to the city centre and University Campus."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Remote Workers",
+        "content": "This studio is ideal for Erasmus Students coming to Thessaloniki for the Spring semester. It can also suit interns connected with Cedefop in the south of the city, digital nomads and remote workers.",
+        "highlights": []
+      },
+      {
+        "title": "Bills & Services",
+        "content": "Maintenance, water, heating and Wi-Fi are included. Electricity is paid separately, and cleaning service is available every two weeks with a separate cost per visit. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 1,
+    "size_sqm": 20,
+    "previous_tenants": 3
+  },
+  "amenities": [
+    "Air Conditioning",
+    "Closet",
+    "Dedicated Workspace",
+    "Electrical Heating",
+    "Grocery Proximity",
+    "Oven",
+    "Private Kitchenware",
+    "TV",
+    "University Proximity",
+    "Washing Machine",
+    "WiFi"
+  ],
+  "pricing": {
+    "price_per_month": 460.00,
+    "security_deposit": 460.00,
+    "allow_additional_guests": false,
+    "minimum_stay_months": null
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": null
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}

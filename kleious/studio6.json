@@ -1,0 +1,90 @@
+{
+  "id": 4781,
+  "title": "Calm City Apartment at the Edge of Ano Poli",
+  "featured": false,
+  "type": "Entire Home / Single Apartment",
+  "location": {
+    "address": "Klious, Thessaloniki, Greece",
+    "street": "Klious",
+    "city": "Thessaloniki",
+    "zipcode": null,
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "This apartment in Thessaloniki near Ano Poli is located in the Kleious building, at the beginning of the traditional Ano Poli district. This fully equipped 40m² private apartment combines the historic character of the area with easy access to central Thessaloniki.",
+    "sections": [
+      {
+        "title": "Apartment in Thessaloniki near Ano Poli",
+        "content": "The apartment is compact, furnished and designed for practical everyday living. It is a good fit for students and young professionals who want a quiet but well-connected private base in Thessaloniki.",
+        "highlights": [
+          "Fully equipped: A move-in-ready apartment with the essentials needed for a comfortable stay.",
+          "For students: Suitable for 1 student or Erasmus students coming for the Winter or Spring semester.",
+          "Remote-work friendly: Also suitable for digital nomads and remote workers."
+        ]
+      },
+      {
+        "title": "Location near Ano Poli & Tsinari",
+        "content": "Living in this apartment means staying close to some of Thessaloniki’s most recognizable landmarks, with daily facilities and local spots nearby.",
+        "highlights": [
+          "Everything nearby: Essential shops, supermarkets, bakeries, cafes and other daily facilities are around 50 meters away.",
+          "Historic spots: Around 5 minutes on foot to Church of Agios Dimitrios, 10 minutes to Aristotelous Square and 14 minutes to Rotunda and the Arch of Galerius.",
+          "University access: Aristotle University is about 1.2 km away, around 15 minutes on foot.",
+          "Tsinari area: Traditional taverns and the Old City atmosphere are close to the apartment."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Digital Nomads",
+        "content": "This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students coming for the Winter or Spring semester. It is also suitable for digital nomads and remote workers.",
+        "highlights": []
+      },
+      {
+        "title": "Bills & Services",
+        "content": "Building maintenance, water bill and high-speed Wi-Fi are included. Electricity is paid separately based on consumption. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 2,
+    "size_sqm": 40,
+    "previous_tenants": null
+  },
+  "amenities": [
+    "Air Conditioning",
+    "Closet",
+    "Dedicated Workspace",
+    "Electrical Heating",
+    "Grocery Proximity",
+    "Living room furniture",
+    "Oven",
+    "Private Kitchenware",
+    "TV",
+    "University Proximity",
+    "Washing Machine",
+    "Wheelchair accessible",
+    "WiFi"
+  ],
+  "pricing": {
+    "price_per_month": 650.00,
+    "security_deposit": 650.00,
+    "allow_additional_guests": false,
+    "minimum_stay_months": 4
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": "Playing musical instruments: negotiable. Not suitable for couples. Tenant type: students and working professionals. Age and gender: no preference."
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": 4766,
+  "title": "Central One-Bedroom Apartment near Ano Poli",
+  "featured": false,
+  "type": "Entire Home / Single Apartment",
+  "location": {
+    "address": "Klious, Thessaloniki, Greece",
+    "street": "Klious",
+    "city": "Thessaloniki",
+    "zipcode": null,
+    "country": "Greece"
+  },
+  "about": {
+    "summary": "This student housing apartment in Thessaloniki near Aristotle University is a practical choice for anyone looking for a furnished home in the city centre. Located on Kleious Street near Ano Poli and Tsinari, this 40m² one-bedroom apartment offers comfort, privacy and easy access to daily student life.",
+    "sections": [
+      {
+        "title": "Furnished Apartment in Thessaloniki",
+        "content": "The apartment is available as an entire private home and is set up for easy everyday living, making it suitable for students, Erasmus students, digital nomads and remote workers.",
+        "highlights": [
+          "Private setup: One-bedroom apartment with a furnished living arrangement.",
+          "Move-in ready: Private kitchen, 1 bathroom, Wi-Fi, TV and washing machine are available.",
+          "Comfort: Air conditioning, central heating and furnished interiors support a practical stay."
+        ]
+      },
+      {
+        "title": "Location near Ano Poli & Tsinari",
+        "content": "Living here means staying in the historical centre of Thessaloniki, close to Ano Poli, Tsinari and the main commercial centre.",
+        "highlights": [
+          "University access: Aristotle University is within walking distance, making daily student life easier.",
+          "City College: City College is reachable from the city centre by walking or public transport.",
+          "Historic spots: Around 5 minutes from Agios Dimitrios Church, 10 minutes from Aristotelous Square and 14 minutes from Rotunda and the Arch of Galerius.",
+          "Daily needs: Supermarkets, bakeries, marketplace, cafes, taverns, restaurants and bus stops are around 50 meters away."
+        ]
+      },
+      {
+        "title": "Ideal for Erasmus Students & Digital Nomads",
+        "content": "This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Aristotle University students, City College students and Erasmus students. It is also suitable for digital nomads and remote workers.",
+        "highlights": []
+      },
+      {
+        "title": "Bills & Services",
+        "content": "Maintenance, water bill and Wi-Fi are included. Electricity is paid separately. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.",
+        "highlights": []
+      }
+    ]
+  },
+  "details": {
+    "guests": 1,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "rooms": 2,
+    "size_sqm": 40,
+    "previous_tenants": 2
+  },
+  "amenities": [
+    "Air Conditioning",
+    "Closet",
+    "Dedicated Workspace",
+    "Electrical Heating",
+    "Grocery Proximity",
+    "Living room furniture",
+    "Oven",
+    "Private Kitchenware",
+    "TV",
+    "University Proximity",
+    "Washing Machine",
+    "WiFi"
+  ],
+  "pricing": {
+    "price_per_month": 650.00,
+    "security_deposit": 650.00,
+    "allow_additional_guests": false,
+    "minimum_stay_months": null
+  },
+  "house_rules": {
+    "smoking_allowed": false,
+    "pets_allowed": false,
+    "party_allowed": false,
+    "children_allowed": false,
+    "additional_rules_info": "Playing musical instruments: negotiable. Not suitable for couples. Tenant type: students and working professionals. Age and gender: no preference."
+  },
+  "host": {
+    "name": "Ana",
+    "country": "Greece",
+    "status": "Verified",
+    "reviews_count": 0
+  }
+}
