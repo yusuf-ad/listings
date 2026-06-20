@@ -703,6 +703,45 @@ input, textarea, select, button {
 }
 
 /* Info Stats */
+.listing-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.listing-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 10px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.listing-link strong {
+  flex: 0 0 auto;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+}
+
+.listing-link span {
+  min-width: 0;
+  overflow: hidden;
+  font-size: 0.82rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.listing-link.missing {
+  color: var(--text-tertiary);
+  background: var(--bg-tertiary);
+}
+
 .stats-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
