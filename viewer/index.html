@@ -42,6 +42,12 @@
 
       <div class="sidebar-footer">
         <span id="listingCount">0 listings</span>
+        <button class="btn btn-sm btn-ghost" id="btnRebuild" title="Rebuild data.js from JSON files">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 2px; vertical-align: middle;">
+            <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+          </svg>
+          Rebuild
+        </button>
       </div>
     </aside>
 
@@ -68,6 +74,12 @@
                 <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
               </svg>
               <span>Copy JSON</span>
+            </button>
+            <button class="btn btn-ghost" id="btnCopyHtml" title="Copy About as HTML">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+              </svg>
+              <span>Copy HTML</span>
             </button>
             <button class="btn btn-ghost" id="btnDownload" title="Download JSON">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

@@ -1,7 +1,71 @@
 // ===== State =====
-let listings = JSON.parse(JSON.stringify(LISTINGS_DATA));
+let listings = [];
 let currentIndex = null;
 let hasChanges = false;
+
+// ===== Dynamic JSON Loader =====
+// Fetches all studio JSON files directly from the filesystem directories
+// so we never rely on a stale data.js snapshot.
+const BUILDING_FILES = {
+  aristotelous: [
+    "studio1.json",
+    "studio2.json",
+    "studio3.json",
+    "studio4.json",
+  ],
+  artemidos: ["studio1.json", "studio2.json"],
+  kleious: [
+    "studio1.json",
+    "studio2.json",
+    "studio3.json",
+    "studio4.json",
+    "studio5.json",
+    "studio6.json",
+    "studio7.json",
+    "studio8.json",
+    "studio9.json",
+  ],
+  saranti: ["studio1.json", "studio2.json"],
+};
+
+async function loadListings() {
+  // Try fetching directly from JSON files (requires HTTP server)
+  try {
+    const results = [];
+    for (const [building, files] of Object.entries(BUILDING_FILES)) {
+      for (const file of files) {
+        const path = `../${building}/${file}`;
+        const res = await fetch(path);
+        if (!res.ok) continue;
+        const data = await res.json();
+        data._meta = { building, file, path: `${building}/${file}` };
+        results.push(data);
+      }
+    }
+    if (results.length > 0) {
+      console.log(`✅ Loaded ${results.length} listings from JSON files`);
+      return results;
+    }
+  } catch (e) {
+    console.warn(
+      "Fetch failed (file:// protocol?), falling back to data.js",
+      e,
+    );
+  }
+
+  // Fallback: use data.js (run build-data.sh to refresh)
+  if (typeof LISTINGS_DATA !== "undefined") {
+    console.log(
+      `📦 Using data.js fallback (${LISTINGS_DATA.length} listings). Run build-data.sh to refresh.`,
+    );
+    return JSON.parse(JSON.stringify(LISTINGS_DATA));
+  }
+
+  console.error(
+    "No listing data available. Serve via HTTP or run build-data.sh",
+  );
+  return [];
+}
 
 const LISTING_LINKS = {
   "artemidos/studio1.json": [
@@ -86,11 +150,14 @@ const breadcrumb = document.getElementById("breadcrumb");
 const tabs = document.getElementById("tabs");
 const btnSave = document.getElementById("btnSave");
 const btnCopyJson = document.getElementById("btnCopyJson");
+const btnCopyHtml = document.getElementById("btnCopyHtml");
 const btnDownload = document.getElementById("btnDownload");
+const btnRebuild = document.getElementById("btnRebuild");
 const toastContainer = document.getElementById("toastContainer");
 
 // ===== Initialize =====
-function init() {
+async function init() {
+  listings = await loadListings();
   renderSidebar();
   bindEvents();
 }
@@ -880,6 +947,15 @@ function bindEvents() {
     });
   });
 
+  // Copy HTML
+  btnCopyHtml.addEventListener("click", () => {
+    if (currentIndex === null) return;
+    const htmlContent = generateAboutHtml(listings[currentIndex]);
+    navigator.clipboard.writeText(htmlContent).then(() => {
+      showToast("About section copied as HTML", "success");
+    });
+  });
+
   // Download JSON
   btnDownload.addEventListener("click", () => {
     if (currentIndex === null) return;
@@ -912,16 +988,77 @@ function bindEvents() {
       }
     }
   });
+
+  // Rebuild
+  if (btnRebuild) {
+    btnRebuild.addEventListener("click", async () => {
+      btnRebuild.disabled = true;
+      const originalHtml = btnRebuild.innerHTML;
+      btnRebuild.textContent = "Rebuilding...";
+      try {
+        const res = await fetch("/api/rebuild", { method: "POST" });
+        if (res.ok) {
+          const data = await res.json();
+          showToast(data.message || "data.js successfully rebuilt!", "success");
+          // Reload all listings in the app to sync with the rebuilt data
+          listings = await loadListings();
+          renderSidebar(searchInput.value);
+          if (currentIndex !== null) {
+            selectListing(currentIndex);
+          }
+        } else {
+          const err = await res.json();
+          showToast(
+            "Rebuild failed: " + (err.error || "Unknown error"),
+            "error",
+          );
+        }
+      } catch (e) {
+        console.error(e);
+        showToast("Could not connect to server to rebuild.", "error");
+      } finally {
+        btnRebuild.disabled = false;
+        btnRebuild.innerHTML = originalHtml;
+      }
+    });
+  }
 }
 
 // ===== Save =====
-function saveListing(index) {
+async function saveListing(index) {
   const listing = listings[index];
   const clean = getCleanListing(listing);
   const json = JSON.stringify(clean, null, 2) + "\n";
 
-  // Since we're running as a static file, we'll use the download approach
-  // and also update the in-memory state
+  try {
+    const res = await fetch("/api/save", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        path: listing._meta.path,
+        data: clean,
+      }),
+    });
+    if (res.ok) {
+      hasChanges = false;
+      btnSave.disabled = true;
+      showToast(
+        `Saved ${listing._meta.building}/${listing._meta.file} directly to disk`,
+        "success",
+      );
+      return;
+    } else {
+      const err = await res.json();
+      console.warn(
+        "Direct save API returned error, falling back to download:",
+        err.error,
+      );
+    }
+  } catch (e) {
+    console.warn("Direct save failed, falling back to download:", e);
+  }
+
+  // Fallback: download JSON
   const blob = new Blob([json], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
@@ -932,7 +1069,10 @@ function saveListing(index) {
 
   hasChanges = false;
   btnSave.disabled = true;
-  showToast(`Saved ${listing._meta.building}/${listing._meta.file}`, "success");
+  showToast(
+    `Saved ${listing._meta.building}/${listing._meta.file} (Downloaded)`,
+    "success",
+  );
 }
 
 // ===== Helpers =====
@@ -973,6 +1113,54 @@ function escapeHtml(str) {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
+}
+
+function generateAboutHtml(listing) {
+  const about = listing.about || {};
+  let html = "";
+
+  // 1. Summary
+  if (about.summary) {
+    const trimmedSummary = about.summary.trim();
+    if (trimmedSummary.startsWith("<p>") || trimmedSummary.startsWith("<div")) {
+      html += trimmedSummary + "\n\n";
+    } else {
+      html += `<p>${trimmedSummary}</p>\n\n`;
+    }
+  }
+
+  // 2. Table of Contents
+  if (about.table_of_contents && about.table_of_contents.length > 0) {
+    html += `<h3>Table of Contents</h3>\n<ul>\n`;
+    about.table_of_contents.forEach(item => {
+      html += `  <li>${item}</li>\n`;
+    });
+    html += `</ul>\n\n`;
+  }
+
+  // 3. Sections
+  if (about.sections && about.sections.length > 0) {
+    about.sections.forEach(section => {
+      if (section.title) {
+        html += `<h3>${section.title}</h3>\n`;
+      }
+      if (section.content) {
+        html += `${section.content.trim()}\n`;
+      }
+      if (section.highlights && section.highlights.length > 0) {
+        html += `<h4>Highlights</h4>\n<ul>\n`;
+        section.highlights.forEach(h => {
+          if (h.trim()) {
+            html += `  <li>${h.trim()}</li>\n`;
+          }
+        });
+        html += `</ul>\n`;
+      }
+      html += `\n`;
+    });
+  }
+
+  return html.trim();
 }
 
 function showToast(message, type = "info") {

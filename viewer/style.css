@@ -276,7 +276,9 @@ input, textarea, select, button {
   border-top: 1px solid var(--border);
   font-size: 0.8rem;
   color: var(--text-tertiary);
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-shrink: 0;
 }
 

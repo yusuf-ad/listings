@@ -7,28 +7,27 @@
 ## 1. General SEO & Listing Improvements
 
 - Optimize **all listings** for SEO and higher conversion rates.
-- Select the most appealing image as the **Featured Image** for each listing.
 - Improve listing **titles, descriptions, text structure, and keywords**.
 
 ### 🔑 Target Keywords
 
 Naturally integrate the following keywords into listing copy:
 
-| Category | Keywords |
-|---|---|
+| Category              | Keywords                                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Student / Erasmus** | `Erasmus students`, `ideal for students`, `student housing`, `student accommodation`, `Erasmus housing` |
-| **Professional** | `digital nomads` |
-| **University** | `Aristotle University`, `City College` |
+| **Professional**      | `digital nomads`                                                                                        |
+| **University**        | `Aristotle University`, `City College`                                                                  |
 
 ### 📍 Location Tags
 
 Highlight these locations where applicable:
 
-| Location | Listing Count |
-|---|---|
-| Ano Poli | 10 |
-| City Centre Thessaloniki | 4 |
-| Eastern Thessaloniki | 4 |
+| Location                 | Listing Count |
+| ------------------------ | ------------- |
+| Ano Poli                 | 10            |
+| City Centre Thessaloniki | 4             |
+| Eastern Thessaloniki     | 4             |
 
 ---
 
@@ -37,18 +36,18 @@ Highlight these locations where applicable:
 > [!IMPORTANT]
 > Always use **"studio"** instead of **"private room"** — users may confuse "private room" with a hotel room.
 
-- Update compact studio description — Emphasize: *"Ideal for Erasmus students and remote workers"*
-- Do NOT limit availability to specific semesters (e.g. ~~"winter and spring semesters"~~). Keep it open-ended.
+- Update compact studio description — Emphasize: _"Ideal for Erasmus students and digital nomads"_
+- Do NOT limit availability or mention specific semesters/timeframes (e.g. avoid ~~"winter and spring semesters"~~, ~~"this semester"~~, or ~~"for the semester"~~). Keep all descriptions evergreen and open-ended.
 - Clearly state bedroom/bed configuration (e.g. `1 Bedroom / 1 Bed`).
 
 ---
 
 ## 3. Square Meters & Info Cleanup
 
-| Property | Action |
-|---|---|
-| **Aristotelous** | Remove all sqm details |
-| **Kleious** | Remove all sqm details, verify listing links, correct prices |
+| Property         | Action                                                       |
+| ---------------- | ------------------------------------------------------------ |
+| **Aristotelous** | Remove all sqm details                                       |
+| **Kleious**      | Remove all sqm details, verify listing links, correct prices |
 
 ---
 
@@ -63,22 +62,23 @@ Every listing must:
 
 - Use the **Focus Keyword** in the **SEO Title**
 - Use the **Focus Keyword** in the **SEO Meta Description**
-- Use the **Focus Keyword** in the **URL**
-- Place the **Focus Keyword at the beginning** of the content
-- Include the **Focus Keyword naturally throughout** the content body
-- Have a minimum of **600 words** of content
+- Use the **Focus Keyword** in the **URL** (Ensure the exact Focus Keyword is in the URL/slug to avoid: _“Focus Keyword not found in the URL.”_)
+- Place the **Focus Keyword at the beginning** of the content (Ensure it appears at the very start of the text to avoid: _“Focus Keyword doesn't appear at the beginning of your content.”_)
+- Include the **Focus Keyword naturally throughout** the content body (Ensure it appears multiple times to avoid: _“Focus Keyword doesn't appear in the content.”_)
+- Keep the **SEO Title under 60 characters** (Strict limit: must not exceed 60 characters so the indicator does not turn red)
+- Keep the **SEO Meta Description under 160 characters** (Strict limit: must not exceed 160 characters so the indicator does not turn red)
+- Keep the **URL/Permalink under 75 characters** (Strict limit: must not exceed 75 characters so the indicator does not turn red)
+- Keep the **About content under 400 words** (Strict limit: must not exceed 400 words to match the optimized compact template style)
 
 ### Additional SEO
 
 Every listing must:
 
 - Include the **Focus Keyword in at least one subheading** (H2, H3, or H4)
-- Have at least one image with the **Focus Keyword as alt text**
-- Maintain a **healthy Keyword Density** — the Focus Keyword and its combinations must appear multiple times naturally throughout the text
-- Keep the **URL under 75 characters**
+- Maintain a **healthy Keyword Density** — a keyword density of 1-1.5% is sufficient in most cases (the Focus Keyword and its combinations must appear multiple times naturally throughout the text)
 - Include at least one **outbound link** to a relevant external resource
 - Include at least one **DoFollow link** pointing to an external resource
-- Include at least one **internal link** to another listing or related page on the site
+- Include at least one **internal link** to another listing (always prioritize linking to other listings in the same building/complex, e.g. other Aristotelous square studios, before linking to other properties)
 - Use a **unique Focus Keyword** that hasn't been used in another listing
 
 ### Title Readability
@@ -94,9 +94,8 @@ Every listing title must:
 
 Every listing must:
 
-- Use a **Table of Contents** structure to break down the text
+- Use **bulleted highlights** for quick scannability
 - Use **short paragraphs** (max 3-4 sentences each)
-- Include **images and/or videos** within the content
 
 ---
 
