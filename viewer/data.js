@@ -403,7 +403,7 @@ const LISTINGS_DATA = [
     },
 
   "id": 4655,
-  "title": "Bright Studio in Thessaloniki near Mpotsari for 1 Person",
+  "title": "Studio Thessaloniki Mpotsari – Cozy 1-Bed Choice",
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
@@ -414,33 +414,33 @@ const LISTINGS_DATA = [
     "country": "Greece"
   },
   "about": {
-    "summary": "This studio in Thessaloniki is located near Mpotsari and K. Karamanli, on the 1st floor of a newly constructed building at Artemidos 53. It is a bright and practical private space for one person, suitable for students, interns, and remote professionals.",
+    "summary": "Studio Thessaloniki Mpotsari is a cozy student accommodation choice in Eastern Thessaloniki. This 1 Bedroom / 1 Bed private studio is ideal for students and digital nomads.",
     "sections": [
       {
-        "title": "Comfortable Studio in Thessaloniki",
-        "content": "The studio is fully furnished and designed for easy everyday living. Its layout makes it suitable for studying, working remotely, and relaxing after a busy day in the city.",
+        "title": "🏠 Studio Thessaloniki Mpotsari",
+        "content": "<p>Studio Thessaloniki Mpotsari offers a cozy, fully furnished student housing setup. Designed for one tenant, this private studio features a double bed, private balcony, and a comfortable layout that avoids the hassle of shared rooms.</p>",
         "highlights": [
-          "Bright living space: Large glass doors bring in natural light and open onto a private balcony.",
-          "For one person: Available exclusively for one tenant, making it ideal for students, interns, and young professionals.",
-          "Move-in ready: A practical option for anyone looking for a simple private home in Thessaloniki."
+          "Comfortable configuration: 1 Bedroom / 1 Bed for single occupancy.",
+          "Ideal for students: Quiet study desk and central transport access.",
+          "Fully equipped: Balcony access, private kitchenware, washing machine, and Wi-Fi."
         ]
       },
       {
-        "title": "Location near Mpotsari & K. Karamanli",
-        "content": "The building is in a pleasant residential area with daily essentials just a short walk away.",
+        "title": "📍 Location in Eastern Thessaloniki",
+        "content": "<p>Living in Eastern Thessaloniki near Mpotsari offers local convenience. Daily essentials like supermarkets, bakeries, cafes, and taverns are all within 50 meters, and public transport is right around the corner.</p>",
         "highlights": [
-          "Everything nearby: Supermarkets, local markets, bakeries, taverns, cafes, and everyday facilities are within approximately 50 meters.",
-          "Easy transport: A bus stop is around 50 meters from the building, with routes to the city centre, Aristotle University, and City College."
+          "Easy commute: Bus stop nearby provides direct lines to Aristotle University and City College.",
+          "Neighbourhood perks: Quiet residential streets with local shops and cafes nearby."
         ]
       },
       {
-        "title": "Ideal for Erasmus Students & Digital Nomads",
-        "content": "This private studio is a good fit for Erasmus students coming to Thessaloniki, interns at Cedefop, digital nomads, and remote workers who need a simple, functional, and well-located home. Its location also makes it convenient for anyone looking for student housing in Thessaloniki with easy access to the university area and the city centre.",
+        "title": "🎓 Perfect for Erasmus Students & Nomads",
+        "content": "<p>This studio Thessaloniki Mpotsari is a great Erasmus housing option for students and remote digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/erasmus-housing-thessaloniki-mpotsari/\">our Mpotsari Erasmus studio</a>.</p>",
         "highlights": []
       },
       {
         "title": "Bills & Services",
-        "content": "Most bills are included, such as building maintenance, water, heating, and Wi-Fi. Electricity is paid separately. Cleaning service is also available every two weeks for 20.00 Euros per visit. We would be happy to welcome you to Thessaloniki and host you in this comfortable studio. For more information, you can get in touch through the contact details provided.",
+        "content": "<p>Maintenance, water, heating, and Wi-Fi are included. Electricity is paid separately. A bi-weekly cleaning service is available for a small fee.</p><p>We look forward to welcoming you to Thessaloniki. Reach out via the contact host button.</p>",
         "highlights": []
       }
     ]
@@ -467,8 +467,8 @@ const LISTINGS_DATA = [
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 480.00,
-    "security_deposit": 480.00,
+    "price_per_month": 480.0,
+    "security_deposit": 480.0,
     "allow_additional_guests": false,
     "minimum_stay_months": 4
   },
@@ -486,10 +486,10 @@ const LISTINGS_DATA = [
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "studio in Thessaloniki near Mpotsari",
-    "seo_title": "Bright Studio Thessaloniki near Mpotsari | Student Housing",
-    "permalink": "studio-thessaloniki-mpotsari-student-housing",
-    "seo_description": "Bright private studio in Thessaloniki near Mpotsari, ideal for Erasmus students, digital nomads and Aristotle University or City College students."
+    "focus_keyword": "studio Thessaloniki Mpotsari",
+    "seo_title": "Studio Thessaloniki Mpotsari – Cozy 1-Bed Choice",
+    "permalink": "studio-thessaloniki-mpotsari",
+    "seo_description": "Studio Thessaloniki Mpotsari is a cozy 1-bed student accommodation choice in Eastern Thessaloniki. Ideal for Erasmus students & digital nomads."
   }
 },
   {
@@ -500,7 +500,7 @@ const LISTINGS_DATA = [
     },
 
   "id": 4430,
-  "title": "Bright Studio in Thessaloniki near Mpotsari",
+  "title": "Erasmus Housing Thessaloniki Mpotsari – Cozy 1-Bed Choice",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
@@ -511,33 +511,33 @@ const LISTINGS_DATA = [
     "country": "Greece"
   },
   "about": {
-    "summary": "This studio in Thessaloniki near Mpotsari is located at Artemidos 53, close to Mpotsari & K. Karamanli, 54644, Thessaloniki. It is found on the 1st floor of a newly constructed building in a really nice neighbourhood and is available exclusively for 1 person.",
+    "summary": "Erasmus housing Thessaloniki Mpotsari is a cozy private student accommodation choice in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads.",
     "sections": [
       {
-        "title": "Bright Studio in Thessaloniki",
-        "content": "The studio is fully equipped and set up for practical everyday living, making it a simple and comfortable option for a medium-term stay in Thessaloniki.",
+        "title": "🏠 Erasmus Housing Thessaloniki Mpotsari",
+        "content": "<p>Erasmus housing Thessaloniki Mpotsari offers a cozy, fully equipped student housing setup. Designed for one tenant, this private studio features practical appliances and a comfortable layout that avoids the need for shared spaces.</p>",
         "highlights": [
-          "Fully equipped: Electric appliances, washing machine, bed linen and kitchen utensils are provided.",
-          "For one person: The studio is available exclusively for one tenant.",
-          "Newly constructed building: A practical private studio on the 1st floor in a pleasant neighbourhood."
+          "Comfortable configuration: 1 Bedroom / 1 Bed for single occupancy.",
+          "Ideal for students: Dedicated workspace and central transport links.",
+          "Fully equipped: Microwave, oven, private kitchenware, washing machine, and Wi-Fi."
         ]
       },
       {
-        "title": "Location near Mpotsari & K. Karamanli",
-        "content": "The neighbourhood has the main daily facilities close by, making everyday life easy and convenient.",
+        "title": "📍 Location in Eastern Thessaloniki",
+        "content": "<p>Living in Eastern Thessaloniki near Mpotsari offers great city convenience. Local essentials like supermarkets, bakeries, cafes, and taverns are all within 50 meters, and bus lines are right nearby.</p>",
         "highlights": [
-          "Everything nearby: Supermarket, marketplace, bakery, tavern, cafe and bus station are around 50 meters away.",
-          "Easy transport: The area is close to a bus station, around 50 meters away, with routes to the city centre and University Campus."
+          "Easy commute: Bus stop is just 50 meters away with direct routes to Aristotle University and City College.",
+          "Comfortable area: Located in a pleasant residential neighbourhood with everything close by."
         ]
       },
       {
-        "title": "Ideal for Erasmus Students & Remote Workers",
-        "content": "This studio is ideal for Erasmus Students coming to Thessaloniki for the Spring semester. It can also suit interns connected with Cedefop in the south of the city, digital nomads and remote workers.",
+        "title": "🎓 Perfect for Erasmus Students & Nomads",
+        "content": "<p>This Erasmus housing Thessaloniki Mpotsari is ideal for exchange students, Cedefop interns, and digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the complex, view <a href=\"/listing/studio-thessaloniki-mpotsari/\">our Mpotsari student studio</a>.</p>",
         "highlights": []
       },
       {
         "title": "Bills & Services",
-        "content": "Maintenance, water, heating and Wi-Fi are included. Electricity is paid separately, and cleaning service is available every two weeks with a separate cost per visit. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.",
+        "content": "<p>Maintenance, water, heating, and Wi-Fi are included. Electricity is paid separately. A bi-weekly cleaning service is available for a small fee.</p><p>We look forward to welcoming you to Thessaloniki. Reach out via the contact host button.</p>",
         "highlights": []
       }
     ]
@@ -565,8 +565,8 @@ const LISTINGS_DATA = [
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 460.00,
-    "security_deposit": 460.00,
+    "price_per_month": 460.0,
+    "security_deposit": 460.0,
     "allow_additional_guests": false,
     "minimum_stay_months": null
   },
@@ -584,10 +584,10 @@ const LISTINGS_DATA = [
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "studio Thessaloniki Mpotsari Erasmus students",
-    "seo_title": "Bright Studio near Mpotsari Thessaloniki | Erasmus",
-    "permalink": "studio-thessaloniki-mpotsari-erasmus",
-    "seo_description": "Fully equipped studio in Thessaloniki near Mpotsari, ideal for Erasmus students, digital nomads and remote workers near Aristotle University."
+    "focus_keyword": "Erasmus housing Thessaloniki Mpotsari",
+    "seo_title": "Erasmus Housing Thessaloniki Mpotsari – Cozy 1-Bed Choice",
+    "permalink": "erasmus-housing-thessaloniki-mpotsari",
+    "seo_description": "Erasmus housing Thessaloniki Mpotsari is a cozy 1-bed student accommodation option in Eastern Thessaloniki. Perfect for students & digital nomads."
   }
 },
   {
@@ -1518,7 +1518,7 @@ const LISTINGS_DATA = [
     },
 
   "id": 6943,
-  "title": "Sunny Studio with Balcony | Student Housing near Aristotle University",
+  "title": "Studio Thessaloniki Papanastasiou – Cozy 1-Bed Home",
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
@@ -1529,39 +1529,33 @@ const LISTINGS_DATA = [
     "country": "Greece"
   },
   "about": {
-    "summary": "Ideal student housing in Thessaloniki — a fully equipped, sunny private studio on the 2nd floor of a newly constructed building at Mitsaki & Papanastasiou. Perfect for Erasmus students, digital nomads, and students attending Aristotle University or City College Thessaloniki. Available exclusively for 1 person.",
+    "summary": "Studio Thessaloniki Papanastasiou is a sunny private student housing choice in Eastern Thessaloniki. This 1 Bedroom / 1 Bed balcony studio is ideal for students and digital nomads.",
     "sections": [
       {
-        "title": "Sunny Studio with Balcony — Ideal for Students & Digital Nomads",
-        "content": "This private studio is designed for practical, comfortable everyday living. It features a spacious balcony of around 1.8 meters, filling the space with natural light and providing a relaxing outdoor corner — perfect whether you're studying, working remotely, or unwinding after class.",
+        "title": "🏠 Studio Thessaloniki Papanastasiou",
+        "content": "<p>Studio Thessaloniki Papanastasiou offers a sunny, fully equipped student accommodation option. Designed for one tenant, this private studio features a double bed and a spacious balcony that is ideal for students seeking independent living.</p>",
         "highlights": [
-          "Fully equipped: Electric appliances, washing machine, bed linen and kitchen utensils are provided.",
-          "Private balcony: A sunny outdoor space ideal for morning coffee, studying, or a quiet break.",
-          "Dedicated workspace: Set up for students and digital nomads who need a productive environment.",
-          "For one student: The studio is available exclusively for one person — your own private space."
+          "Comfortable configuration: 1 Bedroom / 1 Bed setup for single occupancy.",
+          "Sunny balcony: Private outdoor corner bringing in beautiful natural light.",
+          "Fully equipped: Dedicated workspace, washing machine, private kitchenware, and Wi-Fi."
         ]
       },
       {
-        "title": "Prime Location — Close to Aristotle University & City College",
-        "content": "Located in the Saranti neighbourhood, this student housing is ideally positioned for those studying at Aristotle University of Thessaloniki or City College. The area is well-connected and has all daily essentials within walking distance, making student life effortless.",
+        "title": "📍 Location in Eastern Thessaloniki",
+        "content": "<p>Living in Eastern Thessaloniki near Papanastasiou keeps your academic life central. Aristotle University and City College are within easy walking distance or a short bus ride from the nearby bus stop.</p>",
         "highlights": [
-          "Everything nearby: Supermarket, marketplace, bakery, tavern, cafe and bus station are around 50 meters away.",
-          "Easy transport: Direct bus routes to Aristotle University Campus, City College, and the city centre.",
-          "Quiet neighbourhood: A residential area that balances convenience with a calm living environment."
+          "Top convenience: Supermarkets, bakeries, cafes, and taverns are just 50 meters away.",
+          "Erasmus housing: Situated in a quiet residential neighbourhood with easy city transit."
         ]
       },
       {
-        "title": "Perfect for Erasmus Students in Thessaloniki",
-        "content": "This studio is an excellent choice for Erasmus students arriving in Thessaloniki for the Spring or Winter semester. Whether you're here through an Erasmus exchange, a university program, or as a digital nomad exploring Greece, this studio offers a comfortable and affordable base. It is also well-suited for interns connected with Cedefop in the south of the city.",
-        "highlights": [
-          "Erasmus & exchange students: Conveniently located for students at Aristotle University and City College.",
-          "Digital nomads: Fast Wi-Fi and a dedicated workspace make remote work seamless.",
-          "Flexible stays: Minimum stay of 4 months — ideal for semester-length Erasmus programs."
-        ]
+        "title": "🎓 Perfect for Erasmus Students & Nomads",
+        "content": "<p>This studio Thessaloniki Papanastasiou is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-thessaloniki-student-housing-papanastasiou/\">our Papanastasiou student studio</a>.</p>",
+        "highlights": []
       },
       {
         "title": "Bills & Services",
-        "content": "Maintenance, water, heating and Wi-Fi are included in the monthly rent. Electricity is paid separately based on usage. A cleaning service is available every two weeks at a separate cost per visit. We would be happy to welcome you to Thessaloniki and make your student housing experience a great one. For more information, please reach out through the contact host button.",
+        "content": "<p>Maintenance, water, heating, and Wi-Fi are included. Electricity is billed separately. A bi-weekly cleaning service is available for a small fee.</p><p>We look forward to welcoming you to Thessaloniki. Reach out via the contact host button.</p>",
         "highlights": []
       }
     ]
@@ -1588,8 +1582,8 @@ const LISTINGS_DATA = [
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 480.00,
-    "security_deposit": 480.00,
+    "price_per_month": 480.0,
+    "security_deposit": 480.0,
     "allow_additional_guests": false,
     "minimum_stay_months": 4
   },
@@ -1607,10 +1601,10 @@ const LISTINGS_DATA = [
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "studio in Thessaloniki near Aristotle University",
-    "seo_title": "Best Studio in Thessaloniki near Papanastasiou with Balcony",
-    "permalink": "studio-in-thessaloniki-papanastasiou-balcony",
-    "seo_description": "Studio in Thessaloniki near Papanastasiou with balcony, fully equipped and ideal for one student, Erasmus students, Cedefop interns or IHU students."
+    "focus_keyword": "studio Thessaloniki Papanastasiou",
+    "seo_title": "Studio Thessaloniki Papanastasiou – Cozy 1-Bed Home",
+    "permalink": "studio-thessaloniki-papanastasiou-balcony",
+    "seo_description": "Studio Thessaloniki Papanastasiou is a sunny 1-bed student housing choice in Eastern Thessaloniki. Ideal for Erasmus students & digital nomads."
   }
 },
   {
@@ -1621,7 +1615,7 @@ const LISTINGS_DATA = [
     },
 
   "id": 6952,
-  "title": "Cozy Private Studio | Student Housing near Aristotle University Thessaloniki",
+  "title": "Student Housing Thessaloniki Papanastasiou – Cozy 1-Bed",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
@@ -1632,39 +1626,33 @@ const LISTINGS_DATA = [
     "country": "Greece"
   },
   "about": {
-    "summary": "Affordable student housing in Thessaloniki — a fully equipped private studio on the 2nd floor of a newly constructed building at Mitsaki & Papanastasiou. An ideal choice for Erasmus students, digital nomads, and those attending Aristotle University or City College Thessaloniki. Available exclusively for 1 person.",
+    "summary": "Student housing Thessaloniki Papanastasiou is a cozy private student accommodation choice in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads.",
     "sections": [
       {
-        "title": "Private Studio — Comfortable Student Housing in Thessaloniki",
-        "content": "This well-equipped studio is designed for efficient and comfortable everyday living in Thessaloniki. Located in a newly constructed building, it offers a clean, modern space that works perfectly as student housing or a base for digital nomads working remotely from Greece.",
+        "title": "🏠 Student Housing Thessaloniki Papanastasiou",
+        "content": "<p>Student housing Thessaloniki Papanastasiou offers a cozy, fully equipped student accommodation option. Designed for one tenant, this private studio features a double bed and a clean setup that is ideal for students seeking privacy.</p>",
         "highlights": [
-          "Fully equipped: Electric appliances, washing machine, bed linen and kitchen utensils are provided.",
-          "Newly constructed building: Modern private space on the 2nd floor in a pleasant residential neighbourhood.",
-          "Dedicated workspace: Suitable for students and digital nomads who need a focused work area.",
-          "For one student: The studio is available exclusively for one person."
+          "Comfortable configuration: 1 Bedroom / 1 Bed layout for single occupancy.",
+          "Move-in ready: Modern private room setup on the 2nd floor of a newly constructed building.",
+          "Fully equipped: Dedicated workspace, washing machine, private kitchenware, and Wi-Fi."
         ]
       },
       {
-        "title": "Great Location — Walking Distance to Aristotle University & City College",
-        "content": "Situated in the Saranti neighbourhood, this studio is ideally placed for students at Aristotle University of Thessaloniki and City College. All daily essentials are within metres, and public transport connections make getting to campus or the city centre straightforward.",
+        "title": "📍 Location in Eastern Thessaloniki",
+        "content": "<p>Living in Eastern Thessaloniki near Papanastasiou makes commuting easy. Aristotle University and City College are within walking distance or reachable via direct bus routes from nearby bus stations.</p>",
         "highlights": [
-          "Everything nearby: Supermarket, marketplace, bakery, tavern, cafe and bus station are around 50 meters away.",
-          "Easy transport: Direct bus routes to Aristotle University Campus, City College, and Thessaloniki city centre.",
-          "Practical neighbourhood: A quiet, residential area with everything a student needs close by."
+          "Everything nearby: Local supermarkets, marketplaces, bakeries, cafes, and taverns are 50 meters away.",
+          "Erasmus housing: Well-positioned student housing setup in a quiet residential area."
         ]
       },
       {
-        "title": "Ideal for Erasmus Students & Digital Nomads in Thessaloniki",
-        "content": "This studio is an ideal choice for Erasmus students coming to Thessaloniki for the Winter or Spring semester. It is well-suited for exchange students at Aristotle University and City College, as well as digital nomads seeking comfortable, affordable accommodation in Greece. Students or interns connected with Cedefop or IHU University will also find the location very convenient.",
-        "highlights": [
-          "Erasmus & exchange students: Perfect semester-length student housing in a convenient Thessaloniki location.",
-          "Digital nomads: Reliable Wi-Fi and a dedicated workspace for productive remote work days.",
-          "Flexible minimum stay: 4-month minimum — aligns perfectly with Erasmus semester schedules."
-        ]
+        "title": "🎓 Perfect for Erasmus Students & Nomads",
+        "content": "<p>This student housing Thessaloniki Papanastasiou is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-thessaloniki-papanastasiou-balcony/\">our Papanastasiou balcony studio</a>.</p>",
+        "highlights": []
       },
       {
         "title": "Bills & Services",
-        "content": "Maintenance, water, heating and Wi-Fi are included in the monthly rent. Electricity is paid separately based on usage. A cleaning service is available every two weeks at a separate cost per visit. We would be delighted to welcome you to Thessaloniki and make your student housing experience memorable. For more information, please reach out through the contact host button.",
+        "content": "<p>Maintenance, water, heating, and Wi-Fi are included. Electricity is billed separately. A bi-weekly cleaning service is available for a small fee.</p><p>We look forward to welcoming you to Thessaloniki. Reach out via the contact host button.</p>",
         "highlights": []
       }
     ]
@@ -1691,8 +1679,8 @@ const LISTINGS_DATA = [
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 480.00,
-    "security_deposit": 480.00,
+    "price_per_month": 480.0,
+    "security_deposit": 480.0,
     "allow_additional_guests": false,
     "minimum_stay_months": 4
   },
@@ -1711,8 +1699,8 @@ const LISTINGS_DATA = [
   },
   "seo": {
     "focus_keyword": "student housing Thessaloniki Papanastasiou",
-    "seo_title": "Cozy Studio | Student Housing near Aristotle University",
+    "seo_title": "Student Housing Thessaloniki Papanastasiou – Cozy 1-Bed",
     "permalink": "studio-thessaloniki-student-housing-papanastasiou",
-    "seo_description": "Cozy private studio in Thessaloniki near Papanastasiou, ideal for Erasmus students, digital nomads and students at Aristotle University."
+    "seo_description": "Student housing Thessaloniki Papanastasiou is a cozy 1-bed private studio choice in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads."
   }
 }];
