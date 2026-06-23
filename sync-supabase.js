@@ -36,7 +36,7 @@ async function sync() {
 
     const files = fs
       .readdirSync(buildingDir)
-      .filter((f) => f.startsWith("studio") && f.endsWith(".json"))
+      .filter((f) => f.startsWith("listing") && f.endsWith(".json"))
       .sort();
 
     for (const fileName of files) {
