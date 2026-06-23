@@ -1,6 +1,6 @@
 {
   "id": 4781,
-  "title": "Student Apartment Ano Poli: Cozy 1-Bed Retreat",
+  "title": "Student Apartment Ano Poli: Cozy 1-Bed Flat",
   "featured": false,
   "type": "Entire Home / Single Apartment",
   "location": {
@@ -11,33 +11,35 @@
     "country": "Greece"
   },
   "about": {
-    "summary": "Student apartment Ano Poli is a cozy private student accommodation choice in Ano Poli. This 1 Bedroom / 1 Bed apartment is ideal for students and digital nomads.",
+    "summary": "This apartment in Thessaloniki near Ano Poli is located in the Kleious building, at the beginning of the traditional Ano Poli district. This fully equipped 40m² private apartment combines the historic character of the area with easy access to central Thessaloniki.",
     "sections": [
       {
-        "title": "🏠 Student Apartment Ano Poli",
-        "content": "<p>Student apartment Ano Poli offers a cozy, fully equipped student accommodation option. Designed for one tenant, this private apartment features a double bed and a clean setup that is ideal for students seeking privacy.</p>",
+        "title": "Student apartment Ano Poli",
+        "content": "<p>The apartment is compact, furnished and designed for practical everyday living. It is a good fit for students and young professionals who want a quiet but well-connected private base in Thessaloniki.</p>",
         "highlights": [
-          "Comfortable configuration: 1 Bedroom / 1 Bed layout for single occupancy.",
-          "Move-in ready: Modern apartment setup in the traditional Kleious building.",
-          "Fully equipped: Dedicated workspace, washing machine, private kitchenware, and Wi-Fi."
+          "Fully equipped: A move-in-ready apartment with the essentials needed for a comfortable stay.",
+          "For students: Suitable for 1 student or Erasmus students coming for the Winter or Spring semester.",
+          "Remote-work friendly: Also suitable for digital nomads and remote workers."
         ]
       },
       {
-        "title": "📍 Location in Ano Poli",
-        "content": "<p>Living in Ano Poli makes commuting easy. Aristotle University and City College are within walking distance or reachable via direct bus routes from nearby bus stations.</p>",
+        "title": "Location near Ano Poli & Tsinari",
+        "content": "<p>Living in this apartment means staying close to some of Thessaloniki’s most recognizable landmarks, with daily facilities and local spots nearby.</p>",
         "highlights": [
-          "Everything nearby: Local supermarkets, marketplaces, bakeries, cafes, and taverns are 50 meters away.",
-          "Erasmus housing: Well-positioned student housing setup in a quiet traditional area."
+          "Everything nearby: Essential shops, supermarkets, bakeries, cafes and other daily facilities are around 50 meters away.",
+          "Historic spots: Around 5 minutes on foot to Church of Agios Dimitrios, 10 minutes to Aristotelous Square and 14 minutes to Rotunda and the Arch of Galerius.",
+          "University access: Aristotle University is about 1.2 km away, around 15 minutes on foot.",
+          "Tsinari area: Traditional taverns and the Old City atmosphere are close to the apartment."
         ]
       },
       {
-        "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This Student apartment Ano Poli is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\">City College</a>.</p><p>To compare other properties in the building, view our <a href=\"/listing/bright-student-apartment-ano-poli/\">Bright student apartment Ano Poli</a>.</p>",
+        "title": "Ideal for Erasmus Students & Digital Nomads",
+        "content": "<p>This apartment is ideal for students looking for private Student Housing in Thessaloniki, especially Erasmus students coming for the Winter or Spring semester. It is also suitable for digital nomads and remote workers. For official university info, visit <a href=\"https://www.auth.gr/en/\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\">City College</a>.</p><p>To compare other properties in the building, view our <a href=\"/listing/apartment-ano-poli-thessaloniki-student-accommodation-7/\">bright student apartment Ano Poli</a>.</p>",
         "highlights": []
       },
       {
         "title": "Bills & Services",
-        "content": "<p>Maintenance, water, heating, and Wi-Fi are included. Electricity is billed separately. A bi-weekly cleaning service is available for a small fee.</p><p>We look forward to welcoming you to Thessaloniki. Reach out via the contact host button.</p>",
+        "content": "<p>Building maintenance, water bill and high-speed Wi-Fi are included. Electricity is paid separately based on consumption. We will be happy to welcome you in Thessaloniki and host you in this studio. For more info, you may reach out through the contact host button.</p>",
         "highlights": []
       }
     ]
@@ -86,8 +88,9 @@
   },
   "seo": {
     "focus_keyword": "Student apartment Ano Poli",
-    "seo_title": "Student Apartment Ano Poli: Cozy 1-Bed Retreat",
-    "permalink": "student-apartment-ano-poli",
-    "seo_description": "Student apartment Ano Poli ideal for Erasmus students. This cozy 1-bed retreat is near Aristotle University, ideal for digital nomads."
+    "seo_title": "Student Apartment Ano Poli: Cozy 1-Bed Flat",
+    "permalink": "apartment-ano-poli-thessaloniki-erasmus-housing-6",
+    "seo_description": "Student apartment Ano Poli ideal for Erasmus students. This cozy 1-bed retreat is near Aristotle University, ideal for digital nomads.",
+    "thessnest_link": "https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-6/"
   }
 }

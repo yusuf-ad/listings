@@ -1,6 +1,6 @@
 ---
 title: "Student Housing Ano Poli: The Only 2-Bedroom Option in the Upper Town"
-slug: why-student-housing-ano-poli
+slug: why-apartment-ano-poli-thessaloniki-student-accommodation-1
 description: "Discover student housing Ano Poli, the only 2-bedroom flat in Thessaloniki's upper town. Share with a friend, split costs, and live in historic Ano Poli."
 focusKeyword: "Student housing Ano Poli"
 category: Lifestyle
@@ -25,7 +25,7 @@ heroImage: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=80&w=207
 
 # Student Housing Ano Poli
 
-![Student housing Ano Poli spacious living room with two desks, a sofa, and natural light from the Ano Poli hillside](/images/guides/student-housing-ano-poli.webp)
+![Student housing Ano Poli spacious living room with two desks, a sofa, and natural light from the Ano Poli hillside](/images/guides/apartment-ano-poli-thessaloniki-student-accommodation-1.webp)
 
 Every other listing in Ano Poli is a studio. One bed, one person, one routine. That works for most students, but not for the pair who arrived together, the friends who met during orientation and decided to save money by sharing, or the couple of classmates who prefer company to solitude. **Student housing Ano Poli** is the only two-bedroom flat in the Kleious building, and one of the few shared options in the entire upper town. Two bedrooms, two beds, a shared living room, a full kitchen with dishwasher and dryer, and a location at the gateway to Thessaloniki's most atmospheric neighbourhood. At €650 per month split between two tenants, that is €325 each for a level of space, equipment, and character that no studio in the city can match. **Student housing Ano Poli** is the social option in a building full of solo retreats.
 
@@ -111,9 +111,9 @@ At €325 per person, student housing Ano Poli frees up more of your budget for 
 Student housing Ano Poli is the only multi-bedroom option in the Kleious building. The other eight units are solo studios:
 
 - **Student Housing Ano Poli (this listing):** 2-bed flat, dishwasher, dryer, living room. €650/month (€325/person).
-- **[Ano Poli Student Studio](https://thessnest.com/listing/ano-poli-student-studio/):** 1-bed studio, €480/month. Private, compact.
-- **[Erasmus Studio Ano Poli](https://thessnest.com/listing/erasmus-studio-ano-poli/):** 1-bed, high-speed Wi-Fi. €650/month solo.
-- **[Cozy Student Studio Ano Poli](https://thessnest.com/listing/cozy-student-studio-ano-poli/):** 1-bed with dryer, view. €700/month solo.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed studio, €480/month. Private, compact.
+- **[Erasmus Studio Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/):** 1-bed, high-speed Wi-Fi. €650/month solo.
+- **[Cozy Student Apartment Ano Poli](https://thessnest.com/listing/cozy-apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed with dryer, view. €700/month solo.
 
 The comparison is clear: per person, the 2-bedroom flat is the most affordable option and the only one with a living room, dishwasher, and dryer.
 
@@ -144,4 +144,4 @@ The comparison is clear: per person, the 2-bedroom flat is the most affordable o
 
 Solo studios have their place. But student housing Ano Poli offers something they cannot: shared life in a shared space, with the appliances and layout to make sharing easy rather than endured. At €325 per person in the most atmospheric neighbourhood in Thessaloniki, with an excellent review from someone who lived the experience, this flat is the clearest answer to a common Erasmus question: where can two friends live well for less?
 
-**[Book Student Housing Ano Poli →](https://thessnest.com/listing/student-housing-ano-poli/)**
+**[Book Student Housing Ano Poli →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/)**

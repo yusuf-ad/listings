@@ -1,6 +1,6 @@
 ---
 title: "City College Student Apartment: Housing Built for International Programme Students"
-slug: why-city-college-student-apartment
+slug: why-apartment-ano-poli-thessaloniki-student-accommodation-4
 description: "Discover the City College student apartment in Ano Poli. Wheelchair accessible, fully equipped, and positioned for City College international students."
 focusKeyword: "City College student apartment"
 category: Lifestyle
@@ -25,7 +25,7 @@ heroImage: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=
 
 # City College Student Apartment
 
-![City College student apartment with an accessible layout, well-organised workspace, and wide doorways for easy movement](/images/guides/city-college-student-apartment.webp)
+![City College student apartment with an accessible layout, well-organised workspace, and wide doorways for easy movement](/images/guides/apartment-ano-poli-thessaloniki-student-accommodation-4.webp)
 
 International programme students have specific needs that generic student housing rarely addresses. Your lectures are in English, your classmates come from twenty different countries, your academic calendar does not align with the Greek university system, and you need accommodation that understands this context. The **City College student apartment** in the Kleious building is named for its proximity and suitability for students attending City College, the University of York's European campus in Thessaloniki. It is wheelchair accessible, fully equipped with air conditioning and a dedicated workspace, and positioned at the gateway to Ano Poli, where the historic upper town meets the modern centre. For international programme students, exchange students, and anyone who needs accessible accommodation, the **City College student apartment** is purpose-built for your situation.
 
@@ -121,10 +121,10 @@ Students on exchange programmes taught in English, whether at City College or Ar
 
 Within the Kleious building:
 
-- **[Student Housing Ano Poli](https://thessnest.com/listing/student-housing-ano-poli/):** 2-bed shared flat. €650 total. Best for pairs.
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-apartment/):** 1-bed, €480, low deposit. Best budget entry.
+- **[Student Housing Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/):** 2-bed shared flat. €650 total. Best for pairs.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, low deposit. Best budget entry.
 - **City College Student Apartment (this listing):** 1-bed, wheelchair accessible, living room. €650. Best for accessibility.
-- **[Aristotle University Apartment](https://thessnest.com/listing/aristotle-university-apartment/):** 1-bed, AUTH-focused. €650. Best for AUTH students.
+- **[Aristotle University Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-5/):** 1-bed, AUTH-focused. €650. Best for AUTH students.
 
 ## Practical Details
 
@@ -150,4 +150,4 @@ Within the Kleious building:
 
 Accessible housing should not be a compromise. The City College student apartment provides the same amenities, the same location quality, and the same living standard as every other apartment in the Kleious building, with the added accessibility features that make independent student life possible for everyone. In a city where accessible options are scarce, this apartment does not just fill a gap, it sets a standard.
 
-**[Book the City College Student Apartment →](https://thessnest.com/listing/city-college-student-apartment/)**
+**[Book the City College Student Apartment →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-4/)**

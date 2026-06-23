@@ -1,6 +1,6 @@
 ---
 title: "Aristotle University Apartment: Walk to Campus from Ano Poli"
-slug: why-aristotle-university-apartment
+slug: why-apartment-ano-poli-thessaloniki-student-housing-5
 description: "Discover the Aristotle University apartment in Ano Poli. Walk to AUTH campus in 20 minutes through one of Europe's most scenic student commutes."
 focusKeyword: "Aristotle University apartment"
 category: Lifestyle
@@ -25,7 +25,7 @@ heroImage: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=
 
 # Aristotle University Apartment
 
-![Aristotle University apartment with a study desk near the window, bookshelves, and a view of the tree-lined streets leading to campus](/images/guides/aristotle-university-apartment.webp)
+![Aristotle University apartment with a study desk near the window, bookshelves, and a view of the tree-lined streets leading to campus](/images/guides/apartment-ano-poli-thessaloniki-student-housing-5.webp)
 
 The walk from Ano Poli to Aristotle University is twenty minutes downhill, through side streets that pass the Roman Agora, past small Byzantine churches with gardens spilling over their walls, alongside cafes that are just opening for the morning rush. It is, by any measure, one of the most beautiful commutes to any university campus in Europe. The **Aristotle University apartment** in the Kleious building is positioned for exactly this walk. Living here means your daily route to lectures is not a bus ride or a metro transfer, it is a descent through two thousand years of architecture, arriving at the largest university in Greece with the morning air still fresh in your lungs. If you are attending AUTH for your Erasmus semester, the **Aristotle University apartment** turns the commute itself into a daily reason to live in Thessaloniki.
 
@@ -127,10 +127,10 @@ Students enrolled in programmes that span both institutions benefit from the Kle
 
 Within the Kleious building:
 
-- **[Student Housing Ano Poli](https://thessnest.com/listing/student-housing-ano-poli/):** 2-bed shared. €650 total. Best for pairs.
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-apartment/):** 1-bed, €480, lowest deposit. Best entry cost.
+- **[Student Housing Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/):** 2-bed shared. €650 total. Best for pairs.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, lowest deposit. Best entry cost.
 - **Aristotle University Apartment (this listing):** 1-bed, living room, walking distance to AUTH. €650. Best for AUTH students.
-- **[Student Apartment Ano Poli](https://thessnest.com/listing/student-apartment-ano-poli/):** 1-bed, calm retreat. €650. Best for quiet seekers.
+- **[Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed, calm retreat. €650. Best for quiet seekers.
 
 ## Practical Details
 
@@ -154,4 +154,4 @@ Within the Kleious building:
 
 The commute is the most repeated part of any student's day. The Aristotle University apartment transforms that repetition into something worth repeating: a twenty-minute walk through the history and beauty of Thessaloniki, arriving at campus with the clarity that fresh air and movement provide. For AUTH students, this is not just a place to live, it is a daily argument for walking instead of scrolling through a bus schedule.
 
-**[Book the Aristotle University Apartment →](https://thessnest.com/listing/aristotle-university-apartment/)**
+**[Book the Aristotle University Apartment →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-5/)**

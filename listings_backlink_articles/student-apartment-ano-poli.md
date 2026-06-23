@@ -1,6 +1,6 @@
 ---
 title: "Student Apartment Ano Poli: A Calm 1-Bed Retreat for Focused Students"
-slug: why-student-apartment-ano-poli
+slug: why-apartment-ano-poli-thessaloniki-erasmus-housing-6
 description: "Discover the student apartment Ano Poli, a calm private retreat with wheelchair access. Ideal for focused Erasmus students seeking quiet in Thessaloniki."
 focusKeyword: "student apartment Ano Poli"
 category: Lifestyle
@@ -25,7 +25,7 @@ heroImage: "https://images.unsplash.com/photo-1600210492493-0946911123ea?q=80&w=
 
 # Student Apartment Ano Poli
 
-![Student apartment Ano Poli with soft afternoon light, a tidy workspace, and a calm, minimally decorated interior](/images/guides/student-apartment-ano-poli.webp)
+![Student apartment Ano Poli with soft afternoon light, a tidy workspace, and a calm, minimally decorated interior](/images/guides/apartment-ano-poli-thessaloniki-erasmus-housing-6.webp)
 
 Some students come to Thessaloniki for the nightlife, the social scene, the energy of a city that does not sleep until three in the morning. Others come to study. To read, to write, to think slowly in a quiet room while the neighbourhood outside settles into its own unhurried rhythm. The **student apartment Ano Poli** is for the second group. Described as a "calm 1-bed retreat," this apartment in the Kleious building delivers exactly what the name promises: a peaceful, private, wheelchair-accessible space where concentration is the default atmosphere. If your Erasmus semester depends on the quality of your study time, the **student apartment Ano Poli** provides the silence to support it.
 
@@ -106,10 +106,10 @@ Wheelchair users and students with mobility requirements deserve the same qualit
 
 Within the Kleious building:
 
-- **[Student Housing Ano Poli](https://thessnest.com/listing/student-housing-ano-poli/):** 2-bed shared. €650 total. Best for pairs.
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-apartment/):** 1-bed, €480, lowest deposit. Best entry cost.
+- **[Student Housing Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/):** 2-bed shared. €650 total. Best for pairs.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, lowest deposit. Best entry cost.
 - **Student Apartment Ano Poli (this listing):** 1-bed, calm retreat, wheelchair accessible. €650. Best for quiet seekers.
-- **[Bright Student Apartment Ano Poli](https://thessnest.com/listing/bright-student-apartment-ano-poli/):** 1-bed, natural light focus. €650. Best for light-lovers.
+- **[Bright Student Apartment Ano Poli](https://thessnest.com/listing/bright-apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed, natural light focus. €650. Best for light-lovers.
 
 ## Practical Details
 
@@ -134,4 +134,4 @@ Within the Kleious building:
 
 Calm is not the absence of things. It is the presence of space, of silence, of the room to think without interruption. The student apartment Ano Poli provides that space in a city that is often celebrated for its noise and energy. For the student who came to Thessaloniki to work, to think, and to produce something meaningful during their exchange, this calm retreat is not a limitation, it is the condition that makes everything else possible.
 
-**[Book the Student Apartment Ano Poli →](https://thessnest.com/listing/student-apartment-ano-poli/)**
+**[Book the Student Apartment Ano Poli →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-6/)**
