@@ -25,35 +25,35 @@ const LISTING_LINKS = {
   ],
   "kleious/listing2.json": [
     "https://housinganywhere.com/room/ut1340075/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/ano-poli-student-studio/",
+    "https://thessnest.com/listing/ano-poli-student-apartment/",
   ],
   "kleious/listing3.json": [
     "https://housinganywhere.com/room/ut1385687/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/erasmus-studio-ano-poli/",
+    "https://thessnest.com/listing/erasmus-apartment-ano-poli/",
   ],
   "kleious/listing4.json": [
     "https://housinganywhere.com/room/ut1549416/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/city-college-student-studio/",
+    "https://thessnest.com/listing/city-college-student-apartment/",
   ],
   "kleious/listing5.json": [
     "https://housinganywhere.com/room/ut1645665/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/aristotle-university-studio/",
+    "https://thessnest.com/listing/aristotle-university-apartment/",
   ],
   "kleious/listing6.json": [
     "https://housinganywhere.com/room/ut1694879/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/student-studio-ano-poli/",
+    "https://thessnest.com/listing/student-apartment-ano-poli/",
   ],
   "kleious/listing7.json": [
     "https://housinganywhere.com/room/ut1385260/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/bright-student-studio-ano-poli/",
+    "https://thessnest.com/listing/bright-student-apartment-ano-poli/",
   ],
   "kleious/listing8.json": [
     "https://housinganywhere.com/room/ut1336624/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/terrace-student-studio-ano-poli/",
+    "https://thessnest.com/listing/terrace-student-apartment-ano-poli/",
   ],
   "kleious/listing9.json": [
     "https://housinganywhere.com/room/ut1205538/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/cozy-student-studio-ano-poli/",
+    "https://thessnest.com/listing/cozy-student-apartment-ano-poli/",
   ],
   "aristotelous/listing1.json": [
     "https://housinganywhere.com/room/ut1130356/gr/Thessalon%C3%ADki/aristotelous",
@@ -182,7 +182,7 @@ export default function Home() {
     }, 4000);
   };
 
-  // Group listings by building
+  // Group listings by building and sort naturally by filename
   const groupedListings = useMemo(() => {
     const groups = {};
     listings.forEach((listing, index) => {
@@ -190,6 +190,17 @@ export default function Home() {
       if (!groups[building]) groups[building] = [];
       groups[building].push({ listing, index });
     });
+
+    // Sort listings in each building group naturally by filename
+    Object.keys(groups).forEach((building) => {
+      groups[building].sort((a, b) =>
+        a.listing._meta.file.localeCompare(b.listing._meta.file, undefined, {
+          numeric: true,
+          sensitivity: "base",
+        })
+      );
+    });
+
     return groups;
   }, [listings]);
 
