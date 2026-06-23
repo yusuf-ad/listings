@@ -3,67 +3,23 @@ let listings = [];
 let currentIndex = null;
 let hasChanges = false;
 
-// ===== Dynamic JSON Loader =====
-// Fetches all studio JSON files directly from the filesystem directories
-// so we never rely on a stale data.js snapshot.
-const BUILDING_FILES = {
-  aristotelous: [
-    "studio1.json",
-    "studio2.json",
-    "studio3.json",
-    "studio4.json",
-  ],
-  artemidos: ["studio1.json", "studio2.json"],
-  kleious: [
-    "studio1.json",
-    "studio2.json",
-    "studio3.json",
-    "studio4.json",
-    "studio5.json",
-    "studio6.json",
-    "studio7.json",
-    "studio8.json",
-    "studio9.json",
-  ],
-  saranti: ["studio1.json", "studio2.json"],
-};
-
+// ===== Load Listings (Exclusively from Supabase Backend API) =====
 async function loadListings() {
-  // Try fetching directly from JSON files (requires HTTP server)
   try {
-    const results = [];
-    for (const [building, files] of Object.entries(BUILDING_FILES)) {
-      for (const file of files) {
-        const path = `../${building}/${file}`;
-        const res = await fetch(path);
-        if (!res.ok) continue;
-        const data = await res.json();
-        data._meta = { building, file, path: `${building}/${file}` };
-        results.push(data);
+    const res = await fetch("/api/listings");
+    if (res.ok) {
+      const results = await res.json();
+      if (results && results.length > 0) {
+        console.log(`✅ Loaded ${results.length} listings from server API`);
+        return results;
       }
-    }
-    if (results.length > 0) {
-      console.log(`✅ Loaded ${results.length} listings from JSON files`);
-      return results;
+    } else {
+      const err = await res.json();
+      console.error("❌ Failed to load listings from server API:", err.error || res.statusText);
     }
   } catch (e) {
-    console.warn(
-      "Fetch failed (file:// protocol?), falling back to data.js",
-      e,
-    );
+    console.error("❌ Network error fetching listings from server API:", e);
   }
-
-  // Fallback: use data.js (run build-data.sh to refresh)
-  if (typeof LISTINGS_DATA !== "undefined") {
-    console.log(
-      `📦 Using data.js fallback (${LISTINGS_DATA.length} listings). Run build-data.sh to refresh.`,
-    );
-    return JSON.parse(JSON.stringify(LISTINGS_DATA));
-  }
-
-  console.error(
-    "No listing data available. Serve via HTTP or run build-data.sh",
-  );
   return [];
 }
 
@@ -157,9 +113,35 @@ const toastContainer = document.getElementById("toastContainer");
 
 // ===== Initialize =====
 async function init() {
+  await checkSupabaseStatus();
   listings = await loadListings();
   renderSidebar();
   bindEvents();
+}
+
+async function checkSupabaseStatus() {
+  const statusEl = document.getElementById("supabaseStatus");
+  if (!statusEl) return;
+  try {
+    const res = await fetch("/api/status");
+    if (res.ok) {
+      const status = await res.json();
+      if (status.connected) {
+        statusEl.textContent = "Supabase";
+        statusEl.className = "status-badge status-supabase";
+        statusEl.title = `Connected to Supabase (${status.supabaseUrl})`;
+      } else {
+        statusEl.textContent = "Local";
+        statusEl.className = "status-badge status-local";
+        statusEl.title = "Supabase not connected. Running in local file mode.";
+      }
+    }
+  } catch (e) {
+    console.warn("Could not check Supabase connection status, running in static local mode.");
+    statusEl.textContent = "Local";
+    statusEl.className = "status-badge status-local";
+    statusEl.title = "Could not connect to local server. Running in static mode.";
+  }
 }
 
 // ===== Sidebar =====

@@ -1,0 +1,14 @@
+{
+  "name": "listing-optimization",
+  "version": "1.0.0",
+  "description": "Thessaloniki rental listing manager with Supabase integration",
+  "main": "viewer/server.js",
+  "scripts": {
+    "start": "node viewer/server.js",
+    "sync": "node sync-supabase.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -13,6 +13,26 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
+// Load environment variables from parent folder .env
+require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
+const { createClient } = require("@supabase/supabase-js");
+
+// Initialize Supabase Client
+let supabase = null;
+const SUPABASE_URL = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+if (SUPABASE_URL && SUPABASE_KEY) {
+  try {
+    supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
+    console.log("🔌 Supabase client initialized successfully.");
+  } catch (err) {
+    console.error("⚠️ Failed to initialize Supabase client:", err.message);
+  }
+} else {
+  console.log("ℹ️ Supabase credentials not found in env. Running in Local Mode.");
+}
+
 const PORT = 3456;
 const PROJECT_DIR = path.resolve(__dirname, "..");
 const OUTPUT = path.join(__dirname, "data.js");
@@ -30,48 +50,7 @@ const MIME = {
   ".ico": "image/x-icon",
 };
 
-/**
- * Reads all studio*.json files from the building directories,
- * injects _meta, and writes data.js
- */
-function rebuildData() {
-  const allListings = [];
-
-  for (const building of BUILDINGS) {
-    const buildingDir = path.join(PROJECT_DIR, building);
-    if (!fs.existsSync(buildingDir) || !fs.statSync(buildingDir).isDirectory())
-      continue;
-
-    const files = fs
-      .readdirSync(buildingDir)
-      .filter((f) => f.startsWith("studio") && f.endsWith(".json"))
-      .sort();
-
-    for (const fileName of files) {
-      const filePath = path.join(buildingDir, fileName);
-      try {
-        const raw = fs.readFileSync(filePath, "utf-8");
-        const data = JSON.parse(raw);
-        const entry = {
-          _meta: {
-            building,
-            file: fileName,
-            path: `${building}/${fileName}`,
-          },
-          ...data,
-        };
-        allListings.push(entry);
-      } catch (err) {
-        console.error(`⚠️  Skipping ${building}/${fileName}: ${err.message}`);
-      }
-    }
-  }
-
-  const output = `const LISTINGS_DATA = ${JSON.stringify(allListings, null, 2)};\n`;
-  fs.writeFileSync(OUTPUT, output, "utf-8");
-  console.log(`✅ data.js rebuilt from ${allListings.length} JSON files.`);
-  return allListings.length;
-}
+// Local file-based listing retrieval logic has been removed as the app now runs strictly on Supabase.
 
 const server = http.createServer((req, res) => {
   // CORS Headers
@@ -85,32 +64,73 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // API endpoint: Rebuild data.js
-  if (req.url === "/api/rebuild" && req.method === "POST") {
-    try {
-      const count = rebuildData();
-      res.writeHead(200, { "Content-Type": "application/json" });
-      res.end(
-        JSON.stringify({
-          success: true,
-          count,
-          message: `Rebuilt data.js from ${count} JSON files.`,
-        }),
-      );
-    } catch (err) {
-      res.writeHead(500, { "Content-Type": "application/json" });
-      res.end(JSON.stringify({ error: err.message }));
-    }
+  // API endpoint: Get Supabase status
+  if (req.url === "/api/status" && req.method === "GET") {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    res.end(
+      JSON.stringify({
+        connected: supabase !== null,
+        supabaseUrl: SUPABASE_URL ? SUPABASE_URL.replace(/(.{10}).+/, "$1...") : null,
+      })
+    );
     return;
   }
 
-  // API endpoint: Save listing JSON to disk
+  // API endpoint: Get listings (exclusively from Supabase)
+  if (req.url === "/api/listings" && req.method === "GET") {
+    if (!supabase) {
+      res.writeHead(500, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: "Supabase connection is not initialized. Please check your credentials in .env file." }));
+      return;
+    }
+
+    supabase
+      .from("listings")
+      .select("*")
+      .order("id", { ascending: true })
+      .then(({ data, error }) => {
+        if (error) {
+          console.error("⚠️ Failed to load listings from Supabase:", error.message);
+          res.writeHead(500, { "Content-Type": "application/json" });
+          res.end(JSON.stringify({ error: error.message }));
+        } else {
+          // Map DB columns to frontend expected keys (inject _meta)
+          const mapped = data.map((row) => {
+            const { building, file_name, created_at, updated_at, ...entry } = row;
+            return {
+              _meta: {
+                building,
+                file: file_name,
+                path: `${building}/${file_name}`,
+              },
+              ...entry,
+            };
+          });
+          res.writeHead(200, { "Content-Type": "application/json" });
+          res.end(JSON.stringify(mapped));
+        }
+      })
+      .catch((err) => {
+        console.error("⚠️ Supabase query promise error:", err.message);
+        res.writeHead(500, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ error: err.message }));
+      });
+    return;
+  }
+
+  // API endpoint: Save listing JSON to Supabase (only)
   if (req.url === "/api/save" && req.method === "POST") {
+    if (!supabase) {
+      res.writeHead(500, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: "Supabase connection is not initialized. Cannot save." }));
+      return;
+    }
+
     let body = "";
     req.on("data", (chunk) => {
       body += chunk.toString();
     });
-    req.on("end", () => {
+    req.on("end", async () => {
       try {
         const { path: relativePath, data } = JSON.parse(body);
 
@@ -118,38 +138,41 @@ const server = http.createServer((req, res) => {
           throw new Error("Missing path or data in request body");
         }
 
-        // Validate that path stays within project buildings
-        const cleanPath = path
-          .normalize(relativePath)
-          .replace(/^(\.\.[\/\\])+/, "");
-        const targetPath = path.join(PROJECT_DIR, cleanPath);
+        // Parse building and file_name from relativePath (e.g. "aristotelous/studio1.json")
+        const parts = relativePath.split('/');
+        const buildingName = parts[0] || 'unknown';
+        const fileName = parts[1] || 'studio.json';
 
-        // Security check: Must reside within one of the approved buildings
-        const relativeToProject = path.relative(PROJECT_DIR, targetPath);
-        const parts = relativeToProject.split(path.sep);
-        if (
-          parts.length !== 2 ||
-          !BUILDINGS.includes(parts[0]) ||
-          !parts[1].startsWith("studio") ||
-          !parts[1].endsWith(".json")
-        ) {
-          res.writeHead(403, { "Content-Type": "application/json" });
-          res.end(
-            JSON.stringify({ error: "Access Denied: Invalid file path." }),
-          );
-          return;
+        const row = {
+          id: data.id,
+          title: data.title || '',
+          featured: typeof data.featured === 'boolean' ? data.featured : false,
+          type: data.type || null,
+          building: buildingName,
+          file_name: fileName,
+          location: data.location || null,
+          about: data.about || null,
+          details: data.details || null,
+          amenities: data.amenities || [],
+          pricing: data.pricing || null,
+          house_rules: data.house_rules || null,
+          host: data.host || null,
+          seo: data.seo || null,
+        };
+
+        const { error: dbError } = await supabase
+          .from("listings")
+          .upsert(row, { onConflict: "id" });
+
+        if (dbError) {
+          throw dbError;
         }
 
-        fs.writeFileSync(
-          targetPath,
-          JSON.stringify(data, null, 2) + "\n",
-          "utf-8",
-        );
-        console.log(`💾 Saved ${relativePath} to disk.`);
-
+        console.log(`🔌 Saved to Supabase ID ${data.id}.`);
         res.writeHead(200, { "Content-Type": "application/json" });
         res.end(JSON.stringify({ success: true }));
       } catch (err) {
+        console.error(`⚠️ Supabase save error: ${err.message}`);
         res.writeHead(400, { "Content-Type": "application/json" });
         res.end(JSON.stringify({ error: err.message }));
       }
@@ -192,8 +215,6 @@ server.listen(PORT, () => {
   console.log(
     `\n🏠 Listing Manager Server running at http://localhost:${PORT}/viewer/\n`,
   );
-  console.log(`   POST /api/rebuild  →  regenerate data.js from JSON files`);
-  console.log(
-    `   POST /api/save     →  save updated listing JSON back to disk\n`,
-  );
+  console.log(`   GET  /api/listings  →  fetch listings from Supabase`);
+  console.log(`   POST /api/save      →  save listing changes to Supabase\n`);
 });
