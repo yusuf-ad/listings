@@ -100,3 +100,34 @@ Every listing must:
 ---
 
 > **Content Type:** All listings are **Pillar Content** and must be treated with the highest SEO priority.
+
+---
+
+## 5. Generated Backlink Articles Checklist
+
+Below is the list of all 17 generated listing-specific backlink articles, organized by location. All articles have been created and verified according to the prompt instructions.
+
+### 🏢 Aristotelous Complex (4 Articles)
+- [x] [bright-studio-aristotelous-square.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/bright-studio-aristotelous-square.md) — [Thessnest URL](https://thessnest.com/listing/bright-studio-aristotelous-square/) (Features: 5th floor, lift, natural light)
+- [x] [minimal-studio-aristotelous-square.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/minimal-studio-aristotelous-square.md) — [Thessnest URL](https://thessnest.com/listing/minimal-studio-aristotelous-square/) (Features: Cheapest in block €600, verified high-speed Wi-Fi)
+- [x] [terrace-studio-aristotelous-square.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/terrace-studio-aristotelous-square.md) — [Thessnest URL](https://thessnest.com/listing/terrace-studio-aristotelous-square/) (Features: Private terrace, upper-city views)
+- [x] [central-studio-aristotelous-square.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/central-studio-aristotelous-square.md) — [Thessnest URL](https://thessnest.com/listing/central-studio-aristotelous-square/) (Features: 7 previous tenants, most booked)
+
+### 🏢 Artemidos / Mpotsari (2 Articles)
+- [x] [studio-thessaloniki-mpotsari.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/studio-thessaloniki-mpotsari.md) — [Thessnest URL](https://thessnest.com/listing/studio-thessaloniki-mpotsari/) (Features: 25sqm, private balcony, €480)
+- [x] [erasmus-housing-thessaloniki-mpotsari.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/erasmus-housing-thessaloniki-mpotsari.md) — [Thessnest URL](https://thessnest.com/listing/erasmus-housing-thessaloniki-mpotsari/) (Features: Cheapest overall €460, 20sqm, Cedefop connection)
+
+### 🏢 Saranti / Papanastasiou (2 Articles)
+- [x] [studio-thessaloniki-papanastasiou.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/studio-thessaloniki-papanastasiou.md) — [Thessnest URL](https://thessnest.com/listing/studio-thessaloniki-papanastasiou-balcony/) (Features: 25sqm, sunny balcony, €480)
+- [x] [student-housing-thessaloniki-papanastasiou.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/student-housing-thessaloniki-papanastasiou.md) — [Thessnest URL](https://thessnest.com/listing/studio-thessaloniki-student-housing-papanastasiou/) (Features: New construction, 2nd floor, modern, €480)
+
+### 🏢 Kleious / Ano Poli (9 Articles)
+- [x] [student-housing-ano-poli.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/student-housing-ano-poli.md) — [Thessnest URL](https://thessnest.com/listing/student-housing-ano-poli/) (Features: Only 2-bedroom, dishwasher & dryer, €650/€325 per person)
+- [x] [ano-poli-student-studio.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/ano-poli-student-studio.md) — [Thessnest URL](https://thessnest.com/listing/ano-poli-student-studio/) (Features: lowest deposit €250, living room area, €480)
+- [x] [erasmus-studio-ano-poli.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/erasmus-studio-ano-poli.md) — [Thessnest URL](https://thessnest.com/listing/erasmus-studio-ano-poli/) (Features: Verified high-speed Wi-Fi, music negotiation possible)
+- [x] [city-college-student-studio.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/city-college-student-studio.md) — [Thessnest URL](https://thessnest.com/listing/city-college-student-studio/) (Features: Wheelchair accessible, City College focus)
+- [x] [aristotle-university-studio.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/aristotle-university-studio.md) — [Thessnest URL](https://thessnest.com/listing/aristotle-university-studio/) (Features: Commute to AUTH on foot)
+- [x] [student-studio-ano-poli.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/student-studio-ano-poli.md) — [Thessnest URL](https://thessnest.com/listing/student-studio-ano-poli/) (Features: Calm retreat, wheelchair accessible, 4-month min stay)
+- [x] [bright-student-studio-ano-poli.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/bright-student-studio-ano-poli.md) — [Thessnest URL](https://thessnest.com/listing/bright-student-studio-ano-poli/) (Features: Natural light optimised, 4 previous tenants)
+- [x] [terrace-student-studio-ano-poli.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/terrace-student-studio-ano-poli.md) — [Thessnest URL](https://thessnest.com/listing/terrace-student-studio-ano-poli/) (Features: Private terrace, city views, 5 tenants, accessible)
+- [x] [cozy-student-studio-ano-poli.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/cozy-student-studio-ano-poli.md) — [Thessnest URL](https://thessnest.com/listing/cozy-student-studio-ano-poli/) (Features: Only solo studio with dryer, 3-month min stay, €700)

@@ -70,71 +70,71 @@ async function loadListings() {
 const LISTING_LINKS = {
   "artemidos/studio1.json": [
     "https://housinganywhere.com/room/ut1337149/gr/Thessalon%C3%ADki/artemidos",
-    "https://thessnest.com/listing/studio-in-thessaloniki-mpotsari/",
+    "https://thessnest.com/listing/studio-thessaloniki-mpotsari/",
   ],
   "artemidos/studio2.json": [
     "https://housinganywhere.com/room/ut1287306/gr/Thessalon%C3%ADki/artemidos",
-    "https://thessnest.com/listing/studio-in-thessaloniki-mpotsari-2/",
+    "https://thessnest.com/listing/erasmus-housing-thessaloniki-mpotsari/",
   ],
   "saranti/studio1.json": [
     "https://housinganywhere.com/room/ut1247530/gr/Thessalon%C3%ADki/papanastasiou-alexandrou",
-    "https://thessnest.com/listing/studio-in-thessaloniki-papanastasiou-balcony/",
+    "https://thessnest.com/listing/studio-thessaloniki-papanastasiou-balcony/",
   ],
   "saranti/studio2.json": [
     "https://housinganywhere.com/room/ut1385034/gr/Thessalon%C3%ADki/papanastasiou-alexandrou",
-    "https://thessnest.com/listing/studio-in-thessaloniki-papanastasiou/",
+    "https://thessnest.com/listing/studio-thessaloniki-student-housing-papanastasiou/",
   ],
   "kleious/studio1.json": [
     "https://housinganywhere.com/room/ut1173198/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/student-housing-thessaloniki-kleious-4/",
+    "https://thessnest.com/listing/student-housing-ano-poli/",
   ],
   "kleious/studio2.json": [
     "https://housinganywhere.com/room/ut1340075/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/apartment-in-thessaloniki-ano-poli-kleious-4/",
+    "https://thessnest.com/listing/ano-poli-student-studio/",
   ],
   "kleious/studio3.json": [
     "https://housinganywhere.com/room/ut1385687/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/student-housing-thessaloniki-kleious-d2/",
+    "https://thessnest.com/listing/erasmus-studio-ano-poli/",
   ],
   "kleious/studio4.json": [
     "https://housinganywhere.com/room/ut1549416/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/apartment-for-rent-near-city-college-kleious/",
+    "https://thessnest.com/listing/city-college-student-studio/",
   ],
   "kleious/studio5.json": [
     "https://housinganywhere.com/room/ut1645665/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/student-housing-thessaloniki-kleious-650/",
+    "https://thessnest.com/listing/aristotle-university-studio/",
   ],
   "kleious/studio6.json": [
     "https://housinganywhere.com/room/ut1694879/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/apartment-for-rent-in-kleious-40m2/",
+    "https://thessnest.com/listing/student-studio-ano-poli/",
   ],
   "kleious/studio7.json": [
     "https://housinganywhere.com/room/ut1385260/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/student-housing-thessaloniki-kleious-city/?arrive=&depart=",
+    "https://thessnest.com/listing/bright-student-studio-ano-poli/",
   ],
   "kleious/studio8.json": [
     "https://housinganywhere.com/room/ut1336624/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/student-housing-thessaloniki-kleious-terrace/",
+    "https://thessnest.com/listing/terrace-student-studio-ano-poli/",
   ],
   "kleious/studio9.json": [
     "https://housinganywhere.com/room/ut1205538/gr/Thessalon%C3%ADki/kleious",
-    "https://thessnest.com/listing/student-housing-thessaloniki-kleious-city-view/",
+    "https://thessnest.com/listing/cozy-student-studio-ano-poli/",
   ],
   "aristotelous/studio1.json": [
     "https://housinganywhere.com/room/ut1130356/gr/Thessalon%C3%ADki/aristotelous",
-    "https://thessnest.com/listing/student-housing-thessaloniki-aristotelous-bright-studio/",
+    "https://thessnest.com/listing/bright-studio-aristotelous-square/",
   ],
   "aristotelous/studio2.json": [
     "https://housinganywhere.com/room/ut1173176/gr/Thessalon%C3%ADki/aristotelous",
-    "https://thessnest.com/listing/student-housing-thessaloniki-aristotelous-studio/",
+    "https://thessnest.com/listing/minimal-studio-aristotelous-square/",
   ],
   "aristotelous/studio3.json": [
     "https://housinganywhere.com/room/ut1632264/gr/Thessalon%C3%ADki/aristotelous",
-    "https://thessnest.com/listing/student-housing-thessaloniki-terrace-studio/",
+    "https://thessnest.com/listing/terrace-studio-aristotelous-square/",
   ],
   "aristotelous/studio4.json": [
     "https://housinganywhere.com/room/ut990231/gr/Thessalon%C3%ADki/aristotelous",
-    null,
+    "https://thessnest.com/listing/central-studio-aristotelous-square/",
   ],
 };
 

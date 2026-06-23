@@ -41,4 +41,7 @@ with open(OUTPUT, "w", encoding="utf-8") as f:
     json.dump(all_listings, f, indent=2, ensure_ascii=False)
     f.write(";\n")
 
-print(f"✅ data.js rebuilt from {len(all_listings)} JSON files.")
+try:
+    print(f"✅ data.js rebuilt from {len(all_listings)} JSON files.")
+except UnicodeEncodeError:
+    print(f"data.js rebuilt from {len(all_listings)} JSON files.")
