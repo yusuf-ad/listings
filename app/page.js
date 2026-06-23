@@ -83,6 +83,7 @@ const BUILDING_NAMES = {
 export default function Home() {
   const [listings, setListings] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
   const [supabaseConnected, setSupabaseConnected] = useState(false);
   const [supabaseUrl, setSupabaseUrl] = useState("");
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
@@ -101,35 +102,64 @@ export default function Home() {
   const [toasts, setToasts] = useState([]);
 
   // Fetch initial configuration & listings
-  useEffect(() => {
-    async function loadData() {
-      try {
-        const statusRes = await fetch("/api/status");
-        if (statusRes.ok) {
-          const status = await statusRes.json();
-          setSupabaseConnected(status.connected);
-          setSupabaseUrl(status.supabaseUrl || "");
-        }
-      } catch (err) {
-        console.warn("Could not check Supabase status:", err);
-      }
+  const loadData = async (isManual = false) => {
+    if (isManual) {
+      setRefreshing(true);
+    } else {
+      setLoading(true);
+    }
 
-      try {
-        const listingsRes = await fetch("/api/listings", { cache: "no-store" });
-        if (listingsRes.ok) {
-          const data = await listingsRes.json();
-          setListings(data);
-        } else {
-          showToast("Failed to load listings from server API.", "error");
+    try {
+      const statusRes = await fetch("/api/status");
+      if (statusRes.ok) {
+        const status = await statusRes.json();
+        setSupabaseConnected(status.connected);
+        setSupabaseUrl(status.supabaseUrl || "");
+      }
+    } catch (err) {
+      console.warn("Could not check Supabase status:", err);
+    }
+
+    try {
+      const listingsRes = await fetch(`/api/listings?t=${Date.now()}`, { cache: "no-store" });
+      if (listingsRes.ok) {
+        const data = await listingsRes.json();
+        setListings(data);
+
+        // Update active listing with fresh data from database if a listing is currently selected
+        if (activeListing && activeListing.id) {
+          const freshItem = data.find(item => item.id === activeListing.id);
+          if (freshItem) {
+            setActiveListing(JSON.parse(JSON.stringify(freshItem)));
+            setOriginalListing(JSON.parse(JSON.stringify(freshItem)));
+            
+            // Sync with JSON editor input state if we are not on JSON tab
+            const clean = { ...freshItem };
+            delete clean._meta;
+            setJsonInput(JSON.stringify(clean, null, 2));
+            setJsonError("");
+          }
         }
-      } catch (err) {
-        console.error("Network error fetching listings:", err);
-        showToast("Error connecting to backend listings API.", "error");
-      } finally {
+
+        if (isManual) {
+          showToast("Listings refreshed successfully from Supabase", "success");
+        }
+      } else {
+        showToast("Failed to load listings from server API.", "error");
+      }
+    } catch (err) {
+      console.error("Network error fetching listings:", err);
+      showToast("Error connecting to backend listings API.", "error");
+    } finally {
+      if (isManual) {
+        setRefreshing(false);
+      } else {
         setLoading(false);
       }
     }
+  };
 
+  useEffect(() => {
     loadData();
   }, []);
 
@@ -210,6 +240,14 @@ export default function Home() {
     if (!activeListing || !originalListing) return false;
     return JSON.stringify(activeListing) !== JSON.stringify(originalListing);
   }, [activeListing, originalListing]);
+
+  // Handle Refresh from Supabase
+  const handleRefresh = async () => {
+    if (isDirty) {
+      if (!confirm("You have unsaved changes. Refreshing will discard them. Continue?")) return;
+    }
+    await loadData(true);
+  };
 
   // Safe setter helper for nested objects
   const updateActiveListing = (fieldPath, value) => {
@@ -455,6 +493,26 @@ export default function Home() {
             </span>
           </div>
           <div style={{ display: "flex", gap: "4px" }}>
+            <button
+              className="sidebar-toggle"
+              onClick={handleRefresh}
+              title="Refresh from Supabase"
+              disabled={refreshing || loading}
+              style={{ color: "var(--accent)" }}
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className={refreshing ? "spin" : ""}
+              >
+                <path d="M23 4v6h-6" />
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+              </svg>
+            </button>
             <button className="sidebar-toggle" onClick={handleLogout} title="Log Out" style={{ color: "var(--red)" }}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
