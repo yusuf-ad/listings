@@ -115,7 +115,7 @@ export default function Home() {
       }
 
       try {
-        const listingsRes = await fetch("/api/listings");
+        const listingsRes = await fetch("/api/listings", { cache: "no-store" });
         if (listingsRes.ok) {
           const data = await listingsRes.json();
           setListings(data);
