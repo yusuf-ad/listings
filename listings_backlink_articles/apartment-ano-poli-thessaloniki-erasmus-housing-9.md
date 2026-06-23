@@ -1,6 +1,6 @@
 ---
 title: "Cozy Student Apartment Ano Poli: The Premium 1-Bed with a View"
-slug: why-cozy-apartment-ano-poli-thessaloniki-erasmus-housing-6
+slug: why-apartment-ano-poli-thessaloniki-erasmus-housing-9
 description: "Discover the cozy student apartment Ano Poli, the premium option with a dryer, city views, and a 3-month minimum stay. The highest-spec Kleious apartment."
 focusKeyword: "cozy student apartment Ano Poli"
 category: Lifestyle
@@ -25,7 +25,7 @@ heroImage: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?q=80&w=
 
 # Cozy Student Apartment Ano Poli
 
-![Cozy student apartment Ano Poli with warm lighting, plush bedding, a view through the window, and a compact but premium interior](/images/guides/cozy-apartment-ano-poli-thessaloniki-erasmus-housing-6.webp)
+![Cozy student apartment Ano Poli with warm lighting, plush bedding, a view through the window, and a compact but premium interior](/images/guides/apartment-ano-poli-thessaloniki-erasmus-housing-9.webp)
 
 Cozy is a word that property listings overuse. It usually means small. In the case of the **cozy student apartment Ano Poli**, it means something different: a apartment where every detail has been considered, where the dryer means your laundry does not hang on a rack for three days, where the view from the window gives you the city instead of a wall, and where a three-month minimum stay means you can book for a summer internship, a short research period, or a single semester without being locked into a longer lease. This is the highest-specification solo apartment in the Kleious building, and its €700 monthly rent reflects the premium amenities that set it apart. The **cozy student apartment Ano Poli** is for the student who wants the best unit in the building and knows what that means.
 
@@ -131,7 +131,7 @@ The cozy student apartment Ano Poli occupies the top tier in the Kleious buildin
 
 - **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, lowest entry cost. Best budget option.
 - **[Erasmus Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/):** 1-bed, verified high-speed Wi-Fi. €650. Best for internet.
-- **[Terrace Student Apartment Ano Poli](https://thessnest.com/listing/terrace-apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed, private terrace. €680. Best outdoor space.
+- **[Terrace Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-8/):** 1-bed, private terrace. €680. Best outdoor space.
 - **Cozy Student Apartment Ano Poli (this listing):** 1-bed, dryer, view, 3-month minimum. €700. Highest specification.
 
 ## Practical Details
@@ -157,4 +157,4 @@ The cozy student apartment Ano Poli occupies the top tier in the Kleious buildin
 
 Premium does not mean excessive. The cozy student apartment Ano Poli is premium because every element, the dryer, the view, the flexibility, the completeness of the equipment, exists to remove friction from daily life. Fewer hours managing laundry. No minimum stay that outlasts your plan. A view that gives you space to think. At €700 per month, this is the Kleious apartment that asks: what would your best possible semester look like, and what would the room need to provide to support it?
 
-**[Book the Cozy Student Apartment Ano Poli →](https://thessnest.com/listing/cozy-apartment-ano-poli-thessaloniki-erasmus-housing-6/)**
+**[Book the Cozy Student Apartment Ano Poli →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-9/)**

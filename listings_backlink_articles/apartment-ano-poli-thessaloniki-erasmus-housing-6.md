@@ -109,7 +109,7 @@ Within the Kleious building:
 - **[Student Housing Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/):** 2-bed shared. €650 total. Best for pairs.
 - **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, lowest deposit. Best entry cost.
 - **Student Apartment Ano Poli (this listing):** 1-bed, calm retreat, wheelchair accessible. €650. Best for quiet seekers.
-- **[Bright Student Apartment Ano Poli](https://thessnest.com/listing/bright-apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed, natural light focus. €650. Best for light-lovers.
+- **[Bright Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-7/):** 1-bed, natural light focus. €650. Best for light-lovers.
 
 ## Practical Details
 

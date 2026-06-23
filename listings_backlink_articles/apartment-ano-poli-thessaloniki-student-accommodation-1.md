@@ -113,7 +113,7 @@ Student housing Ano Poli is the only multi-bedroom option in the Kleious buildin
 - **Student Housing Ano Poli (this listing):** 2-bed flat, dishwasher, dryer, living room. €650/month (€325/person).
 - **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed studio, €480/month. Private, compact.
 - **[Erasmus Studio Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/):** 1-bed, high-speed Wi-Fi. €650/month solo.
-- **[Cozy Student Apartment Ano Poli](https://thessnest.com/listing/cozy-apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed with dryer, view. €700/month solo.
+- **[Cozy Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-9/):** 1-bed with dryer, view. €700/month solo.
 
 The comparison is clear: per person, the 2-bedroom flat is the most affordable option and the only one with a living room, dishwasher, and dryer.
 

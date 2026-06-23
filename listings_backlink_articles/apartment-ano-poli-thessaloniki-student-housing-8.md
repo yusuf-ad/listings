@@ -1,6 +1,6 @@
 ---
 title: "Terrace Student Apartment Ano Poli: Outdoor Space with City Views"
-slug: why-terrace-apartment-ano-poli-thessaloniki-erasmus-housing-6
+slug: why-apartment-ano-poli-thessaloniki-student-housing-8
 description: "Discover the terrace student apartment Ano Poli. A private terrace with Thessaloniki city views, ideal for Erasmus students who live outdoors."
 focusKeyword: "terrace student apartment Ano Poli"
 category: Lifestyle
@@ -25,7 +25,7 @@ heroImage: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=
 
 # Terrace Student Apartment Ano Poli
 
-![Terrace student apartment Ano Poli private terrace at sunset with a sweeping view over the Thessaloniki rooftops toward the gulf](/images/guides/terrace-apartment-ano-poli-thessaloniki-erasmus-housing-6.webp)
+![Terrace student apartment Ano Poli private terrace at sunset with a sweeping view over the Thessaloniki rooftops toward the gulf](/images/guides/apartment-ano-poli-thessaloniki-student-housing-8.webp)
 
 A terrace in Ano Poli is not the same as a terrace in the city centre. Down below, you see the building opposite. Up here, you see the city. The rooftops cascade toward the waterfront, the Thermaikos Gulf catches the evening light, and on clear days, the faint silhouette of Mount Olympus appears on the southern horizon. The **terrace student apartment Ano Poli** puts this view behind a private door, accessible only to you, every morning, every evening, for the duration of your stay. Among the nine apartments in the Kleious building, this is the one with the grand outdoor space, and five previous tenants have confirmed that the terrace is not just a feature, it is the reason you book. If outdoor living matters to you, the **terrace student apartment Ano Poli** is the listing where inside and outside become one.
 
@@ -119,9 +119,9 @@ Not every student needs a view. But for those who find that perspective, both li
 Within the Kleious building:
 
 - **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, lowest deposit. Best budget entry.
-- **[Bright Student Apartment Ano Poli](https://thessnest.com/listing/bright-apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed, natural light, 4 tenants. €650. Best for indoor brightness.
+- **[Bright Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-7/):** 1-bed, natural light, 4 tenants. €650. Best for indoor brightness.
 - **Terrace Student Apartment Ano Poli (this listing):** 1-bed, private terrace, city views, 5 tenants. €680. Best outdoor space.
-- **[Cozy Student Apartment Ano Poli](https://thessnest.com/listing/cozy-apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed, dryer, view. €700. Highest spec.
+- **[Cozy Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-9/):** 1-bed, dryer, view. €700. Highest spec.
 
 ## Practical Details
 
@@ -145,4 +145,4 @@ Within the Kleious building:
 
 There are apartments you choose for their price, their size, or their proximity to campus. And there are apartments you choose because they change how you experience a city. The terrace student apartment Ano Poli is the second kind. It gives you Thessaloniki from above, through a private door, at an hour of your choosing. Five tenants have confirmed what the view itself makes obvious: some apartments are rooms, and some are places where semesters become memories.
 
-**[Book the Terrace Student Apartment Ano Poli →](https://thessnest.com/listing/terrace-apartment-ano-poli-thessaloniki-erasmus-housing-6/)**
+**[Book the Terrace Student Apartment Ano Poli →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-8/)**
