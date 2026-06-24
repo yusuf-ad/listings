@@ -1,17 +1,17 @@
 {
   "id": 4675,
-  "title": "Bright Studio Aristotelous Square Thessaloniki – Stunning 1-Bed Student Home",
+  "title": "Bright Studio Aristotelous Square",
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
-    "address": "Aristotelous 24A, 54623, Thessaloniki, Greece",
-    "street": "Aristotelous 24A",
     "city": "Thessaloniki Verification",
-    "zipcode": "54623",
-    "country": "Greece"
+    "street": "Aristotelous 24A",
+    "address": "Aristotelous 24A, 54623, Thessaloniki, Greece",
+    "country": "Greece",
+    "zipcode": "54623"
   },
   "about": {
-    "summary": "Bright studio Aristotelous Square is located at Aristotelous 24A, City Centre Thessaloniki. This fully equipped private studio is ideal for one student.",
+    "summary": "Bright studio Aristotelous Square is a fully equipped private student housing option in City Centre Thessaloniki. This space is ideal for students attending Aristotle University or City College, Erasmus students, and digital nomads seeking a central base.",
     "sections": [
       {
         "title": "🏠 Bright Studio Aristotelous Square",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Ideal for Erasmus Students & Nomads",
-        "content": "<p>This bright studio Aristotelous Square is ideal for Erasmus students coming for their studies, and remote digital nomads seeking a quiet central workspace. For university info, see the official <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University of Thessaloniki</a> page and the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College Europe Campus</a> website.</p><p>To compare other properties in the same building, view <a href=\"/listing/minimal-studio-aristotelous-square/\">our compact Aristotelous studio</a> or <a href=\"/listing/terrace-studio-aristotelous-square/\">our terrace Aristotelous studio</a>.</p>",
+        "content": "<p>This bright studio Aristotelous Square is ideal for Erasmus students coming for their studies, and remote digital nomads seeking a quiet central workspace. For university info, see the official <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> page and the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a> website.</p><p>To compare other properties in the same building, view <a href=\"/listing/minimal-studio-aristotelous-square-thessaloniki-student-housing-2/\">our compact Aristotelous studio</a> or <a href=\"/listing/terrace-studio-aristotelous-square-thessaloniki-erasmus-housing-3/\">our terrace Aristotelous studio</a>.</p>",
         "highlights": []
       },
       {
@@ -43,11 +43,11 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 1,
     "guests": 1,
     "bedrooms": 1,
-    "beds": 1,
     "bathrooms": 1,
-    "rooms": 1,
     "previous_tenants": 4
   },
   "amenities": [
@@ -68,26 +68,40 @@
   "pricing": {
     "price_per_month": 630,
     "security_deposit": 630,
-    "allow_additional_guests": false,
-    "minimum_stay_months": null
+    "minimum_stay_months": null,
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "No smoking. Tenant type: students and working professionals. Not suitable for couples or double occupancy. Playing musical instruments not allowed. Age and gender: no preference."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 0
   },
   "seo": {
+    "keywords": [
+      "bright studio Aristotelous Square",
+      "student housing",
+      "ideal for students",
+      "Aristotle University",
+      "City College",
+      "Erasmus students",
+      "digital nomads"
+    ],
+    "permalink": "bright-studio-aristotelous-square-thessaloniki-student-accommodation",
+    "seo_title": "Bright Studio Aristotelous Square: Cozy 1-Bed",
+    "link_history": [
+      "bright-studio-aristotelous-square",
+      "bright-studio-aristotelous-square-thessaloniki-student-accommodation-1"
+    ],
     "focus_keyword": "bright studio Aristotelous Square",
-    "seo_title": "Bright Studio Aristotelous Square, Thessaloniki: Cozy 1-Bed",
-    "permalink": "bright-studio-aristotelous-square",
-    "seo_description": "Bright studio Aristotelous Square, Thessaloniki — stunning 1 Bed, Wi-Fi, workspace. Ideal for Erasmus students and digital nomads."
+    "thessnest_link": "https://thessnest.com/listing/bright-studio-aristotelous-square-thessaloniki-student-accommodation-1/",
+    "seo_description": "Bright studio Aristotelous Square: cozy 1-bed student housing near Aristotle University. Perfect for Erasmus students & digital nomads."
   }
 }
