@@ -4,11 +4,11 @@
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
-    "address": "Aristotelous Square, Thessaloniki, Greece",
-    "street": "Aristotelous Square",
     "city": "Thessaloniki",
-    "zipcode": null,
-    "country": "Greece"
+    "street": "Aristotelous Square",
+    "address": "Aristotelous Square, Thessaloniki, Greece",
+    "country": "Greece",
+    "zipcode": null
   },
   "about": {
     "summary": "Terrace studio Aristotelous Square is a stunning private student housing option in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio features a private terrace.",
@@ -43,11 +43,11 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 1,
     "guests": 1,
     "bedrooms": 1,
-    "beds": 1,
     "bathrooms": 1,
-    "rooms": 1,
     "previous_tenants": 2
   },
   "amenities": [
@@ -65,29 +65,32 @@
     "WiFi"
   ],
   "pricing": {
+    "cleaning_fee": 20,
     "price_per_month": 680,
     "security_deposit": 680,
-    "allow_additional_guests": false,
     "minimum_stay_months": null,
-    "cleaning_fee": 20
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "No smoking. Tenant type: students and working professionals. Not suitable for couples or double occupancy. Playing musical instruments not allowed. Age and gender: no preference."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "terrace studio Aristotelous Square",
+    "permalink": "terrace-studio-aristotelous-square-temp",
     "seo_title": "Terrace Studio Aristotelous Square – Stunning 1-Bed Home",
-    "permalink": "terrace-studio-aristotelous-square",
-    "seo_description": "Terrace studio Aristotelous Square is a stunning 1-bed student accommodation choice with a private terrace. Perfect for Erasmus students & digital nomads."
+    "focus_keyword": "terrace studio Aristotelous Square",
+    "seo_description": "Terrace studio Aristotelous Square is a stunning 1-bed student accommodation choice with a private terrace. Perfect for Erasmus students & digital nomads.",
+    "link_history": [
+      "terrace-studio-aristotelous-square"
+    ]
   }
 }

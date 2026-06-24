@@ -380,8 +380,26 @@ export default function Home() {
   const handleSave = async () => {
     if (!activeListing) return;
 
+    const oldPermalink = originalListing?.seo?.permalink;
+    const newPermalink = activeListing?.seo?.permalink;
+    let finalListing = { ...activeListing };
+
+    if (oldPermalink && newPermalink && oldPermalink !== newPermalink) {
+      if (!finalListing.seo) {
+        finalListing.seo = {};
+      }
+      const seoCopy = { ...finalListing.seo };
+      const currentHistory = seoCopy.link_history ? [...seoCopy.link_history] : [];
+      
+      if (!currentHistory.includes(oldPermalink)) {
+        currentHistory.push(oldPermalink);
+        seoCopy.link_history = currentHistory;
+        finalListing.seo = seoCopy;
+      }
+    }
+
     // Clean metadata before sending to API
-    const cleanListing = { ...activeListing };
+    const cleanListing = { ...finalListing };
     delete cleanListing._meta;
 
     try {
@@ -397,9 +415,10 @@ export default function Home() {
       if (res.ok) {
         // Update local listings state array
         const updatedListings = [...listings];
-        updatedListings[currentIndex] = JSON.parse(JSON.stringify(activeListing));
+        updatedListings[currentIndex] = JSON.parse(JSON.stringify(finalListing));
         setListings(updatedListings);
-        setOriginalListing(JSON.parse(JSON.stringify(activeListing)));
+        setActiveListing(JSON.parse(JSON.stringify(finalListing)));
+        setOriginalListing(JSON.parse(JSON.stringify(finalListing)));
         showToast(`Saved ${activeListing._meta.building}/${activeListing._meta.file} successfully`, "success");
       } else {
         const err = await res.json();
@@ -806,15 +825,23 @@ export default function Home() {
                       </span>
                     )}
 
-                    {LISTING_LINKS[activeListing._meta.path]?.[1] ? (
+                    {activeListing.seo?.permalink || activeListing.seo?.thessnest_link || LISTING_LINKS[activeListing._meta.path]?.[1] ? (
                       <a
                         className="listing-link"
-                        href={LISTING_LINKS[activeListing._meta.path][1]}
+                        href={
+                          activeListing.seo?.permalink
+                            ? `https://thessnest.com/listing/${activeListing.seo.permalink}/`
+                            : (activeListing.seo?.thessnest_link || LISTING_LINKS[activeListing._meta.path][1])
+                        }
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <strong>Thessnest</strong>
-                        <span>{LISTING_LINKS[activeListing._meta.path][1]}</span>
+                        <span>
+                          {activeListing.seo?.permalink
+                            ? `https://thessnest.com/listing/${activeListing.seo.permalink}/`
+                            : (activeListing.seo?.thessnest_link || LISTING_LINKS[activeListing._meta.path][1])}
+                        </span>
                       </a>
                     ) : (
                       <span className="listing-link missing">
@@ -1358,6 +1385,129 @@ export default function Home() {
                       value={activeListing.seo?.permalink || ""}
                       onChange={(e) => updateActiveListing("seo.permalink", e.target.value)}
                     />
+                    {activeListing.seo?.permalink && (
+                      <div style={{ marginTop: "6px", fontSize: "0.85rem" }}>
+                        <span style={{ color: "var(--text-tertiary)" }}>Automatically Generated Link: </span>
+                        <a
+                          href={`https://thessnest.com/listing/${activeListing.seo.permalink}/`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{ color: "var(--accent)", textDecoration: "underline" }}
+                        >
+                          https://thessnest.com/listing/{activeListing.seo.permalink}/
+                        </a>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="form-group" style={{ marginBottom: "20px" }}>
+                    <label className="form-label">Link History (Previous Permalinks)</label>
+                    <div style={{ 
+                      background: "var(--bg-secondary)", 
+                      border: "1px solid var(--border)", 
+                      borderRadius: "var(--radius-md)", 
+                      padding: "16px",
+                      marginTop: "8px"
+                    }}>
+                      {activeListing.seo?.link_history && activeListing.seo.link_history.length > 0 ? (
+                        <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                          {activeListing.seo.link_history.map((link, idx) => {
+                            const displayLink = link.startsWith("http") ? link : `https://thessnest.com/listing/${link}/`;
+                            return (
+                              <div key={idx} style={{ 
+                                display: "flex", 
+                                alignItems: "center", 
+                                justifyContent: "space-between", 
+                                background: "var(--bg-tertiary)", 
+                                padding: "10px 14px", 
+                                borderRadius: "var(--radius-sm)", 
+                                border: "1px solid var(--border)",
+                                transition: "all 0.2s"
+                              }}>
+                                <a href={displayLink} target="_blank" rel="noopener noreferrer" style={{ 
+                                  fontSize: "0.85rem", 
+                                  color: "var(--accent)", 
+                                  textDecoration: "underline",
+                                  wordBreak: "break-all"
+                                }}>
+                                  {displayLink}
+                                </a>
+                                <button
+                                  type="button"
+                                  onClick={() => {
+                                    const history = [...activeListing.seo.link_history];
+                                    history.splice(idx, 1);
+                                    updateActiveListing("seo.link_history", history);
+                                  }}
+                                  style={{ 
+                                    background: "rgba(220, 38, 38, 0.1)", 
+                                    border: "none", 
+                                    color: "var(--red)", 
+                                    cursor: "pointer", 
+                                    fontSize: "0.75rem",
+                                    padding: "4px 8px",
+                                    borderRadius: "var(--radius-sm)",
+                                    fontWeight: "500",
+                                    marginLeft: "12px",
+                                    flexShrink: 0
+                                  }}
+                                  className="btn-delete-history"
+                                >
+                                  Remove
+                                </button>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      ) : (
+                        <div style={{ fontSize: "0.85rem", color: "var(--text-tertiary)", fontStyle: "italic", textAlign: "center", padding: "12px 0" }}>
+                          No previous links in history.
+                        </div>
+                      )}
+                      
+                      <div style={{ display: "flex", gap: "8px", marginTop: "16px" }}>
+                        <input
+                          type="text"
+                          className="form-input"
+                          placeholder="Add old permalink or link manually..."
+                          id="newHistoryItemInput"
+                          style={{ flex: 1 }}
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                              e.preventDefault();
+                              const val = e.target.value.trim();
+                              if (val) {
+                                const history = activeListing.seo?.link_history ? [...activeListing.seo.link_history] : [];
+                                if (!history.includes(val)) {
+                                  history.push(val);
+                                  updateActiveListing("seo.link_history", history);
+                                  e.target.value = "";
+                                }
+                              }
+                            }
+                          }}
+                        />
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          style={{ padding: "0 16px", height: "38px" }}
+                          onClick={() => {
+                            const input = document.getElementById("newHistoryItemInput");
+                            const val = input?.value.trim();
+                            if (val) {
+                              const history = activeListing.seo?.link_history ? [...activeListing.seo.link_history] : [];
+                              if (!history.includes(val)) {
+                                history.push(val);
+                                updateActiveListing("seo.link_history", history);
+                                input.value = "";
+                              }
+                            }
+                          }}
+                        >
+                          Add
+                        </button>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="form-group">

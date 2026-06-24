@@ -1,5 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
+import fs from "fs";
+import path from "path";
 
 export async function POST(req) {
   const SUPABASE_URL = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -50,6 +52,15 @@ export async function POST(req) {
 
     if (dbError) {
       return NextResponse.json({ error: dbError.message }, { status: 400 });
+    }
+
+    // Update local JSON file in development environment
+    try {
+      const filePath = path.join(process.cwd(), relativePath);
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n", "utf8");
+    } catch (fsError) {
+      console.error("Failed to update local JSON file:", fsError.message);
+      // We log but continue, so the API response still reports success if DB save succeeded
     }
 
     return NextResponse.json({ success: true });
