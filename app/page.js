@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
+import { performGlobalSearch, HighlightedText } from "./search-utils";
 
 const LISTING_LINKS = {
   "artemidos/listing1.json": [
@@ -101,6 +102,14 @@ export default function Home() {
   // Toast State
   const [toasts, setToasts] = useState([]);
 
+  // Command Menu Search States
+  const [searchDialogOpen, setSearchDialogOpen] = useState(false);
+  const [globalSearchQuery, setGlobalSearchQuery] = useState("");
+  const [selectedResultIndex, setSelectedResultIndex] = useState(0);
+
+  const searchInputRef = useRef(null);
+  const searchDialogRef = useRef(null);
+
   // Fetch initial configuration & listings
   const loadData = async (isManual = false) => {
     if (isManual) {
@@ -180,6 +189,84 @@ export default function Home() {
     setTimeout(() => {
       setToasts((prev) => prev.filter((t) => t.id !== id));
     }, 4000);
+  };
+
+  // Calculate matching search results dynamically
+  const globalSearchResults = useMemo(() => {
+    return performGlobalSearch(listings, globalSearchQuery);
+  }, [listings, globalSearchQuery]);
+
+  // Keyboard shortcut listener to toggle Command Menu
+  useEffect(() => {
+    const handleGlobalKeyDown = (e) => {
+      // Toggle search dialog with Cmd+K or Ctrl+K
+      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+        e.preventDefault();
+        setSearchDialogOpen((open) => {
+          if (!open) {
+            setGlobalSearchQuery("");
+            setSelectedResultIndex(0);
+          }
+          return !open;
+        });
+      }
+      
+      // Close search dialog with Escape
+      if (e.key === "Escape" && searchDialogOpen) {
+        e.preventDefault();
+        setSearchDialogOpen(false);
+      }
+    };
+    
+    document.addEventListener("keydown", handleGlobalKeyDown);
+    return () => document.removeEventListener("keydown", handleGlobalKeyDown);
+  }, [searchDialogOpen]);
+
+  // Auto-focus input when search dialog opens
+  useEffect(() => {
+    if (searchDialogOpen && searchInputRef.current) {
+      // Small timeout to ensure DOM is fully rendered
+      setTimeout(() => {
+        searchInputRef.current.focus();
+      }, 50);
+    }
+  }, [searchDialogOpen]);
+
+  // Handle arrow keys and enter in search dialog
+  const handleDialogKeyDown = (e) => {
+    if (globalSearchResults.length === 0) return;
+    
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setSelectedResultIndex((prev) => (prev + 1) % globalSearchResults.length);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setSelectedResultIndex((prev) => (prev - 1 + globalSearchResults.length) % globalSearchResults.length);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      selectSearchResult(selectedResultIndex);
+    }
+  };
+
+  // Perform action when search result is selected
+  const selectSearchResult = (resultIndex) => {
+    const result = globalSearchResults[resultIndex];
+    if (!result) return;
+    
+    // Select the listing in the main view
+    selectListing(result.index);
+    
+    // Smart tab navigation: check if matches have specific tabs, switch to the first matched tab
+    if (result.matches && result.matches.length > 0) {
+      const bestMatchTab = result.matches[0].tab;
+      if (bestMatchTab && ["overview", "about", "amenities", "pricing", "seo"].includes(bestMatchTab)) {
+        setActiveTab(bestMatchTab);
+      }
+    }
+    
+    // Close the search dialog
+    setSearchDialogOpen(false);
+    setGlobalSearchQuery("");
   };
 
   // Group listings by building and sort naturally by filename
@@ -542,7 +629,17 @@ export default function Home() {
         </div>
 
         <div className="sidebar-search">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            style={{ cursor: "pointer" }}
+            onClick={() => setSearchDialogOpen(true)}
+            title="Open Global Search (⌘K)"
+          >
             <circle cx="11" cy="11" r="8" />
             <line x1="21" y1="21" x2="16.65" y2="16.65" />
           </svg>
@@ -552,6 +649,13 @@ export default function Home() {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
+          <span
+            className="sidebar-search-kbd"
+            title="Open Global Search (⌘K)"
+            onClick={() => setSearchDialogOpen(true)}
+          >
+            ⌘K
+          </span>
         </div>
 
         <nav className="sidebar-nav">
@@ -1312,6 +1416,117 @@ export default function Home() {
           </div>
         ))}
       </div>
+
+      {/* Global Search Dialog overlay */}
+      {searchDialogOpen && (
+        <div 
+          className="command-overlay"
+          onClick={() => setSearchDialogOpen(false)}
+        >
+          <div 
+            className="command-dialog"
+            onClick={(e) => e.stopPropagation()}
+            ref={searchDialogRef}
+          >
+            <div className="command-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <input
+                ref={searchInputRef}
+                type="text"
+                className="command-input"
+                placeholder="Search listings, amenities, rules, about contents..."
+                value={globalSearchQuery}
+                onKeyDown={handleDialogKeyDown}
+                onChange={(e) => {
+                  setGlobalSearchQuery(e.target.value);
+                  setSelectedResultIndex(0);
+                }}
+              />
+              <kbd className="command-header-kbd">ESC</kbd>
+            </div>
+            
+            <div className="command-results">
+              {globalSearchQuery.trim() === "" ? (
+                <div className="command-empty">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ marginBottom: "8px" }}>
+                    <circle cx="11" cy="11" r="8" />
+                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                  </svg>
+                  <span>Type a keyword or ID to start searching...</span>
+                </div>
+              ) : globalSearchResults.length === 0 ? (
+                <div className="command-empty">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ marginBottom: "8px" }}>
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="8" y1="12" x2="16" y2="12" />
+                  </svg>
+                  <span>No listings match "{globalSearchQuery}"</span>
+                </div>
+              ) : (
+                <>
+                  <div className="command-group-title">
+                    Matching Listings ({globalSearchResults.length})
+                  </div>
+                  {globalSearchResults.map((result, ri) => (
+                    <button
+                      key={result.listing.id}
+                      className={`command-item ${selectedResultIndex === ri ? "focused" : ""}`}
+                      onClick={() => selectSearchResult(ri)}
+                      onMouseEnter={() => setSelectedResultIndex(ri)}
+                    >
+                      <div className="command-item-title-row">
+                        <span className="command-item-path">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                          </svg>
+                          <span className="building-name">{result.listing._meta.building}</span>
+                          <span>/</span>
+                          <span>{result.listing._meta.file.replace(".json", "")}</span>
+                        </span>
+                        <span className="command-item-id">#{result.listing.id}</span>
+                      </div>
+                      
+                      <div className="command-item-snippets">
+                        {result.matches.map((match, mi) => (
+                          <div key={mi} className="command-snippet-item">
+                            <span className="command-snippet-field">{match.field}:</span>
+                            <span className="command-snippet-text">
+                              <HighlightedText text={match.text} query={globalSearchQuery} />
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </button>
+                  ))}
+                </>
+              )}
+            </div>
+            
+            <div className="command-footer">
+              <div className="command-footer-kbd-list">
+                <span className="command-footer-kbd-item">
+                  <span className="command-footer-key">↑↓</span>
+                  <span>Navigate</span>
+                </span>
+                <span className="command-footer-kbd-item">
+                  <span className="command-footer-key">Enter</span>
+                  <span>Select</span>
+                </span>
+                <span className="command-footer-kbd-item">
+                  <span className="command-footer-key">Esc</span>
+                  <span>Close</span>
+                </span>
+              </div>
+              <div>
+                <span>{globalSearchResults.length} matching listings</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
