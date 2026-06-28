@@ -11,11 +11,11 @@
     "zipcode": "54623"
   },
   "about": {
-    "summary": "Bright studio Aristotelous is a fully equipped private student housing option in City Centre Thessaloniki. This space is ideal for students attending Aristotle University or City College, Erasmus students, and digital nomads seeking a central base.",
+    "summary": "Student housing Aristotelous: Bright studio is a fully equipped private studio in City Centre Thessaloniki. Ideal for students at Aristotle University or City College, Erasmus students, and digital nomads seeking a central base.",
     "sections": [
       {
-        "title": "🏠 Bright Studio Aristotelous",
-        "content": "<p>Bright studio Aristotelous is a cozy, fully furnished student housing choice in City Centre Thessaloniki. Designed for one tenant, this private studio setup offers complete comfort and independence without the hassle of shared living.</p>",
+        "title": "🏠 Student Housing Aristotelous – Bright Studio",
+        "content": "<p>Student housing Aristotelous — this cozy, fully furnished bright studio is designed for one tenant and offers complete comfort and independence without the hassle of shared living.</p>",
         "highlights": [
           "Fully equipped: Features a double bed, wardrobe, dedicated laptop workspace, private kitchenware, air conditioning, and private bathroom.",
           "Privacy & comfort: A self-contained studio on the 5th floor of an eclectic building with lift access.",
@@ -86,7 +86,7 @@
   },
   "seo": {
     "keywords": [
-      "bright studio Aristotelous",
+      "student housing Aristotelous",
       "student housing",
       "ideal for students",
       "Aristotle University",
@@ -94,15 +94,16 @@
       "Erasmus students",
       "digital nomads"
     ],
-    "permalink": "bright-studio-aristotelous-thessaloniki-student",
-    "seo_title": "Bright Studio Aristotelous: Modern 1-Bed",
+    "permalink": "bright-studio-aristotelous-thessaloniki-student-housing",
+    "seo_title": "Student Housing Aristotelous – Bright Studio",
     "link_history": [
       "bright-studio-aristotelous-square",
       "bright-studio-aristotelous-square-thessaloniki-student-accommodation-1",
-      "bright-studio-aristotelous-square-thessaloniki-student-accommodation"
+      "bright-studio-aristotelous-square-thessaloniki-student-accommodation",
+      "bright-studio-aristotelous-thessaloniki-student"
     ],
-    "focus_keyword": "bright studio Aristotelous",
-    "thessnest_link": "https://thessnest.com/listing/bright-studio-aristotelous-thessaloniki-student/",
-    "seo_description": "Bright studio Aristotelous: cozy 1-bed student housing near Aristotle University. Perfect for Erasmus students & digital nomads."
+    "focus_keyword": "student housing Aristotelous",
+    "thessnest_link": "https://thessnest.com/listing/bright-studio-aristotelous-thessaloniki-student-housing/",
+    "seo_description": "Student housing Aristotelous: bright cozy studio near Aristotle University. Perfect for Erasmus students & digital nomads in Thessaloniki."
   }
 }
