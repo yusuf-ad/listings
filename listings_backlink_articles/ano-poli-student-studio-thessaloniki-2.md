@@ -1,6 +1,6 @@
 ---
 title: "Ano Poli Student Apartment: Your Private Base at the Edge of History"
-slug: why-apartment-ano-poli-thessaloniki-student-housing-2
+slug: why-ano-poli-student-studio-thessaloniki-2
 description: "Discover the Ano Poli student apartment. A private 1-bed base with living room at the gateway to Thessaloniki's historic upper town. From €480 per month."
 focusKeyword: "Ano Poli student apartment"
 category: Lifestyle
@@ -119,7 +119,7 @@ At €480 rent with a €250 deposit, the Ano Poli student apartment has the low
 
 The Kleious building offers nine options. Here is where the Ano Poli student apartment sits:
 
-- **[Student Housing Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/):** 2-bed shared flat, €650 (€325/person). Best for pairs.
+- **[Student Housing Ano Poli](https://thessnest.com/listing/student-housing-ano-poli-thessaloniki-1/):** 2-bed shared flat, €650 (€325/person). Best for pairs.
 - **Ano Poli Student Apartment (this listing):** 1-bed with living room, €480, €250 deposit. Best entry cost.
 - **[Erasmus Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/):** 1-bed, high-speed Wi-Fi. €650. Best for digital workers.
 - **[City College Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-4/):** 1-bed, wheelchair accessible. €650. Best for City College students.
@@ -147,4 +147,4 @@ The Kleious building offers nine options. Here is where the Ano Poli student apa
 
 The apartments that feel largest are not always the ones with the most square metres. They are the ones that give you room to shift between activities, to move from desk to sofa to kitchen without feeling confined. The Ano Poli student apartment, with its separate living room and its position at the gateway to the most atmospheric neighbourhood in Thessaloniki, offers exactly that kind of breathing space, at a price and deposit that respect a student's budget. History is up the hill. The city is down the hill. You are right where both begin.
 
-**[Book the Ano Poli Student Apartment →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/)**
+**[Book the Ano Poli Student Apartment →](https://thessnest.com/listing/ano-poli-student-studio-thessaloniki-2/)**

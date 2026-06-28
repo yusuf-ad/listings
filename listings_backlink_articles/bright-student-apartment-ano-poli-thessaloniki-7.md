@@ -1,6 +1,6 @@
 ---
 title: "Bright Student Apartment Ano Poli: Natural Light for Better Study Days"
-slug: why-apartment-ano-poli-thessaloniki-student-accommodation-7
+slug: why-bright-student-apartment-ano-poli-thessaloniki-7
 description: "Discover the bright student apartment Ano Poli. Natural light, full amenities, and a dedicated workspace in Thessaloniki's historic upper town."
 focusKeyword: "bright student apartment Ano Poli"
 category: Lifestyle
@@ -113,7 +113,7 @@ Students arriving from northern Europe, where winter daylight is scarce, sometim
 
 Within the Kleious building:
 
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, living room, €480, lowest deposit. Best budget option.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-studio-thessaloniki-2/):** 1-bed, living room, €480, lowest deposit. Best budget option.
 - **Bright Student Apartment Ano Poli (this listing):** 1-bed, natural light focus, 4 tenants proven. €650. Best for light-lovers.
 - **[Terrace Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-8/):** 1-bed with terrace. €680. Best outdoor space.
 - **[Cozy Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-9/):** 1-bed with dryer and view. €700. Premium option.
@@ -140,4 +140,4 @@ Within the Kleious building:
 
 Light is not a luxury in student housing. It is infrastructure for the mind. The bright student apartment Ano Poli was designed to capture Thessaloniki's abundant sunlight and direct it where it matters, across your desk, through your living space, and into the daily rhythms of a semester that runs on concentration and clarity. Four previous tenants chose this apartment for the same reason, and each one left the space as bright as they found it.
 
-**[Book the Bright Student Apartment Ano Poli →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-7/)**
+**[Book the Bright Student Apartment Ano Poli →](https://thessnest.com/listing/bright-student-apartment-ano-poli-thessaloniki-7/)**

@@ -1,6 +1,6 @@
 ---
 title: "Student Housing Ano Poli: The Only 2-Bedroom Option in the Upper Town"
-slug: why-apartment-ano-poli-thessaloniki-student-accommodation-1
+slug: why-student-housing-ano-poli-thessaloniki-1
 description: "Discover student housing Ano Poli, the only 2-bedroom flat in Thessaloniki's upper town. Share with a friend, split costs, and live in historic Ano Poli."
 focusKeyword: "Student housing Ano Poli"
 category: Lifestyle
@@ -111,7 +111,7 @@ At €325 per person, student housing Ano Poli frees up more of your budget for 
 Student housing Ano Poli is the only multi-bedroom option in the Kleious building. The other eight units are solo studios:
 
 - **Student Housing Ano Poli (this listing):** 2-bed flat, dishwasher, dryer, living room. €650/month (€325/person).
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed studio, €480/month. Private, compact.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-studio-thessaloniki-2/):** 1-bed studio, €480/month. Private, compact.
 - **[Erasmus Studio Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/):** 1-bed, high-speed Wi-Fi. €650/month solo.
 - **[Cozy Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-9/):** 1-bed with dryer, view. €700/month solo.
 
@@ -144,4 +144,4 @@ The comparison is clear: per person, the 2-bedroom flat is the most affordable o
 
 Solo studios have their place. But student housing Ano Poli offers something they cannot: shared life in a shared space, with the appliances and layout to make sharing easy rather than endured. At €325 per person in the most atmospheric neighbourhood in Thessaloniki, with an excellent review from someone who lived the experience, this flat is the clearest answer to a common Erasmus question: where can two friends live well for less?
 
-**[Book Student Housing Ano Poli →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/)**
+**[Book Student Housing Ano Poli →](https://thessnest.com/listing/student-housing-ano-poli-thessaloniki-1/)**

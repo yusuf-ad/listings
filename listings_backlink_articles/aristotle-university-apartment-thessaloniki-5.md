@@ -127,8 +127,8 @@ Students enrolled in programmes that span both institutions benefit from the Kle
 
 Within the Kleious building:
 
-- **[Student Housing Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/):** 2-bed shared. €650 total. Best for pairs.
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, lowest deposit. Best entry cost.
+- **[Student Housing Ano Poli](https://thessnest.com/listing/student-housing-ano-poli-thessaloniki-1/):** 2-bed shared. €650 total. Best for pairs.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-studio-thessaloniki-2/):** 1-bed, €480, lowest deposit. Best entry cost.
 - **Aristotle University Apartment (this listing):** 1-bed, living room, walking distance to AUTH. €650. Best for AUTH students.
 - **[Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-6/):** 1-bed, calm retreat. €650. Best for quiet seekers.
 

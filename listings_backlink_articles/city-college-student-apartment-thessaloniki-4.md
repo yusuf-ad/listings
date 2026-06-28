@@ -121,8 +121,8 @@ Students on exchange programmes taught in English, whether at City College or Ar
 
 Within the Kleious building:
 
-- **[Student Housing Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/):** 2-bed shared flat. €650 total. Best for pairs.
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, low deposit. Best budget entry.
+- **[Student Housing Ano Poli](https://thessnest.com/listing/student-housing-ano-poli-thessaloniki-1/):** 2-bed shared flat. €650 total. Best for pairs.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-studio-thessaloniki-2/):** 1-bed, €480, low deposit. Best budget entry.
 - **City College Student Apartment (this listing):** 1-bed, wheelchair accessible, living room. €650. Best for accessibility.
 - **[Aristotle University Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-5/):** 1-bed, AUTH-focused. €650. Best for AUTH students.
 

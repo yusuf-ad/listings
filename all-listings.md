@@ -52,8 +52,8 @@ This document contains a structured overview of all accommodation listings, incl
 
 | Unit | HousingAnywhere Link | Thessnest Link | Calendar API Status / Feed |
 | :--- | :--- | :--- | :--- |
-| **Apartment 1** | [🔗 View Listing](https://housinganywhere.com/room/ut1173198/gr/Thessalon%C3%ADki/kleious) | [🔗 View Thessnest](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/1819945/calendar/d8f0f743513f233feb0f7d473fa60e43/en) |
-| **Apartment 2** | [🔗 View Listing](https://housinganywhere.com/room/ut1340075/gr/Thessalon%C3%ADki/kleious) | [🔗 View Thessnest](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/) | `🟢 Calendar Set` |
+| **Apartment 1** | [🔗 View Listing](https://housinganywhere.com/room/ut1173198/gr/Thessalon%C3%ADki/kleious) | [🔗 View Thessnest](https://thessnest.com/listing/student-housing-ano-poli-thessaloniki-1/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/1819945/calendar/d8f0f743513f233feb0f7d473fa60e43/en) |
+| **Apartment 2** | [🔗 View Listing](https://housinganywhere.com/room/ut1340075/gr/Thessalon%C3%ADki/kleious) | [🔗 View Thessnest](https://thessnest.com/listing/ano-poli-student-studio-thessaloniki-2/) | `🟢 Calendar Set` |
 | **Apartment 3** | [🔗 View Listing](https://housinganywhere.com/room/ut1385687/gr/Thessalon%C3%ADki/kleious) | [🔗 View Thessnest](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/2043939/calendar/69d00513d1d0b635f2db477c312d793a/en) |
 | **Apartment 4** | [🔗 View Listing](https://housinganywhere.com/room/ut1549416/gr/Thessalon%C3%ADki/kleious) | [🔗 View Thessnest](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-4/) | `🟢 Calendar Set` |
 | **Apartment 5** | [🔗 View Listing](https://housinganywhere.com/room/ut1645665/gr/Thessalon%C3%ADki/kleious) | [🔗 View Thessnest](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-5/) | `🟢 Calendar Set` |

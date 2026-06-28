@@ -486,6 +486,29 @@ export default function Home() {
     showToast("HTML copy successful!", "success");
   };
 
+  // Copy Missing SEO Requirements
+  const handleCopyMissingSeoRequirements = () => {
+    if (!activeListing) return;
+    const checks = computeSeoChecklist(activeListing);
+    const failedChecks = checks.filter((c) => !c.pass);
+    if (failedChecks.length === 0) {
+      showToast("All SEO checklist items passed! Nothing to copy.", "success");
+      return;
+    }
+    const building = activeListing._meta?.building || "";
+    const file = activeListing._meta?.file?.replace(".json", "") || "";
+    const title = activeListing.title || "";
+    const fk = activeListing.seo?.focus_keyword || "Not Set";
+    
+    const header = `Missing SEO Requirements for ${building}/${file} (${title})\nFocus Keyword: "${fk}"\n\n`;
+    const text = header + failedChecks
+      .map((c) => `- [${c.category}] ${c.label}: ${c.detail}`)
+      .join("\n");
+      
+    navigator.clipboard.writeText(text);
+    showToast("Failed SEO requirements copied to clipboard!", "success");
+  };
+
   // Download JSON
   const handleDownload = () => {
     if (!activeListing) return;
@@ -1939,16 +1962,38 @@ export default function Home() {
 
                     {/* ── SEO Checklist ── */}
                     <div className="panel-divider" />
-                    <div className="seo-checklist-header">
+                    <div className="seo-checklist-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "16px" }}>
                       <div>
                         <div className="panel-title" style={{ marginBottom: "4px" }}>SEO Checklist</div>
                         <div style={{ fontSize: "0.82rem", color: "var(--text-tertiary)" }}>
                           Auto-checked against your tasks.md guidelines
                         </div>
                       </div>
-                      <div className="seo-score-pill" style={{ background: scoreColor }}>
-                        <span className="seo-score-num">{passCount}/{total}</span>
-                        <span className="seo-score-label">{scoreLabel}</span>
+                      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+                        <button
+                          type="button"
+                          className="btn btn-ghost btn-sm"
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            gap: "6px",
+                            padding: "6px 12px",
+                            fontSize: "0.8rem",
+                            borderRadius: "var(--radius-sm)"
+                          }}
+                          onClick={handleCopyMissingSeoRequirements}
+                          title="Copy missing SEO requirements to clipboard"
+                        >
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                          </svg>
+                          Copy Requirements
+                        </button>
+                        <div className="seo-score-pill" style={{ background: scoreColor, margin: 0 }}>
+                          <span className="seo-score-num">{passCount}/{total}</span>
+                          <span className="seo-score-label">{scoreLabel}</span>
+                        </div>
                       </div>
                     </div>
 

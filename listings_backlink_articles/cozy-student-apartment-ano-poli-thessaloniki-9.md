@@ -1,6 +1,6 @@
 ---
 title: "Cozy Student Apartment Ano Poli: The Premium 1-Bed with a View"
-slug: why-apartment-ano-poli-thessaloniki-erasmus-housing-9
+slug: why-cozy-student-apartment-ano-poli-thessaloniki-9
 description: "Discover the cozy student apartment Ano Poli, the premium option with a dryer, city views, and a 3-month minimum stay. The highest-spec Kleious apartment."
 focusKeyword: "cozy student apartment Ano Poli"
 category: Lifestyle
@@ -129,7 +129,7 @@ Visiting researchers and postdoctoral fellows on three-month grants need short-l
 
 The cozy student apartment Ano Poli occupies the top tier in the Kleious building:
 
-- **[Ano Poli Student Apartment](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-2/):** 1-bed, €480, lowest entry cost. Best budget option.
+- **[Ano Poli Student Apartment](https://thessnest.com/listing/ano-poli-student-studio-thessaloniki-2/):** 1-bed, €480, lowest entry cost. Best budget option.
 - **[Erasmus Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/):** 1-bed, verified high-speed Wi-Fi. €650. Best for internet.
 - **[Terrace Student Apartment Ano Poli](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-8/):** 1-bed, private terrace. €680. Best outdoor space.
 - **Cozy Student Apartment Ano Poli (this listing):** 1-bed, dryer, view, 3-month minimum. €700. Highest specification.
@@ -157,4 +157,4 @@ The cozy student apartment Ano Poli occupies the top tier in the Kleious buildin
 
 Premium does not mean excessive. The cozy student apartment Ano Poli is premium because every element, the dryer, the view, the flexibility, the completeness of the equipment, exists to remove friction from daily life. Fewer hours managing laundry. No minimum stay that outlasts your plan. A view that gives you space to think. At €700 per month, this is the Kleious apartment that asks: what would your best possible semester look like, and what would the room need to provide to support it?
 
-**[Book the Cozy Student Apartment Ano Poli →](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-9/)**
+**[Book the Cozy Student Apartment Ano Poli →](https://thessnest.com/listing/cozy-student-apartment-ano-poli-thessaloniki-9/)**
