@@ -8,6 +8,12 @@ export const metadata = {
   description: "View and edit property listing JSON files for Thessaloniki student housing.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

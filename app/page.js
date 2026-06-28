@@ -89,6 +89,7 @@ export default function Home() {
   const [supabaseConnected, setSupabaseConnected] = useState(false);
   const [supabaseUrl, setSupabaseUrl] = useState("");
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [activeBuildingCollapsed, setActiveBuildingCollapsed] = useState({});
 
@@ -99,6 +100,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState("overview");
   const [jsonInput, setJsonInput] = useState("");
   const [jsonError, setJsonError] = useState("");
+  const [showAboutPreview, setShowAboutPreview] = useState(false);
 
   // Toast State
   const [toasts, setToasts] = useState([]);
@@ -620,8 +622,34 @@ export default function Home() {
 
   return (
     <div className="app">
+      {/* Mobile overlay backdrop */}
+      {mobileSidebarOpen && (
+        <div className="mobile-overlay" onClick={() => setMobileSidebarOpen(false)} />
+      )}
+
+      {/* Mobile top bar */}
+      <div className="mobile-topbar">
+        <button className="mobile-hamburger" onClick={() => setMobileSidebarOpen(true)} aria-label="Open menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+        <div className="mobile-topbar-logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+          <span>Listing Manager</span>
+        </div>
+        {activeListing && (
+          <span className="mobile-topbar-listing">{activeListing._meta.file.replace(".json", "")}</span>
+        )}
+      </div>
+
       {/* Sidebar */}
-      <aside className={`sidebar ${sidebarCollapsed ? "collapsed" : ""}`}>
+      <aside className={`sidebar ${sidebarCollapsed ? "collapsed" : ""} ${mobileSidebarOpen ? "mobile-open" : ""}`}>
         <div className="sidebar-header">
           <div className="logo">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -702,6 +730,13 @@ export default function Home() {
                 <line x1="3" y1="18" x2="21" y2="18" />
               </svg>
             </button>
+            {/* Close button — visible only on mobile */}
+            <button className="sidebar-toggle mobile-close-btn" onClick={() => setMobileSidebarOpen(false)} title="Close sidebar">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
           </div>
         </div>
 
@@ -765,7 +800,7 @@ export default function Home() {
                       <div
                         className={`nav-item ${currentIndex === index ? "active" : ""}`}
                         key={listing.id}
-                        onClick={() => selectListing(index)}
+                        onClick={() => { selectListing(index); setMobileSidebarOpen(false); }}
                       >
                         <span className="nav-id">#{listing.id}</span>
                         <span className="nav-title">{listing._meta.file.replace(".json", "")}</span>
@@ -1138,74 +1173,129 @@ export default function Home() {
               {/* About Tab */}
               {activeTab === "about" && (
                 <div className="tab-panel active">
-                  <div className="panel-title">Summary</div>
-                  <div className="form-group full-width" style={{ marginBottom: "24px" }}>
-                    <textarea
-                      className="form-textarea"
-                      rows={4}
-                      value={activeListing.about?.summary || ""}
-                      onChange={(e) => updateActiveListing("about.summary", e.target.value)}
-                    />
+                  {/* About Tab Header with Preview Toggle */}
+                  <div className="about-tab-header">
+                    <div className="about-tab-header-left">
+                      <span className="about-tab-title">About Content</span>
+                    </div>
+                    <button
+                      className={`btn-preview-toggle ${showAboutPreview ? "active" : ""}`}
+                      onClick={() => setShowAboutPreview((v) => !v)}
+                      title={showAboutPreview ? "Hide Preview" : "Show Preview"}
+                    >
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                        <circle cx="12" cy="12" r="3" />
+                      </svg>
+                      {showAboutPreview ? "Edit" : "Preview"}
+                    </button>
                   </div>
 
-                  <div className="panel-title">Sections</div>
-                  <div>
-                    {(activeListing.about?.sections || []).map((section, si) => (
-                      <div className="section-card" key={si}>
-                        <div className="section-card-header">
-                          <span className="section-number">Section {si + 1}</span>
-                          <button className="btn btn-danger btn-sm" onClick={() => removeSection(si)}>
-                            Delete
-                          </button>
-                        </div>
-                        <div className="form-group" style={{ marginBottom: "12px" }}>
-                          <label className="form-label">Title</label>
-                          <input
-                            className="form-input"
-                            value={section.title || ""}
-                            onChange={(e) => handleSectionChange(si, "title", e.target.value)}
-                          />
-                        </div>
-                        <div className="form-group" style={{ marginBottom: "12px" }}>
-                          <label className="form-label">Content</label>
-                          <textarea
-                            className="form-textarea"
-                            rows={3}
-                            value={section.content || ""}
-                            onChange={(e) => handleSectionChange(si, "content", e.target.value)}
-                          />
-                        </div>
-                        <div className="form-label" style={{ marginBottom: "8px" }}>
-                          Highlights
-                        </div>
-                        <div className="highlights-list">
-                          {(section.highlights || []).map((h, hi) => (
-                            <div className="highlight-item" key={hi}>
-                              <input
-                                className="form-input"
-                                value={h || ""}
-                                onChange={(e) => handleHighlightChange(si, hi, e.target.value)}
-                              />
-                              <button className="btn-remove" onClick={() => removeHighlight(si, hi)} title="Remove">
-                                ✕
+                  {showAboutPreview ? (
+                    /* ── Preview Mode ── */
+                    <div className="about-preview-wrapper">
+                      <div className="about-preview-label">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <circle cx="12" cy="12" r="10" />
+                          <line x1="12" y1="8" x2="12" y2="12" />
+                          <line x1="12" y1="16" x2="12.01" y2="16" />
+                        </svg>
+                        Sitedeki görünüm — max-width: 750px
+                      </div>
+                      <div className="about-preview-frame">
+                        <div
+                          className="about-preview-content"
+                          dangerouslySetInnerHTML={{
+                            __html: (() => {
+                              const sections = activeListing.about?.sections || [];
+                              return sections
+                                .map((s) => {
+                                  let html = `<h3>${s.title || ""}</h3>\n${s.content || ""}`;
+                                  if (s.highlights && s.highlights.length > 0) {
+                                    const items = s.highlights.map((h) => `  <li>${h}</li>`).join("\n");
+                                    html += `\n<ul>\n${items}\n</ul>`;
+                                  }
+                                  return html;
+                                })
+                                .join("\n\n");
+                            })(),
+                          }}
+                        />
+                      </div>
+                    </div>
+                  ) : (
+                    /* ── Edit Mode ── */
+                    <>
+                      <div className="panel-title">Summary</div>
+                      <div className="form-group full-width" style={{ marginBottom: "24px" }}>
+                        <textarea
+                          className="form-textarea"
+                          rows={4}
+                          value={activeListing.about?.summary || ""}
+                          onChange={(e) => updateActiveListing("about.summary", e.target.value)}
+                        />
+                      </div>
+
+                      <div className="panel-title">Sections</div>
+                      <div>
+                        {(activeListing.about?.sections || []).map((section, si) => (
+                          <div className="section-card" key={si}>
+                            <div className="section-card-header">
+                              <span className="section-number">Section {si + 1}</span>
+                              <button className="btn btn-danger btn-sm" onClick={() => removeSection(si)}>
+                                Delete
                               </button>
                             </div>
-                          ))}
-                        </div>
-                        <button className="btn-add-highlight" onClick={() => addHighlight(si)}>
-                          + Add Highlight
-                        </button>
+                            <div className="form-group" style={{ marginBottom: "12px" }}>
+                              <label className="form-label">Title</label>
+                              <input
+                                className="form-input"
+                                value={section.title || ""}
+                                onChange={(e) => handleSectionChange(si, "title", e.target.value)}
+                              />
+                            </div>
+                            <div className="form-group" style={{ marginBottom: "12px" }}>
+                              <label className="form-label">Content</label>
+                              <textarea
+                                className="form-textarea"
+                                rows={3}
+                                value={section.content || ""}
+                                onChange={(e) => handleSectionChange(si, "content", e.target.value)}
+                              />
+                            </div>
+                            <div className="form-label" style={{ marginBottom: "8px" }}>
+                              Highlights
+                            </div>
+                            <div className="highlights-list">
+                              {(section.highlights || []).map((h, hi) => (
+                                <div className="highlight-item" key={hi}>
+                                  <input
+                                    className="form-input"
+                                    value={h || ""}
+                                    onChange={(e) => handleHighlightChange(si, hi, e.target.value)}
+                                  />
+                                  <button className="btn-remove" onClick={() => removeHighlight(si, hi)} title="Remove">
+                                    ✕
+                                  </button>
+                                </div>
+                              ))}
+                            </div>
+                            <button className="btn-add-highlight" onClick={() => addHighlight(si)}>
+                              + Add Highlight
+                            </button>
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
 
-                  <button className="btn btn-ghost" onClick={addSection} style={{ marginTop: "16px" }}>
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <line x1="12" y1="5" x2="12" y2="19" />
-                      <line x1="5" y1="12" x2="19" y2="12" />
-                    </svg>
-                    Add Section
-                  </button>
+                      <button className="btn btn-ghost" onClick={addSection} style={{ marginTop: "16px" }}>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                          <line x1="12" y1="5" x2="12" y2="19" />
+                          <line x1="5" y1="12" x2="19" y2="12" />
+                        </svg>
+                        Add Section
+                      </button>
+                    </>
+                  )}
                 </div>
               )}
 
