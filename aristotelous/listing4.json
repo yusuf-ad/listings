@@ -4,11 +4,11 @@
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
-    "address": "Aristotelous Square, Thessaloniki, Greece",
-    "street": "Aristotelous Square",
     "city": "Thessaloniki",
-    "zipcode": null,
-    "country": "Greece"
+    "street": "Aristotelous Square",
+    "address": "Aristotelous Square, Thessaloniki, Greece",
+    "country": "Greece",
+    "zipcode": null
   },
   "about": {
     "summary": "Student accommodation Aristotelous: Central studio is a cozy choice in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads.",
@@ -43,11 +43,11 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 1,
     "guests": 1,
     "bedrooms": 1,
-    "beds": 1,
     "bathrooms": 1,
-    "rooms": 1,
     "previous_tenants": 7
   },
   "amenities": [
@@ -64,35 +64,24 @@
   "pricing": {
     "price_per_month": 650,
     "security_deposit": 650,
-    "allow_additional_guests": false,
+    "maximum_stay_months": 12,
     "minimum_stay_months": null,
-    "maximum_stay_months": 12
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "Keep the shared areas clean and tidy. Respect quiet hours after 22:00. No unauthorized guests staying overnight."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "student accommodation Aristotelous",
-    "seo_title": "Student Accommodation Aristotelous – Central Studio",
-    "permalink": "central-studio-aristotelous-thessaloniki-student-accommodation",
-    "thessnest_link": "https://thessnest.com/listing/central-studio-aristotelous-thessaloniki-student-accommodation/",
-    "link_history": [
-      "central-studio-aristotelous-square",
-      "central-studio-aristotelous-square-thessaloniki-student-accommodation-4",
-      "central-studio-aristotelous-square-thessaloniki-student-accommodation",
-      "central-studio-aristotelous-thessaloniki-student"
-    ],
-    "seo_description": "Student accommodation Aristotelous: central cozy studio near Aristotle University. Perfect for Erasmus students & digital nomads in Thessaloniki.",
     "keywords": [
       "student accommodation Aristotelous",
       "student housing",
@@ -101,6 +90,18 @@
       "City College",
       "Erasmus students",
       "digital nomads"
-    ]
+    ],
+    "permalink": "central-studio-student-accommodation-aristotelous-thessaloniki",
+    "seo_title": "Student Accommodation Aristotelous – Central Studio",
+    "link_history": [
+      "central-studio-aristotelous-square",
+      "central-studio-aristotelous-square-thessaloniki-student-accommodation-4",
+      "central-studio-aristotelous-square-thessaloniki-student-accommodation",
+      "central-studio-aristotelous-thessaloniki-student",
+      "central-studio-aristotelous-thessaloniki-student-accommodation"
+    ],
+    "focus_keyword": "student accommodation Aristotelous",
+    "thessnest_link": "https://thessnest.com/listing/central-studio-aristotelous-thessaloniki-student-accommodation/",
+    "seo_description": "Student accommodation Aristotelous: central cozy studio near Aristotle University. Perfect for Erasmus students & digital nomads in Thessaloniki."
   }
 }

@@ -605,6 +605,242 @@ export default function Home() {
     }
   };
 
+  // ── SEO Checklist ──────────────────────────────────────────────────────
+  const computeSeoChecklist = (listing) => {
+    if (!listing) return [];
+
+    const fk = (listing.seo?.focus_keyword || "").toLowerCase().trim();
+    const seoTitle = listing.seo?.seo_title || "";
+    const seoDesc = listing.seo?.seo_description || "";
+    const permalink = listing.seo?.permalink || "";
+
+    // Build plain-text body from summary + all sections (title + content + highlights)
+    const sections = listing.about?.sections || [];
+    const bodyParts = [
+      listing.about?.summary || "",
+      ...sections.flatMap((s) => [
+        s.title || "",
+        // Strip HTML tags from content
+        (s.content || "").replace(/<[^>]+>/g, " "),
+        ...(s.highlights || []),
+      ]),
+    ];
+    const fullBodyText = bodyParts.join(" ");
+    const fullBodyLower = fullBodyText.toLowerCase();
+
+    // All section heading text combined
+    const allHeadings = sections.map((s) => (s.title || "").toLowerCase()).join(" ");
+
+    // First paragraph = summary text
+    const summaryLower = (listing.about?.summary || "").toLowerCase();
+    // First section content
+    const firstSectionContent = sections[0]
+      ? ((sections[0].title || "") + " " + (sections[0].content || "").replace(/<[^>]+>/g, " ")).toLowerCase()
+      : "";
+
+    // Word count of about content
+    const aboutWordCount = fullBodyText
+      .split(/\s+/)
+      .filter((w) => w.length > 0).length;
+
+    // All HTML from sections combined (to check links)
+    const allHtml = sections.map((s) => s.content || "").join(" ");
+
+    const hasOutboundLink = /href=["']https?:\/\/(?!thessnest\.com)[^"']+["']/i.test(allHtml);
+    const hasDoFollowLink = /href=["']https?:\/\/[^"']+["'](?![^>]*rel=["'][^"']*nofollow)/i.test(allHtml) &&
+      !/rel=["'][^"']*nofollow[^"']*["']/i.test(allHtml);
+    const hasInternalLink = /href=["']\/listing\/[^"']+["']/i.test(allHtml);
+
+    // Keyword density in body
+    const fkOccurrences = fk
+      ? (fullBodyLower.match(new RegExp(fk.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g")) || []).length
+      : 0;
+    const totalWords = fullBodyText.split(/\s+/).filter((w) => w.length > 0).length || 1;
+    const kwDensity = ((fkOccurrences / totalWords) * 100).toFixed(2);
+
+    const POWER_WORDS = [
+      "stunning", "cozy", "exclusive", "perfect", "bright", "minimal", "modern",
+      "ultimate", "ideal", "prime", "best", "top", "amazing", "beautiful", "elegant",
+      "luxurious", "premium", "private", "quiet", "affordable", "central",
+      "terrace", "spacious", "compact", "charming", "vibrant",
+    ];
+    const titleLower = (listing.title || "").toLowerCase();
+    const hasPowerWord = POWER_WORDS.some((pw) => titleLower.includes(pw));
+    const hasNumber = /\d/.test(listing.title || "");
+    const titleStartsWithFk = fk ? titleLower.startsWith(fk) : false;
+
+    const checks = [
+      // ── Basic SEO ──
+      {
+        category: "Basic SEO",
+        label: "Focus Keyword in SEO Title",
+        pass: fk ? seoTitle.toLowerCase().includes(fk) : false,
+        detail: fk
+          ? seoTitle.toLowerCase().includes(fk)
+            ? `Found "${fk}" in title`
+            : `"${fk}" not found in SEO title`
+          : "No focus keyword set",
+      },
+      {
+        category: "Basic SEO",
+        label: "Focus Keyword in Meta Description",
+        pass: fk ? seoDesc.toLowerCase().includes(fk) : false,
+        detail: fk
+          ? seoDesc.toLowerCase().includes(fk)
+            ? `Found "${fk}" in meta description`
+            : `"${fk}" not found in meta description`
+          : "No focus keyword set",
+      },
+      {
+        category: "Basic SEO",
+        label: "Focus Keyword in URL/Permalink",
+        pass: fk ? permalink.toLowerCase().includes(fk.replace(/\s+/g, "-")) : false,
+        detail: fk
+          ? permalink.toLowerCase().includes(fk.replace(/\s+/g, "-"))
+            ? `Found "${fk.replace(/\s+/g, "-")}" in permalink`
+            : `"${fk.replace(/\s+/g, "-")}" not found in permalink (${permalink})`
+          : "No focus keyword set",
+      },
+      {
+        category: "Basic SEO",
+        label: "Focus Keyword at Beginning of Content",
+        pass: fk
+          ? summaryLower.startsWith(fk) || firstSectionContent.trim().startsWith(fk)
+          : false,
+        detail: fk
+          ? summaryLower.startsWith(fk) || firstSectionContent.trim().startsWith(fk)
+            ? `"${fk}" appears at beginning of content`
+            : `"${fk}" does not appear at the very start of the content`
+          : "No focus keyword set",
+      },
+      {
+        category: "Basic SEO",
+        label: "Focus Keyword Appears in Content Body",
+        pass: fkOccurrences >= 2,
+        detail: `Appears ${fkOccurrences} time(s) in content${fkOccurrences < 2 ? " (need ≥2)" : ""}`,
+      },
+      {
+        category: "Basic SEO",
+        label: "SEO Title Under 60 Characters",
+        pass: seoTitle.length > 0 && seoTitle.length <= 60,
+        detail: `${seoTitle.length} / 60 chars${seoTitle.length > 60 ? " — TOO LONG" : ""}`,
+      },
+      {
+        category: "Basic SEO",
+        label: "Meta Description Under 160 Characters",
+        pass: seoDesc.length > 0 && seoDesc.length <= 160,
+        detail: `${seoDesc.length} / 160 chars${seoDesc.length > 160 ? " — TOO LONG" : ""}`,
+      },
+      {
+        category: "Basic SEO",
+        label: "Permalink Under 75 Characters",
+        pass: permalink.length > 0 && permalink.length <= 75,
+        detail: `${permalink.length} / 75 chars${permalink.length > 75 ? " — TOO LONG" : ""}`,
+      },
+      {
+        category: "Basic SEO",
+        label: "About Content Under 400 Words",
+        pass: aboutWordCount > 0 && aboutWordCount <= 400,
+        detail: `${aboutWordCount} words${aboutWordCount > 400 ? " — TOO LONG" : ""}`,
+      },
+      // ── Additional SEO ──
+      {
+        category: "Additional SEO",
+        label: "Focus Keyword in a Subheading (H2/H3/H4)",
+        pass: fk ? allHeadings.includes(fk) : false,
+        detail: fk
+          ? allHeadings.includes(fk)
+            ? `Found "${fk}" in a section heading`
+            : `"${fk}" not found in any section heading`
+          : "No focus keyword set",
+      },
+      {
+        category: "Additional SEO",
+        label: "Healthy Keyword Density (1–1.5%)",
+        pass: parseFloat(kwDensity) >= 1.0 && parseFloat(kwDensity) <= 2.5,
+        detail: `Density: ${kwDensity}% (${fkOccurrences} occurrences in ${totalWords} words)`,
+      },
+      {
+        category: "Additional SEO",
+        label: "Outbound Link to External Resource",
+        pass: hasOutboundLink,
+        detail: hasOutboundLink
+          ? "External outbound link found in content"
+          : "No outbound link to external resource found",
+      },
+      {
+        category: "Additional SEO",
+        label: "DoFollow Link to External Resource",
+        pass: hasDoFollowLink,
+        detail: hasDoFollowLink
+          ? "DoFollow external link found"
+          : "No DoFollow external link detected (check rel= attributes)",
+      },
+      {
+        category: "Additional SEO",
+        label: "Internal Link to Another Listing",
+        pass: hasInternalLink,
+        detail: hasInternalLink
+          ? "Internal /listing/ link found in content"
+          : "No internal link to another listing found",
+      },
+      // ── Title Readability ──
+      {
+        category: "Title Readability",
+        label: "Title Starts with Focus Keyword",
+        pass: titleStartsWithFk,
+        detail: titleStartsWithFk
+          ? `Title starts with "${fk}"`
+          : `Title does not start with focus keyword (starts with: "${(listing.title || "").slice(0, 30)}...")`,
+      },
+      {
+        category: "Title Readability",
+        label: "Title Contains a Power Word",
+        pass: hasPowerWord,
+        detail: hasPowerWord
+          ? `Power word detected in title`
+          : `No power word found (e.g. stunning, cozy, bright, perfect, ideal...)`,
+      },
+      {
+        category: "Title Readability",
+        label: "Title Contains a Number",
+        pass: hasNumber,
+        detail: hasNumber
+          ? "Number found in title"
+          : "No number in listing title",
+      },
+      // ── Content Readability ──
+      {
+        category: "Content Readability",
+        label: "Content Uses Bullet Highlights",
+        pass: sections.some((s) => s.highlights && s.highlights.length > 0),
+        detail: sections.some((s) => s.highlights && s.highlights.length > 0)
+          ? `${sections.reduce((acc, s) => acc + (s.highlights?.length || 0), 0)} bullet highlight(s) across sections`
+          : "No bullet highlights found in any section",
+      },
+      {
+        category: "Content Readability",
+        label: "Short Paragraphs (≤4 sentences each)",
+        pass: sections.every((s) => {
+          const text = (s.content || "").replace(/<[^>]+>/g, " ");
+          const sentences = text.split(/[.!?]+/).filter((t) => t.trim().length > 0);
+          return sentences.length <= 4;
+        }),
+        detail: (() => {
+          const worst = sections.reduce((acc, s) => {
+            const text = (s.content || "").replace(/<[^>]+>/g, " ");
+            const count = text.split(/[.!?]+/).filter((t) => t.trim().length > 0).length;
+            return count > acc ? count : acc;
+          }, 0);
+          return `Max ${worst} sentence(s) in a single section`;
+        })(),
+      },
+    ];
+
+    return checks;
+  };
+  // ────────────────────────────────────────────────────────────────────────
+
   const handleLogout = async () => {
     try {
       const res = await fetch("/api/logout", {
@@ -1505,170 +1741,269 @@ export default function Home() {
               )}
 
               {/* SEO Tab */}
-              {activeTab === "seo" && (
-                <div className="tab-panel active">
-                  <div className="panel-title">SEO Optimization</div>
-                  <div className="form-group" style={{ marginBottom: "16px" }}>
-                    <label className="form-label">Focus Keyword</label>
-                    <input
-                      className="form-input"
-                      value={activeListing.seo?.focus_keyword || ""}
-                      onChange={(e) => updateActiveListing("seo.focus_keyword", e.target.value)}
-                    />
-                  </div>
+              {activeTab === "seo" && (() => {
+                const seoChecks = computeSeoChecklist(activeListing);
+                const passCount = seoChecks.filter((c) => c.pass).length;
+                const total = seoChecks.length;
+                const pct = Math.round((passCount / total) * 100);
+                const scoreColor = pct >= 85 ? "var(--green)" : pct >= 60 ? "var(--orange)" : "var(--red)";
+                const scoreLabel = pct >= 85 ? "Good" : pct >= 60 ? "Needs Work" : "Poor";
 
-                  <div className="form-group" style={{ marginBottom: "16px" }}>
-                    <label className="form-label">SEO Title</label>
-                    <input
-                      className="form-input"
-                      value={activeListing.seo?.seo_title || ""}
-                      onChange={(e) => updateActiveListing("seo.seo_title", e.target.value)}
-                    />
-                  </div>
+                const categories = [...new Set(seoChecks.map((c) => c.category))];
 
-                  <div className="form-group" style={{ marginBottom: "16px" }}>
-                    <label className="form-label">Permalink / URL Slug</label>
-                    <input
-                      className="form-input"
-                      value={activeListing.seo?.permalink || ""}
-                      onChange={(e) => updateActiveListing("seo.permalink", e.target.value)}
-                    />
-                    {activeListing.seo?.permalink && (
-                      <div style={{ marginTop: "6px", fontSize: "0.85rem" }}>
-                        <span style={{ color: "var(--text-tertiary)" }}>Automatically Generated Link: </span>
-                        <a
-                          href={`https://thessnest.com/listing/${activeListing.seo.permalink}/`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          style={{ color: "var(--accent)", textDecoration: "underline" }}
-                        >
-                          https://thessnest.com/listing/{activeListing.seo.permalink}/
-                        </a>
-                      </div>
-                    )}
-                  </div>
+                return (
+                  <div className="tab-panel active">
+                    {/* ── Fields ── */}
+                    <div className="panel-title">SEO Fields</div>
+                    <div className="form-group" style={{ marginBottom: "16px" }}>
+                      <label className="form-label">Focus Keyword</label>
+                      <input
+                        className="form-input"
+                        value={activeListing.seo?.focus_keyword || ""}
+                        onChange={(e) => updateActiveListing("seo.focus_keyword", e.target.value)}
+                      />
+                    </div>
 
-                  <div className="form-group" style={{ marginBottom: "20px" }}>
-                    <label className="form-label">Link History (Previous Permalinks)</label>
-                    <div style={{ 
-                      background: "var(--bg-secondary)", 
-                      border: "1px solid var(--border)", 
-                      borderRadius: "var(--radius-md)", 
-                      padding: "16px",
-                      marginTop: "8px"
-                    }}>
-                      {activeListing.seo?.link_history && activeListing.seo.link_history.length > 0 ? (
-                        <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                          {activeListing.seo.link_history.map((link, idx) => {
-                            const displayLink = link.startsWith("http") ? link : `https://thessnest.com/listing/${link}/`;
-                            return (
-                              <div key={idx} style={{ 
-                                display: "flex", 
-                                alignItems: "center", 
-                                justifyContent: "space-between", 
-                                background: "var(--bg-tertiary)", 
-                                padding: "10px 14px", 
-                                borderRadius: "var(--radius-sm)", 
-                                border: "1px solid var(--border)",
-                                transition: "all 0.2s"
-                              }}>
-                                <a href={displayLink} target="_blank" rel="noopener noreferrer" style={{ 
-                                  fontSize: "0.85rem", 
-                                  color: "var(--accent)", 
-                                  textDecoration: "underline",
-                                  wordBreak: "break-all"
-                                }}>
-                                  {displayLink}
-                                </a>
-                                <button
-                                  type="button"
-                                  onClick={() => {
-                                    const history = [...activeListing.seo.link_history];
-                                    history.splice(idx, 1);
-                                    updateActiveListing("seo.link_history", history);
-                                  }}
-                                  style={{ 
-                                    background: "rgba(220, 38, 38, 0.1)", 
-                                    border: "none", 
-                                    color: "var(--red)", 
-                                    cursor: "pointer", 
-                                    fontSize: "0.75rem",
-                                    padding: "4px 8px",
-                                    borderRadius: "var(--radius-sm)",
-                                    fontWeight: "500",
-                                    marginLeft: "12px",
-                                    flexShrink: 0
-                                  }}
-                                  className="btn-delete-history"
-                                >
-                                  Remove
-                                </button>
-                              </div>
-                            );
-                          })}
-                        </div>
-                      ) : (
-                        <div style={{ fontSize: "0.85rem", color: "var(--text-tertiary)", fontStyle: "italic", textAlign: "center", padding: "12px 0" }}>
-                          No previous links in history.
+                    <div className="form-group" style={{ marginBottom: "16px" }}>
+                      <label className="form-label">SEO Title
+                        <span style={{
+                          marginLeft: "8px",
+                          fontSize: "0.78rem",
+                          fontWeight: 400,
+                          color: (activeListing.seo?.seo_title || "").length > 60 ? "var(--red)" : "var(--text-tertiary)"
+                        }}>
+                          {(activeListing.seo?.seo_title || "").length}/60
+                        </span>
+                      </label>
+                      <input
+                        className="form-input"
+                        value={activeListing.seo?.seo_title || ""}
+                        onChange={(e) => updateActiveListing("seo.seo_title", e.target.value)}
+                        style={{ borderColor: (activeListing.seo?.seo_title || "").length > 60 ? "var(--red)" : undefined }}
+                      />
+                    </div>
+
+                    <div className="form-group" style={{ marginBottom: "16px" }}>
+                      <label className="form-label">Permalink / URL Slug
+                        <span style={{
+                          marginLeft: "8px",
+                          fontSize: "0.78rem",
+                          fontWeight: 400,
+                          color: (activeListing.seo?.permalink || "").length > 75 ? "var(--red)" : "var(--text-tertiary)"
+                        }}>
+                          {(activeListing.seo?.permalink || "").length}/75
+                        </span>
+                      </label>
+                      <input
+                        className="form-input"
+                        value={activeListing.seo?.permalink || ""}
+                        onChange={(e) => updateActiveListing("seo.permalink", e.target.value)}
+                        style={{ borderColor: (activeListing.seo?.permalink || "").length > 75 ? "var(--red)" : undefined }}
+                      />
+                      {activeListing.seo?.permalink && (
+                        <div style={{ marginTop: "6px", fontSize: "0.85rem" }}>
+                          <span style={{ color: "var(--text-tertiary)" }}>Generated URL: </span>
+                          <a
+                            href={`https://thessnest.com/listing/${activeListing.seo.permalink}/`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "var(--accent)", textDecoration: "underline" }}
+                          >
+                            https://thessnest.com/listing/{activeListing.seo.permalink}/
+                          </a>
                         </div>
                       )}
-                      
-                      <div style={{ display: "flex", gap: "8px", marginTop: "16px" }}>
-                        <input
-                          type="text"
-                          className="form-input"
-                          placeholder="Add old permalink or link manually..."
-                          id="newHistoryItemInput"
-                          style={{ flex: 1 }}
-                          onKeyDown={(e) => {
-                            if (e.key === "Enter") {
-                              e.preventDefault();
-                              const val = e.target.value.trim();
+                    </div>
+
+                    <div className="form-group" style={{ marginBottom: "20px" }}>
+                      <label className="form-label">Link History (Previous Permalinks)</label>
+                      <div style={{ 
+                        background: "var(--bg-secondary)", 
+                        border: "1px solid var(--border)", 
+                        borderRadius: "var(--radius-md)", 
+                        padding: "16px",
+                        marginTop: "8px"
+                      }}>
+                        {activeListing.seo?.link_history && activeListing.seo.link_history.length > 0 ? (
+                          <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                            {activeListing.seo.link_history.map((link, idx) => {
+                              const displayLink = link.startsWith("http") ? link : `https://thessnest.com/listing/${link}/`;
+                              return (
+                                <div key={idx} style={{ 
+                                  display: "flex", 
+                                  alignItems: "center", 
+                                  justifyContent: "space-between", 
+                                  background: "var(--bg-tertiary)", 
+                                  padding: "10px 14px", 
+                                  borderRadius: "var(--radius-sm)", 
+                                  border: "1px solid var(--border)",
+                                  transition: "all 0.2s"
+                                }}>
+                                  <a href={displayLink} target="_blank" rel="noopener noreferrer" style={{ 
+                                    fontSize: "0.85rem", 
+                                    color: "var(--accent)", 
+                                    textDecoration: "underline",
+                                    wordBreak: "break-all"
+                                  }}>
+                                    {displayLink}
+                                  </a>
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      const history = [...activeListing.seo.link_history];
+                                      history.splice(idx, 1);
+                                      updateActiveListing("seo.link_history", history);
+                                    }}
+                                    style={{ 
+                                      background: "rgba(220, 38, 38, 0.1)", 
+                                      border: "none", 
+                                      color: "var(--red)", 
+                                      cursor: "pointer", 
+                                      fontSize: "0.75rem",
+                                      padding: "4px 8px",
+                                      borderRadius: "var(--radius-sm)",
+                                      fontWeight: "500",
+                                      marginLeft: "12px",
+                                      flexShrink: 0
+                                    }}
+                                    className="btn-delete-history"
+                                  >
+                                    Remove
+                                  </button>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        ) : (
+                          <div style={{ fontSize: "0.85rem", color: "var(--text-tertiary)", fontStyle: "italic", textAlign: "center", padding: "12px 0" }}>
+                            No previous links in history.
+                          </div>
+                        )}
+                        
+                        <div style={{ display: "flex", gap: "8px", marginTop: "16px" }}>
+                          <input
+                            type="text"
+                            className="form-input"
+                            placeholder="Add old permalink or link manually..."
+                            id="newHistoryItemInput"
+                            style={{ flex: 1 }}
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") {
+                                e.preventDefault();
+                                const val = e.target.value.trim();
+                                if (val) {
+                                  const history = activeListing.seo?.link_history ? [...activeListing.seo.link_history] : [];
+                                  if (!history.includes(val)) {
+                                    history.push(val);
+                                    updateActiveListing("seo.link_history", history);
+                                    e.target.value = "";
+                                  }
+                                }
+                              }
+                            }}
+                          />
+                          <button
+                            type="button"
+                            className="btn btn-secondary"
+                            style={{ padding: "0 16px", height: "38px" }}
+                            onClick={() => {
+                              const input = document.getElementById("newHistoryItemInput");
+                              const val = input?.value.trim();
                               if (val) {
                                 const history = activeListing.seo?.link_history ? [...activeListing.seo.link_history] : [];
                                 if (!history.includes(val)) {
                                   history.push(val);
                                   updateActiveListing("seo.link_history", history);
-                                  e.target.value = "";
+                                  input.value = "";
                                 }
                               }
-                            }
-                          }}
-                        />
-                        <button
-                          type="button"
-                          className="btn btn-secondary"
-                          style={{ padding: "0 16px", height: "38px" }}
-                          onClick={() => {
-                            const input = document.getElementById("newHistoryItemInput");
-                            const val = input?.value.trim();
-                            if (val) {
-                              const history = activeListing.seo?.link_history ? [...activeListing.seo.link_history] : [];
-                              if (!history.includes(val)) {
-                                history.push(val);
-                                updateActiveListing("seo.link_history", history);
-                                input.value = "";
-                              }
-                            }
-                          }}
-                        >
-                          Add
-                        </button>
+                            }}
+                          >
+                            Add
+                          </button>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div className="form-group">
-                    <label className="form-label">SEO Meta Description</label>
-                    <textarea
-                      className="form-textarea"
-                      rows={3}
-                      value={activeListing.seo?.seo_description || ""}
-                      onChange={(e) => updateActiveListing("seo.seo_description", e.target.value)}
-                    />
+                    <div className="form-group" style={{ marginBottom: "32px" }}>
+                      <label className="form-label">SEO Meta Description
+                        <span style={{
+                          marginLeft: "8px",
+                          fontSize: "0.78rem",
+                          fontWeight: 400,
+                          color: (activeListing.seo?.seo_description || "").length > 160 ? "var(--red)" : "var(--text-tertiary)"
+                        }}>
+                          {(activeListing.seo?.seo_description || "").length}/160
+                        </span>
+                      </label>
+                      <textarea
+                        className="form-textarea"
+                        rows={3}
+                        value={activeListing.seo?.seo_description || ""}
+                        onChange={(e) => updateActiveListing("seo.seo_description", e.target.value)}
+                        style={{ borderColor: (activeListing.seo?.seo_description || "").length > 160 ? "var(--red)" : undefined }}
+                      />
+                    </div>
+
+                    {/* ── SEO Checklist ── */}
+                    <div className="panel-divider" />
+                    <div className="seo-checklist-header">
+                      <div>
+                        <div className="panel-title" style={{ marginBottom: "4px" }}>SEO Checklist</div>
+                        <div style={{ fontSize: "0.82rem", color: "var(--text-tertiary)" }}>
+                          Auto-checked against your tasks.md guidelines
+                        </div>
+                      </div>
+                      <div className="seo-score-pill" style={{ background: scoreColor }}>
+                        <span className="seo-score-num">{passCount}/{total}</span>
+                        <span className="seo-score-label">{scoreLabel}</span>
+                      </div>
+                    </div>
+
+                    {/* Progress bar */}
+                    <div className="seo-progress-bar-track">
+                      <div
+                        className="seo-progress-bar-fill"
+                        style={{ width: `${pct}%`, background: scoreColor }}
+                      />
+                    </div>
+
+                    {/* Checks by category */}
+                    <div className="seo-checklist">
+                      {categories.map((cat) => (
+                        <div key={cat} className="seo-checklist-group">
+                          <div className="seo-checklist-category">{cat}</div>
+                          {seoChecks
+                            .filter((c) => c.category === cat)
+                            .map((check, ci) => (
+                              <div
+                                key={ci}
+                                className={`seo-check-item ${check.pass ? "pass" : "fail"}`}
+                              >
+                                <span className="seo-check-icon">
+                                  {check.pass ? (
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+                                      <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                  ) : (
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3">
+                                      <line x1="18" y1="6" x2="6" y2="18" />
+                                      <line x1="6" y1="6" x2="18" y2="18" />
+                                    </svg>
+                                  )}
+                                </span>
+                                <div className="seo-check-body">
+                                  <span className="seo-check-label">{check.label}</span>
+                                  <span className="seo-check-detail">{check.detail}</span>
+                                </div>
+                              </div>
+                            ))}
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )}
+                );
+              })()}
 
               {/* Raw JSON Tab */}
               {activeTab === "json" && (

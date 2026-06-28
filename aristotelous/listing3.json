@@ -85,17 +85,6 @@
     "reviews_count": 0
   },
   "seo": {
-    "permalink": "terrace-studio-aristotelous-thessaloniki-erasmus-housing",
-    "thessnest_link": "https://thessnest.com/listing/terrace-studio-aristotelous-thessaloniki-erasmus-housing/",
-    "link_history": [
-      "terrace-studio-aristotelous-square-temp",
-      "terrace-studio-aristotelous-square",
-      "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing-3",
-      "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing"
-    ],
-    "seo_title": "Aristotelous Erasmus Housing – Terrace Studio",
-    "focus_keyword": "Aristotelous erasmus housing",
-    "seo_description": "Aristotelous erasmus housing: terrace studio with private outdoor space near Aristotle University. Perfect for Erasmus students & digital nomads.",
     "keywords": [
       "Aristotelous erasmus housing",
       "student housing",
@@ -104,6 +93,18 @@
       "City College",
       "Erasmus students",
       "digital nomads"
-    ]
+    ],
+    "permalink": "terrace-studio-aristotelous-erasmus-housing-thessaloniki",
+    "seo_title": "Aristotelous Erasmus Housing – Terrace Studio",
+    "link_history": [
+      "terrace-studio-aristotelous-square-temp",
+      "terrace-studio-aristotelous-square",
+      "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing-3",
+      "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing",
+      "terrace-studio-aristotelous-thessaloniki-erasmus-housing"
+    ],
+    "focus_keyword": "Aristotelous erasmus housing",
+    "thessnest_link": "https://thessnest.com/listing/terrace-studio-aristotelous-thessaloniki-erasmus-housing/",
+    "seo_description": "Aristotelous erasmus housing: terrace studio with private outdoor space near Aristotle University. Perfect for Erasmus students & digital nomads."
   }
 }
