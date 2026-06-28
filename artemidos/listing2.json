@@ -1,6 +1,6 @@
 {
   "id": 4430,
-  "title": "Erasmus Housing Thessaloniki Mpotsari",
+  "title": "Artemidos Erasmus Studio Thessaloniki Mpotsari: Cozy 1-Bed",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
@@ -11,11 +11,11 @@
     "zipcode": "54644"
   },
   "about": {
-    "summary": "Erasmus housing Mpotsari: cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads seeking independence.",
+    "summary": "Artemidos Erasmus studio Thessaloniki Mpotsari is a cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for Erasmus students and digital nomads.",
     "sections": [
       {
-        "title": "🏠 Erasmus Housing Mpotsari – Studio Thessaloniki",
-        "content": "<p>Erasmus housing Mpotsari — this cozy, fully equipped studio is designed for one tenant and features practical appliances and a comfortable layout that avoids the need for shared spaces.</p>",
+        "title": "🏠 Artemidos Erasmus Studio Thessaloniki Mpotsari – Modern Studio",
+        "content": "<p>Artemidos Erasmus studio Thessaloniki Mpotsari — this cozy, fully equipped studio is designed for one tenant and features practical appliances and a comfortable layout that avoids the need for shared spaces.</p>",
         "highlights": [
           "Comfortable configuration: 1 Bedroom / 1 Bed for single occupancy.",
           "Ideal for students: Dedicated workspace and central transport links.",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This Erasmus housing Mpotsari studio is ideal for exchange students, Cedefop interns, and digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the complex, view <a href=\"/listing/studio-mpotsari-thessaloniki-student-accommodation/\">our Mpotsari student studio</a>.</p>",
+        "content": "<p>This Artemidos Erasmus studio Thessaloniki Mpotsari is ideal for exchange students, Cedefop interns, and digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the complex, view <a href=\"/listing/artemidos-studio-thessaloniki-mpotsari/\">our Mpotsari student studio</a>.</p>",
         "highlights": []
       },
       {
@@ -85,7 +85,10 @@
   },
   "seo": {
     "keywords": [
-      "erasmus housing Mpotsari",
+      "Artemidos Erasmus studio Thessaloniki Mpotsari",
+      "Artemidos",
+      "Artemidos studio",
+      "Erasmus housing Thessaloniki Mpotsari",
       "student housing",
       "ideal for students",
       "Aristotle University",
@@ -93,14 +96,15 @@
       "Erasmus students",
       "digital nomads"
     ],
-    "permalink": "studio-mpotsari-thessaloniki-erasmus-housing",
-    "seo_title": "Erasmus Housing Mpotsari – Cozy 1-Bed Studio",
+    "permalink": "artemidos-erasmus-studio-thessaloniki-mpotsari",
     "link_history": [
+      "studio-mpotsari-thessaloniki-erasmus-housing",
       "erasmus-housing-thessaloniki-mpotsari",
       "studio-mpotsari-thessaloniki-erasmus-housing-2"
     ],
-    "focus_keyword": "erasmus housing Mpotsari",
-    "thessnest_link": "https://thessnest.com/listing/studio-mpotsari-thessaloniki-erasmus-housing/",
-    "seo_description": "Erasmus housing Mpotsari: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads. Cheapest option at €460."
+    "focus_keyword": "Artemidos Erasmus studio Thessaloniki Mpotsari",
+    "thessnest_link": "https://thessnest.com/listing/artemidos-erasmus-studio-thessaloniki-mpotsari/",
+    "seo_title": "Artemidos Erasmus Studio Thessaloniki Mpotsari: Cozy 1-Bed",
+    "seo_description": "Artemidos Erasmus studio Thessaloniki Mpotsari: cozy 1-bed studio. Perfect for students & nomads at €460."
   }
 }

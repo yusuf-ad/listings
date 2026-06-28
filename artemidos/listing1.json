@@ -1,6 +1,6 @@
 {
   "id": 4655,
-  "title": "Studio Thessaloniki Mpotsari",
+  "title": "Artemidos Studio Thessaloniki Mpotsari: Perfect 1-Bed",
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
@@ -11,11 +11,11 @@
     "zipcode": "546 44"
   },
   "about": {
-    "summary": "Student accommodation Mpotsari: cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads seeking a central base.",
+    "summary": "Artemidos studio Thessaloniki Mpotsari is a cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for Erasmus students and digital nomads.",
     "sections": [
       {
-        "title": "🏠 Student Accommodation Mpotsari – Studio Thessaloniki",
-        "content": "<p>Student accommodation Mpotsari — this cozy, fully furnished studio is designed for one tenant and features a double bed, private balcony, and a comfortable layout that avoids the hassle of shared rooms.</p>",
+        "title": "🏠 Artemidos Studio Thessaloniki Mpotsari – Cozy Studio",
+        "content": "<p>Artemidos studio Thessaloniki Mpotsari — this cozy, fully furnished studio is designed for one tenant and features a double bed, private balcony, and a comfortable layout that avoids the hassle of shared rooms.</p>",
         "highlights": [
           "Comfortable configuration: 1 Bedroom / 1 Bed for single occupancy.",
           "Ideal for students: Quiet study desk and central transport access.",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This studio Thessaloniki Mpotsari is a great Erasmus housing option for students and remote digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-mpotsari-thessaloniki-erasmus-housing/\">our Mpotsari Erasmus studio</a>.</p>",
+        "content": "<p>This Artemidos studio Thessaloniki Mpotsari is a great Erasmus housing option for students and remote digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/artemidos-erasmus-studio-thessaloniki-mpotsari/\">our Mpotsari Erasmus studio</a>.</p>",
         "highlights": []
       },
       {
@@ -74,7 +74,7 @@
     "party_allowed": false,
     "smoking_allowed": false,
     "children_allowed": false,
-    "additional_rules_info": "Smoking permitted outside only, not inside the apartment. Tenant type: students and working professionals. Not suitable for couples. Playing musical instruments not allowed. Age and gender: no preference."
+    "additional_rules_info": "Smoking permitted outside only, not inside the studio. Tenant type: students and working professionals. Not suitable for couples. Playing musical instruments not allowed. Age and gender: no preference."
   },
   "host": {
     "name": "Ana",
@@ -84,7 +84,10 @@
   },
   "seo": {
     "keywords": [
-      "student accommodation Mpotsari",
+      "Artemidos studio Thessaloniki Mpotsari",
+      "Artemidos",
+      "Artemidos studio",
+      "studio Thessaloniki Mpotsari",
       "student housing",
       "ideal for students",
       "Aristotle University",
@@ -92,14 +95,15 @@
       "Erasmus students",
       "digital nomads"
     ],
-    "permalink": "studio-mpotsari-thessaloniki-student-accommodation",
-    "seo_title": "Student Accommodation Mpotsari – Cozy 1-Bed Studio",
+    "permalink": "artemidos-studio-thessaloniki-mpotsari",
     "link_history": [
+      "studio-mpotsari-thessaloniki-student-accommodation",
       "studio-thessaloniki-mpotsari",
       "studio-mpotsari-thessaloniki-student-accommodation-1"
     ],
-    "focus_keyword": "student accommodation Mpotsari",
-    "thessnest_link": "https://thessnest.com/listing/studio-mpotsari-thessaloniki-student-accommodation/",
-    "seo_description": "Student accommodation Mpotsari: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads in Thessaloniki."
+    "focus_keyword": "Artemidos studio Thessaloniki Mpotsari",
+    "thessnest_link": "https://thessnest.com/listing/artemidos-studio-thessaloniki-mpotsari/",
+    "seo_title": "Artemidos Studio Thessaloniki Mpotsari: Perfect 1-Bed",
+    "seo_description": "Artemidos studio Thessaloniki Mpotsari: cozy 1-bed studio. Perfect for Erasmus students & digital nomads."
   }
 }

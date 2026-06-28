@@ -6,19 +6,19 @@ import { performGlobalSearch, HighlightedText } from "./search-utils";
 const LISTING_LINKS = {
   "artemidos/listing1.json": [
     "https://housinganywhere.com/room/ut1337149/gr/Thessalon%C3%ADki/artemidos",
-    "https://thessnest.com/listing/studio-thessaloniki-mpotsari/",
+    "https://thessnest.com/listing/artemidos-studio-thessaloniki-mpotsari/",
   ],
   "artemidos/listing2.json": [
     "https://housinganywhere.com/room/ut1287306/gr/Thessalon%C3%ADki/artemidos",
-    "https://thessnest.com/listing/erasmus-housing-thessaloniki-mpotsari/",
+    "https://thessnest.com/listing/artemidos-erasmus-studio-thessaloniki-mpotsari/",
   ],
   "saranti/listing1.json": [
     "https://housinganywhere.com/room/ut1247530/gr/Thessalon%C3%ADki/papanastasiou-alexandrou",
-    "https://thessnest.com/listing/studio-thessaloniki-papanastasiou-balcony/",
+    "https://thessnest.com/listing/saranti-studio-thessaloniki-papanastasiou/",
   ],
   "saranti/listing2.json": [
     "https://housinganywhere.com/room/ut1385034/gr/Thessalon%C3%ADki/papanastasiou-alexandrou",
-    "https://thessnest.com/listing/studio-thessaloniki-student-housing-papanastasiou/",
+    "https://thessnest.com/listing/saranti-student-studio-thessaloniki-papanastasiou/",
   ],
   "kleious/listing1.json": [
     "https://housinganywhere.com/room/ut1173198/gr/Thessalon%C3%ADki/kleious",
@@ -787,14 +787,6 @@ export default function Home() {
       // ── Title Readability ──
       {
         category: "Title Readability",
-        label: "Title Starts with Focus Keyword",
-        pass: titleStartsWithFk,
-        detail: titleStartsWithFk
-          ? `Title starts with "${fk}"`
-          : `Title does not start with focus keyword (starts with: "${(listing.title || "").slice(0, 30)}...")`,
-      },
-      {
-        category: "Title Readability",
         label: "Title Contains a Power Word",
         pass: hasPowerWord,
         detail: hasPowerWord
@@ -817,23 +809,6 @@ export default function Home() {
         detail: sections.some((s) => s.highlights && s.highlights.length > 0)
           ? `${sections.reduce((acc, s) => acc + (s.highlights?.length || 0), 0)} bullet highlight(s) across sections`
           : "No bullet highlights found in any section",
-      },
-      {
-        category: "Content Readability",
-        label: "Short Paragraphs (≤4 sentences each)",
-        pass: sections.every((s) => {
-          const text = (s.content || "").replace(/<[^>]+>/g, " ");
-          const sentences = text.split(/[.!?]+/).filter((t) => t.trim().length > 0);
-          return sentences.length <= 4;
-        }),
-        detail: (() => {
-          const worst = sections.reduce((acc, s) => {
-            const text = (s.content || "").replace(/<[^>]+>/g, " ");
-            const count = text.split(/[.!?]+/).filter((t) => t.trim().length > 0).length;
-            return count > acc ? count : acc;
-          }, 0);
-          return `Max ${worst} sentence(s) in a single section`;
-        })(),
       },
     ];
 

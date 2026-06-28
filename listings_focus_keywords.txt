@@ -2,8 +2,8 @@ bright studio Aristotelous Square
 minimal studio Aristotelous Square
 terrace studio Aristotelous Square
 central studio Aristotelous Square
-studio Thessaloniki Mpotsari
-Erasmus housing Thessaloniki Mpotsari
+Artemidos studio Thessaloniki Mpotsari
+Artemidos Erasmus studio Thessaloniki Mpotsari
 Student housing Ano Poli
 Ano Poli student studio
 Erasmus studio Ano Poli
@@ -13,5 +13,5 @@ student studio Ano Poli
 bright student studio Ano Poli
 terrace student studio Ano Poli
 cozy student studio Ano Poli
-studio Thessaloniki Papanastasiou
-student housing Thessaloniki Papanastasiou
+Saranti studio Thessaloniki Papanastasiou
+Saranti student studio Thessaloniki Papanastasiou

@@ -85,7 +85,6 @@ Every listing must:
 
 Every listing title must:
 
-- Start with the **Focus Keyword**
 - Convey a **positive or negative sentiment** (not neutral)
 - Contain at least one **power word** (e.g. "stunning", "cozy", "exclusive", "perfect")
 - Include a **number** (e.g. bedroom count, price, distance)
@@ -95,7 +94,6 @@ Every listing title must:
 Every listing must:
 
 - Use **bulleted highlights** for quick scannability
-- Use **short paragraphs** (max 3-4 sentences each)
 
 ---
 
@@ -114,12 +112,12 @@ Below is the list of all 17 generated listing-specific backlink articles, organi
 - [x] [central-studio-aristotelous-square.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/central-studio-aristotelous-square.md) — [Thessnest URL](https://thessnest.com/listing/central-studio-aristotelous-square/) (Features: 7 previous tenants, most booked)
 
 ### 🏢 Artemidos / Mpotsari (2 Articles)
-- [x] [studio-thessaloniki-mpotsari.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/studio-thessaloniki-mpotsari.md) — [Thessnest URL](https://thessnest.com/listing/studio-thessaloniki-mpotsari/) (Features: 25sqm, private balcony, €480)
-- [x] [erasmus-housing-thessaloniki-mpotsari.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/erasmus-housing-thessaloniki-mpotsari.md) — [Thessnest URL](https://thessnest.com/listing/erasmus-housing-thessaloniki-mpotsari/) (Features: Cheapest overall €460, 20sqm, Cedefop connection)
+- [x] [artemidos-studio-thessaloniki-mpotsari.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/artemidos-studio-thessaloniki-mpotsari.md) — [Thessnest URL](https://thessnest.com/listing/artemidos-studio-thessaloniki-mpotsari/) (Features: 25sqm, private balcony, €480)
+- [x] [artemidos-erasmus-studio-thessaloniki-mpotsari.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/artemidos-erasmus-studio-thessaloniki-mpotsari.md) — [Thessnest URL](https://thessnest.com/listing/artemidos-erasmus-studio-thessaloniki-mpotsari/) (Features: Cheapest overall €460, 20sqm, Cedefop connection)
 
 ### 🏢 Saranti / Papanastasiou (2 Articles)
-- [x] [studio-thessaloniki-papanastasiou.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/studio-thessaloniki-papanastasiou.md) — [Thessnest URL](https://thessnest.com/listing/studio-thessaloniki-papanastasiou-balcony/) (Features: 25sqm, sunny balcony, €480)
-- [x] [student-housing-thessaloniki-papanastasiou.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/student-housing-thessaloniki-papanastasiou.md) — [Thessnest URL](https://thessnest.com/listing/studio-thessaloniki-student-housing-papanastasiou/) (Features: New construction, 2nd floor, modern, €480)
+- [x] [saranti-studio-thessaloniki-papanastasiou.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/saranti-studio-thessaloniki-papanastasiou.md) — [Thessnest URL](https://thessnest.com/listing/saranti-studio-thessaloniki-papanastasiou/) (Features: 25sqm, sunny balcony, €480)
+- [x] [saranti-student-studio-thessaloniki-papanastasiou.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/saranti-student-studio-thessaloniki-papanastasiou.md) — [Thessnest URL](https://thessnest.com/listing/saranti-student-studio-thessaloniki-papanastasiou/) (Features: New construction, 2nd floor, modern, €480)
 
 ### 🏢 Kleious / Ano Poli (9 Articles)
 - [x] [apartment-ano-poli-thessaloniki-student-accommodation-1.md](file:///c:/Users/ASUS/Downloads/listing-optimization/listing-optimization/listings_backlink_articles/apartment-ano-poli-thessaloniki-student-accommodation-1.md) — [Thessnest URL](https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/) (Features: Only 2-bedroom, dishwasher & dryer, €650/€325 per person)

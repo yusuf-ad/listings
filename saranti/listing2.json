@@ -1,21 +1,21 @@
 {
   "id": 6952,
-  "title": "Student Housing Thessaloniki Papanastasiou",
+  "title": "Saranti Student Studio Thessaloniki Papanastasiou: Cozy 1",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
     "city": "Thessaloniki",
     "street": "Alexandrou Papanastasiou & Michel Mitsaki",
-    "address": "Alexandrou Papanastasiou & Michel Mitsaki, Thessaloniki 544 53, Greece",
+    "address": "Alexandrou Papanastasiou & Michel Mitsaki, Thessaloniki 546 53, Greece",
     "country": "Greece",
-    "zipcode": "54453"
+    "zipcode": "544 53"
   },
   "about": {
-    "summary": "Student housing Papanastasiou: cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads seeking privacy.",
+    "summary": "Saranti student studio Thessaloniki Papanastasiou is a cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for Erasmus students.",
     "sections": [
       {
-        "title": "🏠 Student Housing Papanastasiou – Modern Studio",
-        "content": "<p>Student housing Papanastasiou — this cozy, fully equipped studio is designed for one tenant and features a double bed and a clean setup ideal for students seeking privacy in a newly constructed building.</p>",
+        "title": "🏠 Saranti Student Studio Thessaloniki Papanastasiou – Modern Studio",
+        "content": "<p>Saranti student studio Thessaloniki Papanastasiou — this cozy, fully equipped studio is designed for one tenant and features a double bed and a clean setup ideal for students seeking privacy in a newly constructed building.</p>",
         "highlights": [
           "Comfortable configuration: 1 Bedroom / 1 Bed layout for single occupancy.",
           "Move-in ready: Modern private studio setup on the 2nd floor of a newly constructed building.",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This student housing Papanastasiou studio is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-papanastasiou-thessaloniki-student-accommodation/\">our Papanastasiou balcony studio</a>.</p>",
+        "content": "<p>This Saranti student studio Thessaloniki Papanastasiou is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/saranti-studio-thessaloniki-papanastasiou/\">our Papanastasiou balcony studio</a>.</p>",
         "highlights": []
       },
       {
@@ -84,7 +84,10 @@
   },
   "seo": {
     "keywords": [
-      "student housing Papanastasiou",
+      "Saranti student studio Thessaloniki Papanastasiou",
+      "Saranti",
+      "Saranti studio",
+      "student housing Thessaloniki Papanastasiou",
       "student housing",
       "ideal for students",
       "Aristotle University",
@@ -92,14 +95,15 @@
       "Erasmus students",
       "digital nomads"
     ],
-    "permalink": "studio-papanastasiou-thessaloniki-student-housing",
-    "seo_title": "Student Housing Papanastasiou – Cozy 1-Bed Studio",
+    "permalink": "saranti-student-studio-thessaloniki-papanastasiou",
     "link_history": [
+      "studio-papanastasiou-thessaloniki-student-housing",
       "studio-thessaloniki-student-housing-papanastasiou",
       "studio-papanastasiou-thessaloniki-student-housing-2"
     ],
-    "focus_keyword": "student housing Papanastasiou",
-    "thessnest_link": "https://thessnest.com/listing/studio-papanastasiou-thessaloniki-student-housing/",
-    "seo_description": "Student housing Papanastasiou: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads. New building, 2nd floor."
+    "focus_keyword": "Saranti student studio Thessaloniki Papanastasiou",
+    "thessnest_link": "https://thessnest.com/listing/saranti-student-studio-thessaloniki-papanastasiou/",
+    "seo_title": "Saranti Student Studio Thessaloniki Papanastasiou: Cozy 1",
+    "seo_description": "Saranti student studio Thessaloniki Papanastasiou: cozy 1-bed studio. Perfect for Erasmus students & digital nomads."
   }
 }
