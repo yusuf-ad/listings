@@ -1,21 +1,21 @@
 {
   "id": 4398,
-  "title": "Central Studio Aristotelous Square",
+  "title": "Central Studio Aristotelous: Cozy 1-Bed",
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
-    "city": "Thessaloniki",
-    "street": "Aristotelous Square",
     "address": "Aristotelous Square, Thessaloniki, Greece",
-    "country": "Greece",
-    "zipcode": null
+    "street": "Aristotelous Square",
+    "city": "Thessaloniki",
+    "zipcode": null,
+    "country": "Greece"
   },
   "about": {
-    "summary": "Central studio Aristotelous Square is a cozy student housing choice in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads.",
+    "summary": "Central studio Aristotelous is a cozy student housing choice in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads.",
     "sections": [
       {
-        "title": "🏠 Central Studio Aristotelous Square",
-        "content": "<p>Central studio Aristotelous Square offers a cozy, fully furnished student housing option. Designed for one tenant, this private studio features a comfortable setup that is ideal for students seeking independence.</p>",
+        "title": "🏠 Central Studio Aristotelous",
+        "content": "<p>Central studio Aristotelous offers a cozy, fully furnished student housing option. Designed for one tenant, this private studio features a comfortable setup that is ideal for students seeking independence.</p>",
         "highlights": [
           "Comfortable setup: 1 Bedroom / 1 Bed for one tenant.",
           "Ideal for students: Quiet and central base perfect for Erasmus students.",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This central studio Aristotelous Square is a top choice for digital nomads looking for a workspace and students attending local universities. You can walk or take public transit to <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> or the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a> campus within 20 minutes.</p><p>To compare other properties in the complex, view <a href=\"/listing/bright-studio-aristotelous-square-thessaloniki-student-accommodation-1/\">our bright Aristotelous studio</a> or <a href=\"/listing/minimal-studio-aristotelous-square-thessaloniki-student-housing-2/\">our minimal Aristotelous studio</a>.</p>",
+        "content": "<p>This central studio Aristotelous is a top choice for digital nomads looking for a workspace and students attending local universities. You can walk or take public transit to <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> or the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a> campus within 20 minutes.</p><p>To compare other properties in the complex, view <a href=\"/listing/bright-studio-aristotelous-thessaloniki-student/\">our bright Aristotelous studio</a> or <a href=\"/listing/minimal-studio-aristotelous-thessaloniki-student-housing/\">our minimal Aristotelous studio</a>.</p>",
         "highlights": []
       },
       {
@@ -43,11 +43,11 @@
     ]
   },
   "details": {
-    "beds": 1,
-    "rooms": 1,
     "guests": 1,
     "bedrooms": 1,
+    "beds": 1,
     "bathrooms": 1,
+    "rooms": 1,
     "previous_tenants": 7
   },
   "amenities": [
@@ -64,41 +64,42 @@
   "pricing": {
     "price_per_month": 650,
     "security_deposit": 650,
-    "maximum_stay_months": 12,
+    "allow_additional_guests": false,
     "minimum_stay_months": null,
-    "allow_additional_guests": false
+    "maximum_stay_months": 12
   },
   "house_rules": {
+    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
-    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "Keep the shared areas clean and tidy. Respect quiet hours after 22:00. No unauthorized guests staying overnight."
   },
   "host": {
     "name": "Ana",
-    "status": "Verified",
     "country": "Greece",
+    "status": "Verified",
     "reviews_count": 0
   },
   "seo": {
+    "focus_keyword": "central studio Aristotelous",
+    "seo_title": "Central Studio Aristotelous: Cozy 1-Bed",
+    "permalink": "central-studio-aristotelous-thessaloniki-student",
+    "thessnest_link": "https://thessnest.com/listing/central-studio-aristotelous-thessaloniki-student/",
+    "link_history": [
+      "central-studio-aristotelous-square",
+      "central-studio-aristotelous-square-thessaloniki-student-accommodation-4",
+      "central-studio-aristotelous-square-thessaloniki-student-accommodation"
+    ],
+    "seo_description": "Central studio Aristotelous is a cozy 1-bed student housing choice near Aristotle University. Perfect for Erasmus students & digital nomads.",
     "keywords": [
-      "central studio Aristotelous Square",
+      "central studio Aristotelous",
       "student housing",
       "ideal for students",
       "Aristotle University",
       "City College",
       "Erasmus students",
       "digital nomads"
-    ],
-    "permalink": "central-studio-aristotelous-square-thessaloniki-student-accommodation",
-    "seo_title": "Central Studio Aristotelous Square: Cozy 1-Bed",
-    "link_history": [
-      "central-studio-aristotelous-square",
-      "central-studio-aristotelous-square-thessaloniki-student-accommodation-4"
-    ],
-    "focus_keyword": "central studio Aristotelous Square",
-    "thessnest_link": "https://thessnest.com/listing/central-studio-aristotelous-square-thessaloniki-student-accommodation-4/",
-    "seo_description": "Central studio Aristotelous Square is a cozy 1-bed student housing choice near Aristotle University. Perfect for Erasmus students & digital nomads."
+    ]
   }
 }

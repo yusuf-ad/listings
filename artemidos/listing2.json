@@ -1,6 +1,6 @@
 {
   "id": 4430,
-  "title": "Erasmus Housing Thessaloniki Mpotsari – Cozy 1-Bed Choice",
+  "title": "Erasmus Housing Thessaloniki Mpotsari",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This Erasmus housing Thessaloniki Mpotsari is ideal for exchange students, Cedefop interns, and digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the complex, view <a href=\"/listing/studio-thessaloniki-mpotsari/\">our Mpotsari student studio</a>.</p>",
+        "content": "<p>This Erasmus housing Thessaloniki Mpotsari is ideal for exchange students, Cedefop interns, and digital nomads. For university information, visit the official pages of <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the complex, view <a href=\"/listing/studio-mpotsari-thessaloniki-student-accommodation/\">our Mpotsari student studio</a>.</p>",
         "highlights": []
       },
       {
@@ -85,8 +85,22 @@
   },
   "seo": {
     "focus_keyword": "Erasmus housing Thessaloniki Mpotsari",
-    "seo_title": "Erasmus Housing Thessaloniki Mpotsari – Cozy 1-Bed Choice",
-    "permalink": "erasmus-housing-thessaloniki-mpotsari",
-    "seo_description": "Erasmus housing Thessaloniki Mpotsari is a cozy 1-bed student accommodation option in Eastern Thessaloniki. Perfect for students & digital nomads."
+    "seo_title": "Erasmus Housing Thessaloniki Mpotsari: Cozy 1-Bed",
+    "permalink": "studio-mpotsari-thessaloniki-erasmus-housing",
+    "thessnest_link": "https://thessnest.com/listing/studio-mpotsari-thessaloniki-erasmus-housing/",
+    "link_history": [
+      "erasmus-housing-thessaloniki-mpotsari",
+      "studio-mpotsari-thessaloniki-erasmus-housing-2"
+    ],
+    "seo_description": "Erasmus housing Thessaloniki Mpotsari is a cozy 1-bed student accommodation option in Eastern Thessaloniki. Perfect for students & digital nomads.",
+    "keywords": [
+      "Erasmus housing Thessaloniki Mpotsari",
+      "student housing",
+      "ideal for students",
+      "Aristotle University",
+      "City College",
+      "Erasmus students",
+      "digital nomads"
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": 6952,
-  "title": "Student Housing Thessaloniki Papanastasiou – Cozy 1-Bed",
+  "title": "Student Housing Thessaloniki Papanastasiou",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
@@ -18,7 +18,7 @@
         "content": "<p>Student housing Thessaloniki Papanastasiou offers a cozy, fully equipped student accommodation option. Designed for one tenant, this private studio features a double bed and a clean setup that is ideal for students seeking privacy.</p>",
         "highlights": [
           "Comfortable configuration: 1 Bedroom / 1 Bed layout for single occupancy.",
-          "Move-in ready: Modern private room setup on the 2nd floor of a newly constructed building.",
+          "Move-in ready: Modern private studio setup on the 2nd floor of a newly constructed building.",
           "Fully equipped: Dedicated workspace, washing machine, private kitchenware, and Wi-Fi."
         ]
       },
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This student housing Thessaloniki Papanastasiou is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-thessaloniki-papanastasiou-balcony/\">our Papanastasiou balcony studio</a>.</p>",
+        "content": "<p>This student housing Thessaloniki Papanastasiou is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-papanastasiou-thessaloniki-student-accommodation/\">our Papanastasiou balcony studio</a>.</p>",
         "highlights": []
       },
       {
@@ -84,8 +84,22 @@
   },
   "seo": {
     "focus_keyword": "student housing Thessaloniki Papanastasiou",
-    "seo_title": "Student Housing Thessaloniki Papanastasiou – Cozy 1-Bed",
-    "permalink": "studio-thessaloniki-student-housing-papanastasiou",
-    "seo_description": "Student housing Thessaloniki Papanastasiou is a cozy 1-bed private studio choice in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads."
+    "seo_title": "Student Housing Thessaloniki Papanastasiou: Cozy 1-Bed",
+    "permalink": "studio-papanastasiou-thessaloniki-student-housing",
+    "thessnest_link": "https://thessnest.com/listing/studio-papanastasiou-thessaloniki-student-housing/",
+    "link_history": [
+      "studio-thessaloniki-student-housing-papanastasiou",
+      "studio-papanastasiou-thessaloniki-student-housing-2"
+    ],
+    "seo_description": "Student housing Thessaloniki Papanastasiou is a cozy 1-bed student accommodation in Thessaloniki. Perfect for Erasmus students & digital nomads.",
+    "keywords": [
+      "student housing Thessaloniki Papanastasiou",
+      "student housing",
+      "ideal for students",
+      "Aristotle University",
+      "City College",
+      "Erasmus students",
+      "digital nomads"
+    ]
   }
 }

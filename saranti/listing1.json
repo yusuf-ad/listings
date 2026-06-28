@@ -4,11 +4,11 @@
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
-    "address": "Alexandrou Papanastasiou & Michel Mitsaki, Thessaloniki, Greece",
-    "street": "Alexandrou Papanastasiou & Michel Mitsaki",
     "city": "Thessaloniki",
-    "zipcode": "54453",
-    "country": "Greece"
+    "street": "Alexandrou Papanastasiou & Michel Mitsaki",
+    "address": "Alexandrou Papanastasiou & Michel Mitsaki, Thessaloniki, Greece",
+    "country": "Greece",
+    "zipcode": "54453"
   },
   "about": {
     "summary": "Studio Thessaloniki Papanastasiou is a sunny private student housing choice in Eastern Thessaloniki. This 1 Bedroom / 1 Bed balcony studio is ideal for students and digital nomads.",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This studio Thessaloniki Papanastasiou is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-thessaloniki-student-housing-papanastasiou/\">our Papanastasiou student studio</a>.</p>",
+        "content": "<p>This studio Thessaloniki Papanastasiou is a top option for remote digital nomads and university students. For official info, visit <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> and <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a>.</p><p>To compare other properties in the building, view <a href=\"/listing/studio-papanastasiou-thessaloniki-student-housing/\">our Papanastasiou student studio</a>.</p>",
         "highlights": []
       },
       {
@@ -43,12 +43,12 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 1,
     "guests": 1,
     "bedrooms": 0,
-    "beds": 1,
-    "bathrooms": 1,
-    "rooms": 1,
     "size_sqm": 25,
+    "bathrooms": 1,
     "previous_tenants": 3
   },
   "amenities": [
@@ -64,28 +64,42 @@
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 480.0,
-    "security_deposit": 480.0,
-    "allow_additional_guests": false,
-    "minimum_stay_months": 4
+    "price_per_month": 480,
+    "security_deposit": 480,
+    "minimum_stay_months": 4,
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": null
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "studio Thessaloniki Papanastasiou",
+    "keywords": [
+      "studio Thessaloniki Papanastasiou",
+      "student housing",
+      "ideal for students",
+      "Aristotle University",
+      "City College",
+      "Erasmus students",
+      "digital nomads"
+    ],
+    "permalink": "studio-papanastasiou-thessaloniki-student-accommodation",
     "seo_title": "Studio Thessaloniki Papanastasiou – Cozy 1-Bed Home",
-    "permalink": "studio-thessaloniki-papanastasiou-balcony",
+    "link_history": [
+      "studio-thessaloniki-papanastasiou-balcony",
+      "studio-papanastasiou-thessaloniki-student-accommodation-1"
+    ],
+    "focus_keyword": "studio Thessaloniki Papanastasiou",
+    "thessnest_link": "https://thessnest.com/listing/studio-papanastasiou-thessaloniki-student-accommodation/",
     "seo_description": "Studio Thessaloniki Papanastasiou is a sunny 1-bed student housing choice in Eastern Thessaloniki. Ideal for Erasmus students & digital nomads."
   }
 }

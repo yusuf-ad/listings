@@ -1,6 +1,6 @@
 {
   "id": 4693,
-  "title": "Terrace Studio Aristotelous Square",
+  "title": "Terrace Studio Aristotelous: Premium 1-Bed",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
@@ -11,11 +11,11 @@
     "zipcode": null
   },
   "about": {
-    "summary": "Terrace studio Aristotelous Square is a private student housing option in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio features a private terrace and is ideal for students.",
+    "summary": "Terrace studio Aristotelous is a private student housing option in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio features a private terrace and is ideal for students.",
     "sections": [
       {
-        "title": "🏠 Terrace Studio Aristotelous Square",
-        "content": "<p>Terrace studio Aristotelous Square offers a private, fully furnished student housing option. Designed for one tenant, this setup is ideal for students seeking outdoor space and independence.</p>",
+        "title": "🏠 Terrace Studio Aristotelous",
+        "content": "<p>Terrace studio Aristotelous offers a private, fully furnished student housing option. Designed for one tenant, this setup is ideal for students seeking outdoor space and independence.</p>",
         "highlights": [
           "Terrace comfort: Grande private terrace with upper city views.",
           "Bedroom setup: 1 Bedroom / 1 Bed layout for single occupancy.",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This terrace studio Aristotelous Square is a premium option for digital nomads needing a workspace and students attending local universities. You can walk or take transit to <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> or the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a> campus in 20 minutes.</p><p>To compare other properties in the building, view <a href=\"/listing/bright-studio-aristotelous-square-thessaloniki-student-accommodation-1/\">our bright Aristotelous studio</a> or <a href=\"/listing/minimal-studio-aristotelous-square-thessaloniki-student-housing-2/\">our minimal Aristotelous studio</a>.</p>",
+        "content": "<p>This terrace studio Aristotelous is a premium option for digital nomads needing a workspace and students attending local universities. You can walk or take transit to <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> or the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a> campus in 20 minutes.</p><p>To compare other properties in the building, view <a href=\"/listing/bright-studio-aristotelous-thessaloniki-student/\">our bright Aristotelous studio</a> or <a href=\"/listing/minimal-studio-aristotelous-thessaloniki-student-housing/\">our minimal Aristotelous studio</a>.</p>",
         "highlights": []
       },
       {
@@ -85,24 +85,25 @@
     "reviews_count": 0
   },
   "seo": {
+    "permalink": "terrace-studio-aristotelous-thessaloniki-erasmus-housing",
+    "thessnest_link": "https://thessnest.com/listing/terrace-studio-aristotelous-thessaloniki-erasmus-housing/",
+    "link_history": [
+      "terrace-studio-aristotelous-square-temp",
+      "terrace-studio-aristotelous-square",
+      "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing-3",
+      "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing"
+    ],
+    "seo_title": "Terrace Studio Aristotelous: Premium 1-Bed",
+    "focus_keyword": "terrace studio Aristotelous",
+    "seo_description": "Terrace studio Aristotelous is a cozy 1-bed student housing choice near Aristotle University. Perfect for Erasmus students & digital nomads.",
     "keywords": [
-      "terrace studio Aristotelous Square",
+      "terrace studio Aristotelous",
       "student housing",
       "ideal for students",
       "Aristotle University",
       "City College",
       "Erasmus students",
       "digital nomads"
-    ],
-    "permalink": "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing",
-    "seo_title": "Terrace Studio Aristotelous Square: Cozy 1-Bed",
-    "link_history": [
-      "terrace-studio-aristotelous-square-temp",
-      "terrace-studio-aristotelous-square",
-      "terrace-studio-aristotelous-square-thessaloniki-erasmus-housing-3"
-    ],
-    "focus_keyword": "terrace studio Aristotelous Square",
-    "thessnest_link": "https://thessnest.com/listing/terrace-studio-aristotelous-square-thessaloniki-erasmus-housing-3/",
-    "seo_description": "Terrace studio Aristotelous Square is a cozy 1-bed student housing choice near Aristotle University. Perfect for Erasmus students & digital nomads."
+    ]
   }
 }

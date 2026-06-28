@@ -1,6 +1,6 @@
 {
   "id": 4681,
-  "title": "Minimal Studio Aristotelous Square",
+  "title": "Minimal Studio Aristotelous: Affordable 1-Bed",
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
@@ -11,11 +11,11 @@
     "zipcode": null
   },
   "about": {
-    "summary": "Minimal studio Aristotelous Square is a cozy student housing choice in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads.",
+    "summary": "Minimal studio Aristotelous is a cozy student housing choice in City Centre Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads.",
     "sections": [
       {
-        "title": "🏠 Minimal Studio Aristotelous Square",
-        "content": "<p>Minimal studio Aristotelous Square offers a cozy, fully furnished student housing option. Designed for one tenant, this private studio features a comfortable setup that is ideal for students seeking independence.</p>",
+        "title": "🏠 Minimal Studio Aristotelous",
+        "content": "<p>Minimal studio Aristotelous offers a cozy, fully furnished student housing option. Designed for one tenant, this private studio features a comfortable setup that is ideal for students seeking independence.</p>",
         "highlights": [
           "Comfortable setup: 1 Bedroom / 1 Bed for one tenant.",
           "Ideal for students: Quiet and central base perfect for Erasmus students.",
@@ -32,7 +32,7 @@
       },
       {
         "title": "🎓 Perfect for Erasmus Students & Nomads",
-        "content": "<p>This minimal studio Aristotelous Square is a top choice for digital nomads looking for a workspace and students attending local universities. You can walk or take public transit to <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> or the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a> campus within 20 minutes.</p><p>To compare similar options in the complex, view <a href=\"/listing/bright-studio-aristotelous-square-thessaloniki-student-accommodation-1/\">our bright Aristotelous studio</a> or <a href=\"/listing/terrace-studio-aristotelous-square-thessaloniki-erasmus-housing-3/\">our terrace Aristotelous studio</a>.</p>",
+        "content": "<p>This minimal studio Aristotelous is a top choice for digital nomads looking for a workspace and students attending local universities. You can walk or take public transit to <a href=\"https://www.auth.gr/en/\" rel=\"dofollow\">Aristotle University</a> or the <a href=\"https://york.citycollege.eu/\" rel=\"dofollow\">City College</a> campus within 20 minutes.</p><p>To compare similar options in the complex, view <a href=\"/listing/bright-studio-aristotelous-thessaloniki-student/\">our bright Aristotelous studio</a> or <a href=\"/listing/terrace-studio-aristotelous-thessaloniki-erasmus-housing/\">our terrace Aristotelous studio</a>.</p>",
         "highlights": []
       },
       {
@@ -85,7 +85,7 @@
   },
   "seo": {
     "keywords": [
-      "minimal studio Aristotelous Square",
+      "minimal studio Aristotelous",
       "student housing",
       "ideal for students",
       "Aristotle University",
@@ -93,14 +93,15 @@
       "Erasmus students",
       "digital nomads"
     ],
-    "permalink": "minimal-studio-aristotelous-square-thessaloniki-student-housing",
-    "seo_title": "Minimal Studio Aristotelous Square: Cozy 1-Bed",
+    "permalink": "minimal-studio-aristotelous-thessaloniki-student-housing",
+    "seo_title": "Minimal Studio Aristotelous: Affordable 1-Bed",
     "link_history": [
       "minimal-studio-aristotelous-square",
-      "minimal-studio-aristotelous-square-thessaloniki-student-housing-2"
+      "minimal-studio-aristotelous-square-thessaloniki-student-housing-2",
+      "minimal-studio-aristotelous-square-thessaloniki-student-housing"
     ],
-    "focus_keyword": "minimal studio Aristotelous Square",
-    "thessnest_link": "https://thessnest.com/listing/minimal-studio-aristotelous-square-thessaloniki-student-housing-2/",
-    "seo_description": "Minimal studio Aristotelous Square is a cozy 1-bed student housing choice near Aristotle University. Perfect for Erasmus students & digital nomads."
+    "focus_keyword": "minimal studio Aristotelous",
+    "thessnest_link": "https://thessnest.com/listing/minimal-studio-aristotelous-thessaloniki-student-housing/",
+    "seo_description": "Minimal studio Aristotelous is a cozy 1-bed student housing choice near Aristotle University. Perfect for Erasmus students & digital nomads."
   }
 }

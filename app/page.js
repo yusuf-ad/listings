@@ -85,6 +85,7 @@ export default function Home() {
   const [listings, setListings] = useState([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+  const [pulling, setPulling] = useState(false);
   const [supabaseConnected, setSupabaseConnected] = useState(false);
   const [supabaseUrl, setSupabaseUrl] = useState("");
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
@@ -345,6 +346,33 @@ export default function Home() {
       if (!confirm("You have unsaved changes. Refreshing will discard them. Continue?")) return;
     }
     await loadData(true);
+  };
+
+  // Pull Supabase data → overwrite local JSON files
+  const handlePullToLocal = async () => {
+    if (
+      !confirm(
+        "This will pull all listings from Supabase and overwrite the local JSON files. Continue?"
+      )
+    )
+      return;
+    setPulling(true);
+    try {
+      const res = await fetch("/api/pull-to-local", { method: "POST" });
+      const json = await res.json();
+      if (res.ok && json.success) {
+        showToast(
+          `✅ ${json.updated} of ${json.total} listings pulled from Supabase to local files.`,
+          "success"
+        );
+      } else {
+        showToast(`❌ Pull failed: ${json.error || "Unknown error"}`, "error");
+      }
+    } catch (err) {
+      showToast(`❌ Connection error: ${err.message}`, "error");
+    } finally {
+      setPulling(false);
+    }
   };
 
   // Safe setter helper for nested objects
@@ -610,6 +638,36 @@ export default function Home() {
             </span>
           </div>
           <div style={{ display: "flex", gap: "4px" }}>
+            <button
+              className="sidebar-toggle"
+              onClick={handlePullToLocal}
+              title="Supabase → Local JSON (Pull)"
+              disabled={pulling || loading || refreshing}
+              style={{ color: pulling ? "var(--text-muted)" : "var(--green, #4ade80)" }}
+            >
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className={pulling ? "spin" : ""}
+              >
+                {pulling ? (
+                  <>
+                    <path d="M23 4v6h-6" />
+                    <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+                  </>
+                ) : (
+                  <>
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </>
+                )}
+              </svg>
+            </button>
             <button
               className="sidebar-toggle"
               onClick={handleRefresh}
