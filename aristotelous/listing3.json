@@ -46,7 +46,7 @@
     "beds": 1,
     "rooms": 1,
     "guests": 1,
-    "bedrooms": 1,
+    "bedrooms": 0,
     "bathrooms": 1,
     "previous_tenants": 2
   },
