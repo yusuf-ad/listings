@@ -29,8 +29,8 @@ This document contains a structured overview of all accommodation listings, incl
 
 | Unit | HousingAnywhere Link | Thessnest Link | Calendar API Status / Feed |
 | :--- | :--- | :--- | :--- |
-| **Studio 1** | [🔗 View Listing](https://housinganywhere.com/room/ut1337149/gr/Thessalon%C3%ADki/artemidos) | [🔗 View Thessnest](https://thessnest.com/listing/artemidos-studio-thessaloniki-mpotsari/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/1984516/calendar/abf3b375c9bd16f0bba004219f9e9bb2/en) |
-| **Studio 2** | [🔗 View Listing](https://housinganywhere.com/room/ut1287306/gr/Thessalon%C3%ADki/artemidos) | [🔗 View Thessnest](https://thessnest.com/listing/artemidos-erasmus-studio-thessaloniki-mpotsari/) | `🟢 Calendar Set` |
+| **Studio 1** | [🔗 View Listing](https://housinganywhere.com/room/ut1337149/gr/Thessalon%C3%ADki/artemidos) | [🔗 View Thessnest](https://thessnest.com/listing/artemidos-student-housing-mpotsari/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/1984516/calendar/abf3b375c9bd16f0bba004219f9e9bb2/en) |
+| **Studio 2** | [🔗 View Listing](https://housinganywhere.com/room/ut1287306/gr/Thessalon%C3%ADki/artemidos) | [🔗 View Thessnest](https://thessnest.com/listing/artemidos-erasmus-housing-mpotsari/) | `🟢 Calendar Set` |
 
 ---
 
@@ -42,8 +42,8 @@ This document contains a structured overview of all accommodation listings, incl
 
 | Unit | HousingAnywhere Link | Thessnest Link | Calendar API Status / Feed |
 | :--- | :--- | :--- | :--- |
-| **Studio 1** | [🔗 View Listing](https://housinganywhere.com/room/ut1247530/gr/Thessalon%C3%ADki/papanastasiou-alexandrou) | [🔗 View Thessnest](https://thessnest.com/listing/saranti-studio-thessaloniki-papanastasiou/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/1893936/calendar/98d8e678ea58a84aecd99dbd351418ff/en) |
-| **Studio 2** | [🔗 View Listing](https://housinganywhere.com/room/ut1385034/gr/Thessalon%C3%ADki/papanastasiou-alexandrou) | [🔗 View Thessnest](https://thessnest.com/listing/saranti-student-studio-thessaloniki-papanastasiou/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/2043264/calendar/84d8386aa5baa8635bf6d6e94871589f/en) |
+| **Studio 1** | [🔗 View Listing](https://housinganywhere.com/room/ut1247530/gr/Thessalon%C3%ADki/papanastasiou-alexandrou) | [🔗 View Thessnest](https://thessnest.com/listing/saranti-erasmus-housing-papanastasiou/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/1893936/calendar/98d8e678ea58a84aecd99dbd351418ff/en) |
+| **Studio 2** | [🔗 View Listing](https://housinganywhere.com/room/ut1385034/gr/Thessalon%C3%ADki/papanastasiou-alexandrou) | [🔗 View Thessnest](https://thessnest.com/listing/saranti-student-housing-papanastasiou/) | [🗓️ Calendar Feed API](https://housinganywhere.com/api/v2/listing/2043264/calendar/84d8386aa5baa8635bf6d6e94871589f/en) |
 
 ---
 

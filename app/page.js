@@ -6,19 +6,19 @@ import { performGlobalSearch, HighlightedText } from "./search-utils";
 const LISTING_LINKS = {
   "artemidos/listing1.json": [
     "https://housinganywhere.com/room/ut1337149/gr/Thessalon%C3%ADki/artemidos",
-    "https://thessnest.com/listing/artemidos-studio-thessaloniki-mpotsari/",
+    "https://thessnest.com/listing/artemidos-student-housing-mpotsari/",
   ],
   "artemidos/listing2.json": [
     "https://housinganywhere.com/room/ut1287306/gr/Thessalon%C3%ADki/artemidos",
-    "https://thessnest.com/listing/artemidos-erasmus-studio-thessaloniki-mpotsari/",
+    "https://thessnest.com/listing/artemidos-erasmus-housing-mpotsari/",
   ],
   "saranti/listing1.json": [
     "https://housinganywhere.com/room/ut1247530/gr/Thessalon%C3%ADki/papanastasiou-alexandrou",
-    "https://thessnest.com/listing/saranti-studio-thessaloniki-papanastasiou/",
+    "https://thessnest.com/listing/saranti-erasmus-housing-papanastasiou/",
   ],
   "saranti/listing2.json": [
     "https://housinganywhere.com/room/ut1385034/gr/Thessalon%C3%ADki/papanastasiou-alexandrou",
-    "https://thessnest.com/listing/saranti-student-studio-thessaloniki-papanastasiou/",
+    "https://thessnest.com/listing/saranti-student-housing-papanastasiou/",
   ],
   "kleious/listing1.json": [
     "https://housinganywhere.com/room/ut1173198/gr/Thessalon%C3%ADki/kleious",
