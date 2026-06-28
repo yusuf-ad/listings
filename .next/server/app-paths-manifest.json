@@ -1,5 +1,6 @@
 {
-  "/api/pull-to-local/route": "app/api/pull-to-local/route.js",
-  "/page": "app/page.js",
-  "/login/page": "app/login/page.js"
+  "/api/status/route": "app/api/status/route.js",
+  "/login/page": "app/login/page.js",
+  "/api/listings/route": "app/api/listings/route.js",
+  "/page": "app/page.js"
 }
