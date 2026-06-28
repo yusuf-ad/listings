@@ -1,5 +1,5 @@
 {
-  "/api/save/route": "app/api/save/route.js",
+  "/api/pull-to-local/route": "app/api/pull-to-local/route.js",
   "/page": "app/page.js",
   "/login/page": "app/login/page.js"
 }

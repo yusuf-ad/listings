@@ -4,11 +4,11 @@
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
-    "address": "Alexandrou Papanastasiou & Michel Mitsaki, Thessaloniki 544 53, Greece",
-    "street": "Alexandrou Papanastasiou & Michel Mitsaki",
     "city": "Thessaloniki",
-    "zipcode": "54453",
-    "country": "Greece"
+    "street": "Alexandrou Papanastasiou & Michel Mitsaki",
+    "address": "Alexandrou Papanastasiou & Michel Mitsaki, Thessaloniki 544 53, Greece",
+    "country": "Greece",
+    "zipcode": "54453"
   },
   "about": {
     "summary": "Student housing Papanastasiou: cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads seeking privacy.",
@@ -43,12 +43,12 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 1,
     "guests": 1,
     "bedrooms": 0,
-    "beds": 1,
-    "bathrooms": 1,
-    "rooms": 1,
     "size_sqm": 20,
+    "bathrooms": 1,
     "previous_tenants": null
   },
   "amenities": [
@@ -64,34 +64,25 @@
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 480.0,
-    "security_deposit": 480.0,
-    "allow_additional_guests": false,
-    "minimum_stay_months": 4
+    "price_per_month": 480,
+    "security_deposit": 480,
+    "minimum_stay_months": 4,
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "Available for 1 person only. Smoking, pets, parties and children are not allowed. Electricity is paid separately."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "student housing Papanastasiou",
-    "seo_title": "Student Housing Papanastasiou – Cozy 1-Bed Studio",
-    "permalink": "studio-papanastasiou-thessaloniki-student-housing",
-    "thessnest_link": "https://thessnest.com/listing/studio-papanastasiou-thessaloniki-student-housing/",
-    "link_history": [
-      "studio-thessaloniki-student-housing-papanastasiou",
-      "studio-papanastasiou-thessaloniki-student-housing-2"
-    ],
-    "seo_description": "Student housing Papanastasiou: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads. New building, 2nd floor.",
     "keywords": [
       "student housing Papanastasiou",
       "student housing",
@@ -100,6 +91,15 @@
       "City College",
       "Erasmus students",
       "digital nomads"
-    ]
+    ],
+    "permalink": "studio-papanastasiou-thessaloniki-student-housing",
+    "seo_title": "Student Housing Papanastasiou – Cozy 1-Bed Studio",
+    "link_history": [
+      "studio-thessaloniki-student-housing-papanastasiou",
+      "studio-papanastasiou-thessaloniki-student-housing-2"
+    ],
+    "focus_keyword": "student housing Papanastasiou",
+    "thessnest_link": "https://thessnest.com/listing/studio-papanastasiou-thessaloniki-student-housing/",
+    "seo_description": "Student housing Papanastasiou: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads. New building, 2nd floor."
   }
 }

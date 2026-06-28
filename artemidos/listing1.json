@@ -4,11 +4,11 @@
   "featured": true,
   "type": "Entire Home / Studio",
   "location": {
-    "address": "Markou Mpotsari & Leoforos Konstantinou Karamanli, Thessaloniki 546 44, Greece",
-    "street": "Markou Mpotsari & Leoforos Konstantinou Karamanli",
     "city": "Thessaloniki",
-    "zipcode": "546 44",
-    "country": "Greece"
+    "street": "Markou Mpotsari & Leoforos Konstantinou Karamanli",
+    "address": "Markou Mpotsari & Leoforos Konstantinou Karamanli, Thessaloniki 546 44, Greece",
+    "country": "Greece",
+    "zipcode": "546 44"
   },
   "about": {
     "summary": "Student accommodation Mpotsari: cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads seeking a central base.",
@@ -43,12 +43,12 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 1,
     "guests": 1,
     "bedrooms": 1,
-    "beds": 1,
-    "bathrooms": 1,
-    "rooms": 1,
     "size_sqm": 25,
+    "bathrooms": 1,
     "previous_tenants": 2
   },
   "amenities": [
@@ -64,34 +64,25 @@
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 480.0,
-    "security_deposit": 480.0,
-    "allow_additional_guests": false,
-    "minimum_stay_months": 4
+    "price_per_month": 480,
+    "security_deposit": 480,
+    "minimum_stay_months": 4,
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "Smoking permitted outside only, not inside the apartment. Tenant type: students and working professionals. Not suitable for couples. Playing musical instruments not allowed. Age and gender: no preference."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "student accommodation Mpotsari",
-    "seo_title": "Student Accommodation Mpotsari – Cozy 1-Bed Studio",
-    "permalink": "studio-mpotsari-thessaloniki-student-accommodation",
-    "thessnest_link": "https://thessnest.com/listing/studio-mpotsari-thessaloniki-student-accommodation/",
-    "link_history": [
-      "studio-thessaloniki-mpotsari",
-      "studio-mpotsari-thessaloniki-student-accommodation-1"
-    ],
-    "seo_description": "Student accommodation Mpotsari: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads in Thessaloniki.",
     "keywords": [
       "student accommodation Mpotsari",
       "student housing",
@@ -100,6 +91,15 @@
       "City College",
       "Erasmus students",
       "digital nomads"
-    ]
+    ],
+    "permalink": "studio-mpotsari-thessaloniki-student-accommodation",
+    "seo_title": "Student Accommodation Mpotsari – Cozy 1-Bed Studio",
+    "link_history": [
+      "studio-thessaloniki-mpotsari",
+      "studio-mpotsari-thessaloniki-student-accommodation-1"
+    ],
+    "focus_keyword": "student accommodation Mpotsari",
+    "thessnest_link": "https://thessnest.com/listing/studio-mpotsari-thessaloniki-student-accommodation/",
+    "seo_description": "Student accommodation Mpotsari: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads in Thessaloniki."
   }
 }

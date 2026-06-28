@@ -4,11 +4,11 @@
   "featured": false,
   "type": "Entire Home / Studio",
   "location": {
-    "address": "Artemidos 53, Thessaloniki, 54644, Greece",
-    "street": "Artemidos 53",
     "city": "Thessaloniki",
-    "zipcode": "54644",
-    "country": "Greece"
+    "street": "Artemidos 53",
+    "address": "Artemidos 53, Thessaloniki, 54644, Greece",
+    "country": "Greece",
+    "zipcode": "54644"
   },
   "about": {
     "summary": "Erasmus housing Mpotsari: cozy private studio in Eastern Thessaloniki. This 1 Bedroom / 1 Bed studio is ideal for students and digital nomads seeking independence.",
@@ -43,12 +43,12 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 1,
     "guests": 1,
     "bedrooms": 1,
-    "beds": 1,
-    "bathrooms": 1,
-    "rooms": 1,
     "size_sqm": 20,
+    "bathrooms": 1,
     "previous_tenants": 3
   },
   "amenities": [
@@ -65,34 +65,25 @@
     "WiFi"
   ],
   "pricing": {
-    "price_per_month": 460.0,
-    "security_deposit": 460.0,
-    "allow_additional_guests": false,
-    "minimum_stay_months": null
+    "price_per_month": 460,
+    "security_deposit": 460,
+    "minimum_stay_months": null,
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": null
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 0
   },
   "seo": {
-    "focus_keyword": "erasmus housing Mpotsari",
-    "seo_title": "Erasmus Housing Mpotsari – Cozy 1-Bed Studio",
-    "permalink": "studio-mpotsari-thessaloniki-erasmus-housing",
-    "thessnest_link": "https://thessnest.com/listing/studio-mpotsari-thessaloniki-erasmus-housing/",
-    "link_history": [
-      "erasmus-housing-thessaloniki-mpotsari",
-      "studio-mpotsari-thessaloniki-erasmus-housing-2"
-    ],
-    "seo_description": "Erasmus housing Mpotsari: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads. Cheapest option at €460.",
     "keywords": [
       "erasmus housing Mpotsari",
       "student housing",
@@ -101,6 +92,15 @@
       "City College",
       "Erasmus students",
       "digital nomads"
-    ]
+    ],
+    "permalink": "studio-mpotsari-thessaloniki-erasmus-housing",
+    "seo_title": "Erasmus Housing Mpotsari – Cozy 1-Bed Studio",
+    "link_history": [
+      "erasmus-housing-thessaloniki-mpotsari",
+      "studio-mpotsari-thessaloniki-erasmus-housing-2"
+    ],
+    "focus_keyword": "erasmus housing Mpotsari",
+    "thessnest_link": "https://thessnest.com/listing/studio-mpotsari-thessaloniki-erasmus-housing/",
+    "seo_description": "Erasmus housing Mpotsari: cozy 1-bed studio in Eastern Thessaloniki. Perfect for Erasmus students & digital nomads. Cheapest option at €460."
   }
 }

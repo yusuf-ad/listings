@@ -4,11 +4,11 @@
   "featured": false,
   "type": "Entire Home / Single Apartment",
   "location": {
-    "address": "Klious, Thessaloniki, Greece",
-    "street": "Klious",
     "city": "Thessaloniki",
-    "zipcode": null,
-    "country": "Greece"
+    "street": "Klious",
+    "address": "Klious, Thessaloniki, Greece",
+    "country": "Greece",
+    "zipcode": null
   },
   "about": {
     "summary": "This apartment in Thessaloniki near Ano Poli is located in the Kleious building, at the beginning of Ano Poli, the traditional district of Thessaloniki. It is a fully equipped private apartment with everything needed for a comfortable stay, available as Erasmus accommodation for 1 student.",
@@ -46,11 +46,11 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 2,
     "guests": 1,
     "bedrooms": 1,
-    "beds": 1,
     "bathrooms": 1,
-    "rooms": 2,
     "previous_tenants": 1
   },
   "amenities": [
@@ -62,27 +62,27 @@
   "pricing": {
     "price_per_month": 650,
     "security_deposit": 650,
-    "allow_additional_guests": false,
-    "minimum_stay_months": null
+    "minimum_stay_months": null,
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "Playing musical instruments: negotiable. Not suitable for couples. Tenant type: students and working professionals. Age and gender: no preference."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 32
   },
   "seo": {
-    "focus_keyword": "Erasmus apartment Ano Poli",
-    "seo_title": "Erasmus Apartment Ano Poli: Stunning 1-Bed Flat",
     "permalink": "apartment-ano-poli-thessaloniki-erasmus-housing-3",
-    "seo_description": "Erasmus apartment Ano Poli ideal for Erasmus students. This stunning 1-bed base is near Aristotle University, ideal for digital nomads.",
-    "thessnest_link": "https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/"
+    "seo_title": "Erasmus Apartment Ano Poli: Stunning 1-Bed Flat",
+    "focus_keyword": "Erasmus apartment Ano Poli",
+    "thessnest_link": "https://thessnest.com/listing/apartment-ano-poli-thessaloniki-erasmus-housing-3/",
+    "seo_description": "Erasmus apartment Ano Poli ideal for Erasmus students. This stunning 1-bed base is near Aristotle University, ideal for digital nomads."
   }
 }

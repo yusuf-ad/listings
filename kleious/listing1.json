@@ -4,11 +4,11 @@
   "featured": false,
   "type": "Entire Home / Single Apartment",
   "location": {
-    "address": "Klious 4, Thessaloniki 546 33",
-    "street": "Klious 4",
     "city": "Thessaloniki",
-    "zipcode": "546 33",
-    "country": "Greece"
+    "street": "Klious 4",
+    "address": "Klious 4, Thessaloniki 546 33",
+    "country": "Greece",
+    "zipcode": "546 33"
   },
   "about": {
     "summary": "This apartment in Thessaloniki near Ano Poli is located in the Kleious building, at the beginning of Ano Poli, the traditional district of Thessaloniki. It is a fully equipped private apartment, available for Erasmus accommodation and suitable for students, digital nomads and remote workers.",
@@ -45,11 +45,11 @@
     ]
   },
   "details": {
+    "beds": 2,
+    "rooms": 3,
     "guests": 2,
     "bedrooms": 2,
-    "beds": 2,
     "bathrooms": 1,
-    "rooms": 3,
     "previous_tenants": 1
   },
   "amenities": [
@@ -71,35 +71,27 @@
   "pricing": {
     "price_per_month": 650,
     "security_deposit": 300,
-    "allow_additional_guests": true,
-    "minimum_stay_months": null
+    "minimum_stay_months": null,
+    "allow_additional_guests": true
   },
   "house_rules": {
-    "smoking_allowed": true,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": true,
     "children_allowed": false,
     "additional_rules_info": "Smoking is allowed outside only. Playing musical instruments is negotiable."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 32
   },
-  "reviews": [
-    {
-      "author": "Yusuf Ad",
-      "rating": "Excellent",
-      "date": "3 days ago",
-      "content": "My friend and I stayed here for 6 months for our Erasmus internship and had a great experience. The apartment was clean, comfortable, and had everything we needed. The location was amazing it was close to shops, public transport, the city center, and many historical places. Highly recommended for Erasmus students who want to live in Thessaloniki."
-    }
-  ],
   "seo": {
-    "focus_keyword": "Student housing Ano Poli",
-    "seo_title": "Student Housing Ano Poli: Perfect 2-Bed Flat",
     "permalink": "apartment-ano-poli-thessaloniki-student-accommodation-1",
-    "seo_description": "Student housing Ano Poli perfect for Erasmus students. This 2-bedroom flat is near Aristotle University and ideal for digital nomads.",
-    "thessnest_link": "https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/"
+    "seo_title": "Student Housing Ano Poli: Perfect 2-Bed Flat",
+    "focus_keyword": "Student housing Ano Poli",
+    "thessnest_link": "https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-accommodation-1/",
+    "seo_description": "Student housing Ano Poli perfect for Erasmus students. This 2-bedroom flat is near Aristotle University and ideal for digital nomads."
   }
 }

@@ -4,11 +4,11 @@
   "featured": false,
   "type": "Entire Home / Single Apartment",
   "location": {
-    "address": "Klious, Thessaloniki, Greece",
-    "street": "Klious",
     "city": "Thessaloniki",
-    "zipcode": null,
-    "country": "Greece"
+    "street": "Klious",
+    "address": "Klious, Thessaloniki, Greece",
+    "country": "Greece",
+    "zipcode": null
   },
   "about": {
     "summary": "This student housing apartment in Thessaloniki near Aristotle University is a practical choice for anyone looking for a furnished home in the city centre. Located on Kleious Street near Ano Poli and Tsinari, this 40m² one-bedroom apartment offers comfort, privacy and easy access to daily student life.",
@@ -45,11 +45,11 @@
     ]
   },
   "details": {
+    "beds": 1,
+    "rooms": 2,
     "guests": 1,
     "bedrooms": 1,
-    "beds": 1,
     "bathrooms": 1,
-    "rooms": 2,
     "previous_tenants": 2
   },
   "amenities": [
@@ -69,27 +69,27 @@
   "pricing": {
     "price_per_month": 650,
     "security_deposit": 650,
-    "allow_additional_guests": false,
-    "minimum_stay_months": null
+    "minimum_stay_months": null,
+    "allow_additional_guests": false
   },
   "house_rules": {
-    "smoking_allowed": false,
     "pets_allowed": false,
     "party_allowed": false,
+    "smoking_allowed": false,
     "children_allowed": false,
     "additional_rules_info": "Playing musical instruments: negotiable. Not suitable for couples. Tenant type: students and working professionals. Age and gender: no preference."
   },
   "host": {
     "name": "Ana",
-    "country": "Greece",
     "status": "Verified",
+    "country": "Greece",
     "reviews_count": 32
   },
   "seo": {
-    "focus_keyword": "Aristotle University apartment",
-    "seo_title": "Aristotle University Apartment: Quiet 1-Bed Flat",
     "permalink": "apartment-ano-poli-thessaloniki-student-housing-5",
-    "seo_description": "Aristotle University apartment ideal for Erasmus students. This cozy 1-bed home is near City College and Ano Poli, ideal for digital nomads.",
-    "thessnest_link": "https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-5/"
+    "seo_title": "Aristotle University Apartment: Quiet 1-Bed Flat",
+    "focus_keyword": "Aristotle University apartment",
+    "thessnest_link": "https://thessnest.com/listing/apartment-ano-poli-thessaloniki-student-housing-5/",
+    "seo_description": "Aristotle University apartment ideal for Erasmus students. This cozy 1-bed home is near City College and Ano Poli, ideal for digital nomads."
   }
 }
